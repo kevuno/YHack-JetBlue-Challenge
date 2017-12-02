@@ -1,0 +1,13 @@
+CREATE SCHEMA `JetBlue` DEFAULT CHARACTER SET utf8 ;
+
+CREATE TABLE `JetBlue`.`general_data` (
+  `id` INT NOT NULL,
+  `Origin` VARCHAR(45) NULL,
+  `Destination` VARCHAR(45) NULL,
+  `FlightDate` DATE NULL,
+  `FlightType` VARCHAR(45) NULL,
+  `DollarFare` INT NULL,
+  `PointsTax` INT NULL,
+  `IsDomesticRoute` TINYINT NULL,
+  `IsPrivateFare` TINYINT NULL,
+  PRIMARY KEY (`id`));

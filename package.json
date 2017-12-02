@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/kevuno/YHack-JetBlue-Challenge#readme",
   "dependencies": {
-    "fs": "0.0.1-security"
+    "fs": "0.0.1-security",
+    "mysql": "^2.15.0"
   }
 }
