@@ -12,3 +12,10 @@ CREATE TABLE `JetBlue`.`JetBlue` (
   `PointsTax` INT NULL,
   `IsDomesticRoute` TINYINT NULL,
   `IsPrivateFare` TINYINT NULL);
+
+CREATE TABLE `JetBlue`.`AirportLocations` (
+  `Airpot` VARCHAR(45) NOT NULL,
+  `City` VARCHAR(45) NULL,
+  `State` VARCHAR(45) NULL,
+  `Country` VARCHAR(45) NULL,
+  PRIMARY KEY (`Airpot`));
