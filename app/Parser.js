@@ -1,4 +1,6 @@
 // Returns an array of objects 
+var dateFormat = require('dateformat');
+
 function csvToJSON(csv){
     var lines=csv.split("\n");
     var result = [];
@@ -8,7 +10,13 @@ function csvToJSON(csv){
         var obj = {};
         var currentline=lines[i].split(",");
         for(var j=0;j<headers.length;j++){
-            obj[headers[j]] = currentline[j];
+
+            // Make sure to format the date
+            if(headers[j] == "FlightDate"){
+                obj[headers[j]] = dateFormat(new Date(currentline[j]), "yyyy-mm-dd hh:mm:ss");    
+            }else{
+                obj[headers[j]] = currentline[j];
+            }
         }
         result.push(obj);
     }
