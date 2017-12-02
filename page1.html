@@ -2,6 +2,7 @@
 <html>
 <title>Template</title>
 <script src="https://unpkg.com/vue"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -46,21 +47,25 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
     
     <div id="select_origin" class="w3-dropdown-hover w3-hide-small">
       <button class="w3-padding-large w3-button" title="More">Origin <i class="fa fa-caret-down"></i></button>     
-      <div class="w3-dropdown-content w3-bar-block w3-card-4" v-model="select_origin">
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
         <option v-for="origin in origins">
             <a>{{origin}}</a>        
         </option>  
       </div>
+    <div id="results">
+
     </div>
+    </div>
+    
     <div class="w3-dropdown-hover w3-hide-small">
       <button class="w3-padding-large w3-button" title="More">Destination <i class="fa fa-caret-down"></i></button>     
-      <div class="w3-dropdown-content w3-bar-block w3-card-4" v-model="select_destination">
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
           <option><a><!--TODO-->></a></option>
       </div>
     </div>
     <div class="w3-dropdown-hover w3-hide-small">
       <button class="w3-padding-large w3-button" title="More">Date <i class="fa fa-caret-down"></i></button>     
-      <div class="w3-dropdown-content w3-bar-block w3-card-4" v-model="select_date">
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
           <option><a><!--TODO-->></a></option>
       </div>
     </div>
@@ -206,6 +211,7 @@ function myFunction() {
     }
 }
 </script>
+<script src="vue_stuff.js" type="text/javascript"></script>
 
 </body>
 </html>

@@ -1,38 +1,24 @@
+
+function getAirports(){
+    axios.get("origins/LAX/destinations/JFK").then(response => {
+        // JSON responses are automatically parsed.
+        console.log(response.data);
+        this.posts = response.data;
+    })
+    .catch(e => {
+        this.errors.push(e)
+    })
+//     $.ajax({url: "origins/LAX/destinations/JFK", success: function(result){
+//         $("#results").html(result);
+//     }});
+}
+
 var selOrigin= new Vue({
-    el: "select_origin" ,
-        data: {
-            origins: ["JFK", "ROC", "LAX"]
-        }
-    });
-
-
-var selDest= new Vue({
-    el: "select_destination" ,
-        data: {
-            
-        }
-    });
-
-var selDate= new Vue({
-    el: "select_date" ,
-        data: {
-            
-        }
-    });
-
-
-var selPrice= new Vue({
-    el: "select_price" ,
-        data: {
-
-        }
-    });
-
-var search = new Vue({
-    el: "search_flight" ,
-    methods: {
-        preform_search: function() {
-            
-        }
+    el: "#select_origin" ,
+    data: {
+        origins: ["Stuff", "Stuff2"]
+    },
+    mounted() {
+        getAirports();
     }
 });
