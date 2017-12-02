@@ -19,6 +19,7 @@
   "homepage": "https://github.com/kevuno/YHack-JetBlue-Challenge#readme",
   "dependencies": {
     "axios": "^0.17.1",
+    "cors": "^2.8.4",
     "dateformat": "^3.0.2",
     "express": "^4.16.2",
     "fs": "0.0.1-security",
