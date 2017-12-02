@@ -1,0 +1,23 @@
+{
+  "name": "yhack-jetblue-challenge",
+  "version": "1.0.0",
+  "description": "A Price predictor for JetBlue Fares",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevuno/YHack-JetBlue-Challenge.git"
+  },
+  "author": "Kevin Bastian and Ju Youn Chae",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevuno/YHack-JetBlue-Challenge/issues"
+  },
+  "homepage": "https://github.com/kevuno/YHack-JetBlue-Challenge#readme",
+  "dependencies": {
+    "fs": "0.0.1-security"
+  }
+}
