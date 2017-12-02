@@ -19,6 +19,7 @@
   "homepage": "https://github.com/kevuno/YHack-JetBlue-Challenge#readme",
   "dependencies": {
     "dateformat": "^3.0.2",
+    "express": "^4.16.2",
     "fs": "0.0.1-security",
     "mysql": "^2.15.0"
   }

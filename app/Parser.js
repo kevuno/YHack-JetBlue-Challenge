@@ -24,7 +24,7 @@ function csvToJSON(csv){
     return JSON.stringify(result); //JSON
 }
 
-module.exports.csvToJSON = csvToJSON
+module.exports.csvToJSON = csvToJSON;
 
 // Test Deals
 function testDeals(){
