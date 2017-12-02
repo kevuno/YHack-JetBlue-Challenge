@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <title>Template</title>
+<script src="https://unpkg.com/vue"></script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -25,7 +26,6 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 4</a>
   </div>
 
-<!-- TODO -->
   <!-- Navbar on small screens -->
   <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
     <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 1</a>
@@ -44,40 +44,35 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
     <div class="w3-bar w3-black w3-card">
     <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
     
-    <div class="w3-dropdown-hover w3-hide-small">
-      <button class="w3-padding-large w3-button" title="More">1st Variable <i class="fa fa-caret-down"></i></button>     
-      <div class="w3-dropdown-content w3-bar-block w3-card-4">
-        <a href="#" class="w3-bar-item w3-button">Jet</a>
-        <a href="#" class="w3-bar-item w3-button">My</a>
-        <a href="#" class="w3-bar-item w3-button">Ass</a>
+    <div id="select_origin" class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">Origin <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4" v-model="select_origin">
+        <option v-for="origin in origins">
+            <a>{{origin}}</a>        
+        </option>  
       </div>
     </div>
     <div class="w3-dropdown-hover w3-hide-small">
-      <button class="w3-padding-large w3-button" title="More">2nd Variable <i class="fa fa-caret-down"></i></button>     
-      <div class="w3-dropdown-content w3-bar-block w3-card-4">
-        <a href="#" class="w3-bar-item w3-button">Jet</a>
-        <a href="#" class="w3-bar-item w3-button">My</a>
-        <a href="#" class="w3-bar-item w3-button">Ass</a>
+      <button class="w3-padding-large w3-button" title="More">Destination <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4" v-model="select_destination">
+          <option><a><!--TODO-->></a></option>
       </div>
     </div>
     <div class="w3-dropdown-hover w3-hide-small">
-      <button class="w3-padding-large w3-button" title="More">3rd Variable <i class="fa fa-caret-down"></i></button>     
-      <div class="w3-dropdown-content w3-bar-block w3-card-4">
-        <a href="#" class="w3-bar-item w3-button">Jet</a>
-        <a href="#" class="w3-bar-item w3-button">My</a>
-        <a href="#" class="w3-bar-item w3-button">Ass</a>
+      <button class="w3-padding-large w3-button" title="More">Date <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4" v-model="select_date">
+          <option><a><!--TODO-->></a></option>
       </div>
     </div>
     <div class="w3-dropdown-hover w3-hide-small">
-      <button class="w3-padding-large w3-button" title="More">4th Variable <i class="fa fa-caret-down"></i></button>     
-      <div class="w3-dropdown-content w3-bar-block w3-card-4">
-        <a href="#" class="w3-bar-item w3-button">Jet</a>
-        <a href="#" class="w3-bar-item w3-button">My</a>
-        <a href="#" class="w3-bar-item w3-button">Ass</a>
+      <button class="w3-padding-large w3-button" title="More">Price <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4" "select_price">
+        <option><a><!--TODO-->></a></option>
       </div>
     </div>
-    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i>
-    </a>
+    <div id="search_flight">
+      <button class="w3-padding-large w3-button" v-on:click="preform_search"><i class="fa fa-search"></i></button>
+    </div>
 </header>
 
 <!-- !PAGE CONTENT! -->
