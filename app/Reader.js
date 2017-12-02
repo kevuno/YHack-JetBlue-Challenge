@@ -17,20 +17,4 @@ function readFile(filename, callback){
     });
 }
 
-
-// Given an object, return a string with just the values
-function valuesToString(data){
-    let final_string = "";
-    let comma = "";
-    for(var key in data){
-        if (Object.prototype.hasOwnProperty.call(data, key)) {
-            final_string += comma + "'"+data[key]+"'";
-            comma = ",";
-        }
-    }
-    // console.log(final_string);
-    return final_string;
-}
-
 module.exports.readFile = readFile;
-module.exports.valuesToString = valuesToString;
