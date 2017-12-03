@@ -81,8 +81,8 @@ function selectFlights(connection, flight_params, callback){
             sql = "SELECT * FROM JetBlue JOIN AirportLocations ON JetBlue.Destination = AirportLocations.Airport \
             JOIN CountryLanguage ON AirportLocations.Country = CountryLanguage.Country \
             WHERE (Origin like " + flight_params.origin + "\
-            AND (DATE(FlightDate) = '" + flight_params.departure_date + "' OR '" + flight_params.departure_date + "' LIKE '') AND DollarFare >= " + flight_params.price_min + "\
-            AND DollarFare <= " + flight_params.price_max + " \
+            AND (DATE(FlightDate) = '" + flight_params.departure_date + "' OR '" + flight_params.departure_date + "' LIKE '') AND (DollarFare+DollarTax) >= " + flight_params.price_min + "\
+            AND (DollarFare+DollarTax) <= " + flight_params.price_max + " \
             "+temperature_sql+"\
             AND IsDomesticRoute = 1 AND AirportLocations.UberOrNot = 1 \
             AND (CountryLanguage.Language like '%" + flight_params.language + "%' \
@@ -93,8 +93,8 @@ function selectFlights(connection, flight_params, callback){
             sql = "SELECT * FROM JetBlue JOIN AirportLocations ON JetBlue.Destination = AirportLocations.Airport \
             JOIN CountryLanguage ON AirportLocations.Country = CountryLanguage.Country \
             WHERE (Origin like " + flight_params.origin + "\
-            AND (DATE(FlightDate) = '" + flight_params.departure_date + "' OR '" + flight_params.departure_date + "' LIKE '') AND DollarFare >= " + flight_params.price_min + "\
-            AND DollarFare <= " + flight_params.price_max + " \
+            AND (DATE(FlightDate) = '" + flight_params.departure_date + "' OR '" + flight_params.departure_date + "' LIKE '') AND (DollarFare+DollarTax) >= " + flight_params.price_min + "\
+            AND (DollarFare+DollarTax) <= " + flight_params.price_max + " \
             "+temperature_sql+"\
             AND IsDomesticRoute = 1 \
             AND (CountryLanguage.Language like '%" + flight_params.language + "%' \
@@ -107,8 +107,8 @@ function selectFlights(connection, flight_params, callback){
             sql = "SELECT * FROM JetBlue JOIN AirportLocations ON JetBlue.Destination = AirportLocations.Airport \
             JOIN CountryLanguage ON AirportLocations.Country = CountryLanguage.Country \
             WHERE (Origin like " + flight_params.origin + "\
-            AND (DATE(FlightDate) = '" + flight_params.departure_date + "' OR '" + flight_params.departure_date + "' LIKE '') AND DollarFare >= " + flight_params.price_min + "\
-            AND DollarFare <= " + flight_params.price_max + " \
+            AND (DATE(FlightDate) = '" + flight_params.departure_date + "' OR '" + flight_params.departure_date + "' LIKE '') AND (DollarFare+DollarTax) >= " + flight_params.price_min + "\
+            AND (DollarFare+DollarTax) <= " + flight_params.price_max + " \
             "+temperature_sql+"\
             AND IsDomesticRoute = 0 AND AirportLocations.UberOrNot = 1 \
             AND (CountryLanguage.Language like '%" + flight_params.language + "%' \
@@ -119,8 +119,8 @@ function selectFlights(connection, flight_params, callback){
             sql = "SELECT * FROM JetBlue JOIN AirportLocations ON JetBlue.Destination = AirportLocations.Airport \
             JOIN CountryLanguage ON AirportLocations.Country = CountryLanguage.Country \
             WHERE (Origin like " + flight_params.origin + "\
-            AND (DATE(FlightDate) = '" + flight_params.departure_date + "' OR '" + flight_params.departure_date + "' LIKE '') AND DollarFare >= " + flight_params.price_min + "\
-            AND DollarFare <= " + flight_params.price_max + " \
+            AND (DATE(FlightDate) = '" + flight_params.departure_date + "' OR '" + flight_params.departure_date + "' LIKE '') AND (DollarFare+DollarTax) >= " + flight_params.price_min + "\
+            AND (DollarFare+DollarTax) <= " + flight_params.price_max + " \
             "+temperature_sql+"\
             AND IsDomesticRoute = 0 \
             AND (CountryLanguage.Language like '%" + flight_params.language + "%' \
