@@ -68,6 +68,9 @@ app.post('/', function(req, res){
         price_max: req.body.price_max,
         isDomestic: req.body.isDomestic,
         isUber: req.body.isUber,
+        departure_date: req.body.departure_date,
+        language: req.body.language,
+        weather: req.body.language
     }
     console.log(flight_params);
 

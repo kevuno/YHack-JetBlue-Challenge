@@ -72,22 +72,53 @@ function selectFlights(connection, flight_params, callback){
 
             sql = "SELECT * FROM JetBlue JOIN AirportLocations ON JetBlue.Destination = AirportLocations.Airport \
             JOIN CountryLanguage ON AirportLocations.Country = CountryLanguage.Country \
-            WHERE (Origin like Query \
-            AND (FlightDate = Query OR FlightDate IS NULL) AND DollarFare >= Query \
-            AND DollarFare <= Query \
+            WHERE (Origin like " + flight_params.origin + "\
+            AND (FlightDate = " + flight_params.departure_date + " OR " + flight_params.departure_date + " IS NULL) AND DollarFare >= " + flight_params.price_min + "\
+            AND DollarFare <= " + flight_params.price_max + " \
+            AND ((AirportLocations.Temperature >= " + flight_params.weather + "- 5 AND AirportLocations.Temperature =" + flight_params.weather + " + 5) OR " + flight_params.weather + " IS NULL) \
             AND IsDomesticRoute = 1 AND AirportLocations.UberOrNot = 1 \
-            AND (CountryLanguage.Language like '%query%' \
-                OR CountryLanguage.Language like 'query%' \
-                OR CountryLanguage.Language like '%query' \
+            AND (CountryLanguage.Language like '%" + flight_params.language + "%' \
+                OR CountryLanguage.Language like '" + flight_params.language + "%' \
+                OR CountryLanguage.Language like '%" + flight_params.language + "' \
             ));";
         }else{
-            
+            sql = "SELECT * FROM JetBlue JOIN AirportLocations ON JetBlue.Destination = AirportLocations.Airport \
+            JOIN CountryLanguage ON AirportLocations.Country = CountryLanguage.Country \
+            WHERE (Origin like " + flight_params.origin + "\
+            AND (FlightDate = " + flight_params.departure_date + " OR " + flight_params.departure_date + " IS NULL) AND DollarFare >= " + flight_params.price_min + "\
+            AND DollarFare <= " + flight_params.price_max + " \
+            AND ((AirportLocations.Temperature >= " + flight_params.weather + "- 5 AND AirportLocations.Temperature =" + flight_params.weather + " + 5) OR " + flight_params.weather + " IS NULL) \
+            AND IsDomesticRoute = 1 \
+            AND (CountryLanguage.Language like '%" + flight_params.language + "%' \
+                OR CountryLanguage.Language like '" + flight_params.language + "%' \
+                OR CountryLanguage.Language like '%" + flight_params.language + "' \
+            ));";
         }
     }else{
         if(flight_params.isUber){
-            
+            sql = "SELECT * FROM JetBlue JOIN AirportLocations ON JetBlue.Destination = AirportLocations.Airport \
+            JOIN CountryLanguage ON AirportLocations.Country = CountryLanguage.Country \
+            WHERE (Origin like " + flight_params.origin + "\
+            AND (FlightDate = " + flight_params.departure_date + " OR " + flight_params.departure_date + " IS NULL) AND DollarFare >= " + flight_params.price_min + "\
+            AND DollarFare <= " + flight_params.price_max + " \
+            AND ((AirportLocations.Temperature >= " + flight_params.weather + "- 5 AND AirportLocations.Temperature =" + flight_params.weather + " + 5) OR " + flight_params.weather + " IS NULL) \
+            AND IsDomesticRoute = 0 AND AirportLocations.UberOrNot = 1 \
+            AND (CountryLanguage.Language like '%" + flight_params.language + "%' \
+                OR CountryLanguage.Language like '" + flight_params.language + "%' \
+                OR CountryLanguage.Language like '%" + flight_params.language + "' \
+            ));";
         }else{
-            
+            sql = "SELECT * FROM JetBlue JOIN AirportLocations ON JetBlue.Destination = AirportLocations.Airport \
+            JOIN CountryLanguage ON AirportLocations.Country = CountryLanguage.Country \
+            WHERE (Origin like " + flight_params.origin + "\
+            AND (FlightDate = " + flight_params.departure_date + " OR " + flight_params.departure_date + " IS NULL) AND DollarFare >= " + flight_params.price_min + "\
+            AND DollarFare <= " + flight_params.price_max + " \
+            AND ((AirportLocations.Temperature >= " + flight_params.weather + "- 5 AND AirportLocations.Temperature =" + flight_params.weather + " + 5) OR " + flight_params.weather + " IS NULL) \
+            AND IsDomesticRoute = 0 \
+            AND (CountryLanguage.Language like '%" + flight_params.language + "%' \
+                OR CountryLanguage.Language like '" + flight_params.language + "%' \
+                OR CountryLanguage.Language like '%" + flight_params.language + "' \
+            ));";
         }
     }
 

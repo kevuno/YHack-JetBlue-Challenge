@@ -110,7 +110,9 @@ var App = new Vue({
                 price_min: this.price_min,
                 price_max: this.price_max,
                 isDomestic: this.isDomestic ? 1 : 0,
-                isUber: this.isUber ? 1 :0
+                isUber: this.isUber ? 1 :0,
+                weather: this.weather,
+                language: this.language
             }
             console.log(flight_search);
             getAirports(flight_search);
