@@ -14,39 +14,22 @@ function getAirports(){
         dataType: "json",
         crossDomain: true,
         success: function(result){
-            App.trips = result;
-            console.log(result);
+        	console.log("sucess");
             $("#results").html(result);
         },
         error: function (xhr, textStatus, errorThrown) {
+        	console.log("fail");
             console.log(errorThrown);
         }
     });
-    // GET /someUrl
-    // this.$http.get('localhost:3000/origins/LAX/destinations/JFK').then(response => {
-    
-    //     // get body data
-    //     console.log(response);
-    //     this.someData = response.body;
-    
-    // }, response => {
-    //     // error callback
-    // });
 }
 
-var App = new Vue({
-    el: "#root" ,
+var selOrigin= new Vue({
+    el: "#select_origin" ,
     data: {
-        origins: ["Stuff", "Stuff2"],
-        trips: []
+        origins: ["Stuff", "Stuff2"]
     },
     mounted() {
-        this.trips = getAirports();
-
-    },
-    methods: {
-        perform_search: function(){
-            
-        }
+        getAirports();
     }
 });

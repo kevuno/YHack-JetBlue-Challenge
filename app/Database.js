@@ -71,8 +71,8 @@ function selectFlights(connection, flight_params, callback){
         from_table: "JetBlue",
         join_table: "AirportLocations",
         join_clause: "JetBlue.Destination = AirportLocations.Airport",
-        where_clause: "(Origin like '%' \
-                        AND Destination like '%'\
+        where_clause: "(Origin like " + flight_params.origin  + " \
+                        AND Destination like " + flight_params.destination  + " \
                         AND IsDomesticRoute = " + flight_params.isDomesticRoute  + "\
                         )"
 

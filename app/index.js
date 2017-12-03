@@ -15,7 +15,7 @@ if(readAndInsertLowestFares){
     seeder.seedLowestFares("Data/LowestFares.csv");
 }
 
-var readAndInsertAirports = true;
+var readAndInsertAirports = false;
 if(readAndInsertAirports){
     // Seeder (only used if a new csv is loaded)
     const seeder = require('./Seeder');
@@ -43,7 +43,7 @@ app.get('/origins/:origin/destinations/:destination', function(req, res){
     console.log(req.params);
     var flight_params = {
         origin:  "'"+ req.params.origin +"'",
-        destination:  "'"+ req.params.destination +"'",
+        destination:  "'%'",
         data: "",
         price_low: "",
         price_high: "",

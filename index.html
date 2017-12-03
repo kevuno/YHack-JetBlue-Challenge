@@ -7,35 +7,46 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href = "https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css"
+rel = "stylesheet">
+<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<link rel="stylesheet" href="/resources/demos/style.css">
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script>
+  $( function() {
+    $( "#datepicker" ).datepicker();
+  } );
+  </script>
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
 .fa-anchor,.fa-coffee {font-size:200px}
 </style>
 <body>
-
-    <!-- Header -->
-    <header class="w3-container w3-blue w3-center" style="padding:128px 16px">
-        <h1 class="w3-margin w3-jumbo"></h1>
-        <p class="w3-medium"></p>
-    
-
-        <!-- !Seach Engine! -->
-        <div class="w3-row-padding w3-padding-16 w3-center" id="food">
-            <div class="w3-display-centre w3-padding w3-col l30 m14">
-                <div class="w3-container w3-white">
-                    <h2><i class="fa fa-plane w3-margin-centre"></i> Where to Go?</h2>
-                </div>
-                <div class="w3-container w3-white w3-padding-16">
-                    <form action="/action_page.php" target="_blank">
+    <div id="main_container">
+        <!-- Header -->
+        <header class="w3-container w3-blue w3-center" style="padding:128px 16px">
+            <h1 class="w3-margin w3-jumbo"></h1>
+            <p class="w3-medium"></p>
+        
+            <!-- !Seach Engine! -->
+            <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+                <div class="w3-display-centre w3-padding w3-col l30 m14">
+                    <div class="w3-container w3-white">
+                        <h2><i class="fa fa-plane w3-margin-centre"></i> Find My Jet</h2>
+                    </div>
+                    <div class="w3-container w3-white w3-padding-16">
                         <div class="w3-row-padding" style="margin:0 -16px;">
                         <div class="w3-half w3-margin-bottom">
                             <label><i class="fa fa-calendar-o"></i> Fly From</label>
                             <input class="w3-input w3-border" type="text" placeholder="Airport" name="Fly From" required>
                         </div>
                         <div class="w3-half">
-                            <label><i class="fa fa-cutlery"></i> Date </label>
-                            <input class="w3-input w3-border" type="character" value="yyyy-mm-dd" name="Food" min="Yes" max="No">
+                            <label><i class="fa fa-calendar-o"></i> Departure Date </label>
+                            <input type="text" id="datepicker">
                         </div>
                         </div>
                         <div class="w3-row-padding" style="margin:8px -16px;">
@@ -43,93 +54,100 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
                             <label><i class="fa fa-sun-o"></i> Weather °F</label>
                             <input class="w3-input w3-border" type="number" value="1" name="Weather" min="1" max="6">
                         </div>
-                        <div class="w3-half">
-                            <label><i class="fa fa-money"></i> Budget in USD</label>
-                        <input class="w3-input w3-border" type="number" value="420" name="Cost" min="" max="6000">
-                        </div>
+                        <div class="w3-half">       
+                            <div data-role="rangeslider">
+                                <label for="price-min">Adjust Price:</label>
+                                <input type="range" name="price-min" id="price-min" value="50" min="0" max="1000">
+                                <label for="price-max">Price:</label>
+                                <input type="range" name="price-max" id="price-max" value="800" min="0" max="1000">
+                            </div>       
                         </div>
                         <div class="w3-row-padding" style="margin:8px -16px;">
-                        <div class="w3-half w3-margin-bottom">
-                            <label><i class="fa fa-taxi"></i> Uber? </label>
-                            <input type="checkbox" class="w3-check">
+                            <div class="w3-half w3-margin-bottom">
+                                <label><i class="fa fa-language"></i> Language</label>
+                                <input class="w3-input w3-border" type="text" placeholder="Airport" name="Fly From" required>
+                            </div>
+                            <div class="w3-half w3-margin-bottom">
+                                <div class="w3-half w3-margin-bottom">
+                                    <label><i class="fa fa-taxi"></i> Uber? </label>
+                                    <input type="checkbox" class="w3-check">
+                                </div>
+                                <div class="w3-half">
+                                    <label><i class="fa fa-plane"></i> Domestic? </label>
+                                    <input type="checkbox" class="w3-check">
+                                </div>
+                            </div>
                         </div>
-                        <div class="w3-half">
-                            <label><i class="fa fa-calendar-o"></i> Domestic? </label>
-                            <input type="checkbox" class="w3-check">
-                        </div>
-                        </div>
-                        <button class="w3-button w3-light-grey" type="submit"><i class="fa fa-search w3-margin-right"></i> Search availability</button>
-                    </form>
+                        <button class="w3-button w3-light-grey" v-on:click="perform_search"><i class="fa fa-search w3-margin-right"></i> Ready Jet Go </button>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        
+        <!-- !PAGE CONTENT! -->
+        <div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">    
+            <!-- First Photo Grid-->
+            <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+                <div class="w3-quarter">
+                    <img src="http://www.visitflorida.com/bin/vf/static/a0t4/a0t40000007quQjAAI/rendition.52840_original.268.150.imagecache">
+                    <h3>The Perfect Holiday</h3>
+                    <p>Just some random text, about the amazing time you will have.</p>
+                </div>
+                <div class="w3-quarter">
+                    <img src="https://www.popsci.com/sites/popsci.com/files/styles/1000_1x_/public/images/2017/03/la-skyline.jpg?itok=7dDE4YyW&fc=50,50" alt="LA" style="width:100%">
+                    <h3>Let Me Tell You About LA</h3>
+                    <p>Once again, some random text about how cool LA will be when you go.</p>
+                </div>
+                <div class="w3-quarter">
+                    <img src="https://lonelyplanetimages.imgix.net/mastheads/GettyImages-538096543_medium.jpg?sharp=10&vib=20&w=1200" alt="New York" style="width:100%">
+                    <h3>New York from above</h3>
+                    <p>Just imagine this view every day for a week</p>
+                    <p>What else?</p>
+                </div>
+                <div class="w3-quarter">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Space_Needle002.jpg/1200px-Space_Needle002.jpg" alt="Seattle" style="width:100%">
+                    <h3>Seattle..wow</h3>
+                    <p>Could you be happier anywhere then here?</p>
+                </div>
+            </div>
+            <!-- Second Photo Grid-->
+            <div class="w3-row-padding w3-padding-16 w3-center">
+                <div class="w3-quarter">
+                    <img src="http://www.chicagosouthloophotel.com/resourcefiles/homeimages/chicago-south-loop-hotel-home1-top.jpg" alt="Popsicle" style="width:100%">
+                    <h3>All I Need Is Chicago</h3>
+                    <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+                </div>
+                <div class="w3-quarter">
+                    <img src="http://equalityarizona.org/wp-content/uploads/2014/07/phoenix-arizona-600x350.jpg" alt="Phoenix" style="width:100%">
+                    <h3>Just give it a try</h3>
+                    <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+                </div>
+                <div class="w3-quarter">
+                    <img src="http://www.bravocompetition.com/wp-content/uploads/2015/10/new-haven-connecticut.jpg" alt="New Haven" style="width:100%">
+                    <h3>New Haven *Heaven</h3>
+                    <p>Apparently they have an okay school here</p>
+                </div>
+                <div class="w3-quarter">
+                    <img src="https://mnchopper.com/wp-content/uploads/Mississippi-River-Tour.gif" alt="Mississippi" style="width:100%">
+                    <h3>Miss Miss</h3>
+                    <p>All Flowing here</p>
+                </div>
+            </div>
+
+            <!-- Pagination -->
+            <div class="w3-center w3-padding-32">
+                <div class="w3-bar">
+                <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+                <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+                <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+                <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+                <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+                <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
                 </div>
             </div>
         </div>
-    </header>
-
-    
-    <!-- !PAGE CONTENT! -->
-    <div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">    
-        <!-- First Photo Grid-->
-        <div class="w3-row-padding w3-padding-16 w3-center" id="food">
-            <div class="w3-quarter">
-                <img src="http://www.visitflorida.com/bin/vf/static/a0t4/a0t40000007quQjAAI/rendition.52840_original.268.150.imagecache">
-                <h3>The Perfect Holiday</h3>
-                <p>Just some random text, about the amazing time you will have.</p>
-            </div>
-            <div class="w3-quarter">
-                <img src="https://www.popsci.com/sites/popsci.com/files/styles/1000_1x_/public/images/2017/03/la-skyline.jpg?itok=7dDE4YyW&fc=50,50" alt="LA" style="width:100%">
-                <h3>Let Me Tell You About LA</h3>
-                <p>Once again, some random text about how cool LA will be when you go.</p>
-            </div>
-            <div class="w3-quarter">
-                <img src="https://lonelyplanetimages.imgix.net/mastheads/GettyImages-538096543_medium.jpg?sharp=10&vib=20&w=1200" alt="New York" style="width:100%">
-                <h3>New York from above</h3>
-                <p>Just imagine this view every day for a week</p>
-                <p>What else?</p>
-            </div>
-            <div class="w3-quarter">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Space_Needle002.jpg/1200px-Space_Needle002.jpg" alt="Seattle" style="width:100%">
-                <h3>Seattle..wow</h3>
-                <p>Could you be happier anywhere then here?</p>
-            </div>
-        </div>
-        <!-- Second Photo Grid-->
-        <div class="w3-row-padding w3-padding-16 w3-center">
-            <div class="w3-quarter">
-                <img src="http://www.chicagosouthloophotel.com/resourcefiles/homeimages/chicago-south-loop-hotel-home1-top.jpg" alt="Popsicle" style="width:100%">
-                <h3>All I Need Is Chicago</h3>
-                <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
-            </div>
-            <div class="w3-quarter">
-                <img src="http://equalityarizona.org/wp-content/uploads/2014/07/phoenix-arizona-600x350.jpg" alt="Phoenix" style="width:100%">
-                <h3>Just give it a try</h3>
-                <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
-            </div>
-            <div class="w3-quarter">
-                <img src="http://www.bravocompetition.com/wp-content/uploads/2015/10/new-haven-connecticut.jpg" alt="New Haven" style="width:100%">
-                <h3>New Haven *Heaven</h3>
-                <p>Apparently they have an okay school here</p>
-            </div>
-            <div class="w3-quarter">
-                <img src="https://mnchopper.com/wp-content/uploads/Mississippi-River-Tour.gif" alt="Mississippi" style="width:100%">
-                <h3>Miss Miss</h3>
-                <p>All Flowing here</p>
-            </div>
-        </div>
-
-        <!-- Pagination -->
-        <div class="w3-center w3-padding-32">
-            <div class="w3-bar">
-            <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
-            <a href="#" class="w3-bar-item w3-black w3-button">1</a>
-            <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
-            <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
-            <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
-            <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
-            </div>
-        </div>
-    </div>
-
-
+    </div>        
 
 <!-- Footer 
 <footer class="w3-container w3-padding-64 w3-center w3-opacity">  
@@ -144,6 +162,9 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
  <p>Y Hack Live <a href="www.yhack.org/live" target="_blank">live link</a></p>
 </footer>
 -->
-
 </body>
+<!-- Vue and Vue controller -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.9/vue.js"></script>
+<script src="controller/app.js"></script>
+
 </html>
