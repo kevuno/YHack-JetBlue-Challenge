@@ -5,10 +5,22 @@ function getAirports(search_data){
         dataType: "json",
         data: search_data,
         crossDomain: true,
-        success: function(result){
-            App.result = result;
-            console.log(result);
-            $("#results").html(result);
+        success: function(results){
+            App.results = [];
+
+            var ignore_flag = false;
+            results.forEach(function(result){
+                if(!ignore_flag){
+                    result.image_src = App.img_dir + result.Airport + ".jpg";
+                    console.log(result.image_src);
+                    App.results.push(result);
+                    
+                }
+                ignore_flag = !ignore_flag;
+                
+            });
+            console.log(results);
+            $("#results").html(results);
         },
         error: function (xhr, textStatus, errorThrown) {
             console.log(errorThrown);
@@ -17,8 +29,9 @@ function getAirports(search_data){
 }
 
 var App = new Vue({
-    el: "#main_container" ,
+    el: "#main_container",
     data: {
+        img_dir: "city_img/",
         origin: "",
         departure_date: "",
         weather: "",
@@ -28,6 +41,44 @@ var App = new Vue({
         isUber: false,
         isDomestic: false,
         results: [{
+            Airport:"JFK",
+            City: "New York City",
+            Country: "United States",
+            DailyCost: 44,
+            Destination:"JFK",
+            DollarFare: 203,
+            DollarTax: 27,
+            FareType:"LOWEST",
+            FlightDate: "2017-11-30T10:11:00.000Z",
+            FlightType: "NONSTOP",
+            IsDomesticRoute: 1,
+            IsPrivateFare: 0,
+            Origin: "ROC",
+            PointFare: 0,
+            PointsTax:0,
+            State: "New York",
+            Temperature: 29,
+            UberOrNot: 1,
+        },{
+            Airport:"JFK",
+            City: "New York City",
+            Country: "United States",
+            DailyCost: 44,
+            Destination:"JFK",
+            DollarFare: 203,
+            DollarTax: 27,
+            FareType:"LOWEST",
+            FlightDate: "2017-11-30T10:11:00.000Z",
+            FlightType: "NONSTOP",
+            IsDomesticRoute: 1,
+            IsPrivateFare: 0,
+            Origin: "ROC",
+            PointFare: 0,
+            PointsTax:0,
+            State: "New York",
+            Temperature: 29,
+            UberOrNot: 1,
+        },{
             Airport:"JFK",
             City: "New York City",
             Country: "United States",
