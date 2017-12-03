@@ -26,7 +26,7 @@ CTG,Cartagena,,Colombia
 CUN,Cancun,,Mexico
 CUR,Curacao,,Curacao
 DAB,Daytona Beach,Florida,United States
-DCA,"Washington, DC","Washington, DC",United States
+DCA,Washington, DC,Washington, DC,United States
 DEN,Denver,Colorado,United States
 DFW,Dallas / Fort Worth,Texas,United States
 DTW,Detroit,Michigan,United States
@@ -39,7 +39,7 @@ HOG,Holguin,,Cuba
 HOU,Houston,Texas,United States
 HPN,Westchester County,New York,United States
 HYA,Hyannis,Massachusetts,United States
-IAD,"Washington, DC","Washington, DC",United States
+IAD,Washington, DC,Washington, DC,United States
 JAX,Jacksonville,Florida,United States
 JFK,New York City,New York,United States
 KIN,Kingston,,Jamaica
@@ -56,7 +56,7 @@ MDE,Medellin,,Colombia
 MEX,Mexico City,,Mexico
 MSP,Minneapolis-St. Paul,Minnesota,United States
 MSY,New Orleans,Louisiana,United States
-MVY,Martha's Vineyard,Massachusetts,United States
+MVY,Martha\'s Vineyard,Massachusetts,United States
 NAS,Nassau,,Bahamas
 OAK,Oakland,California,United States
 ORD,Chicago,Illinois,United States

@@ -24,6 +24,8 @@ if(readAndInsertAirports){
     seeder.seedAirportLocations("Data/airportlocations.csv");
 }
 
+
+
 /** -- Express Server -- **/
 
 // Express lib

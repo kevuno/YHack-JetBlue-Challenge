@@ -18,4 +18,5 @@ CREATE TABLE `JetBlue`.`AirportLocations` (
   `City` VARCHAR(45) NULL,
   `State` VARCHAR(45) NULL,
   `Country` VARCHAR(45) NULL,
+  `Temperature` INT NULL,
   PRIMARY KEY (`Airpot`));
