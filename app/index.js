@@ -5,28 +5,24 @@
 const db = require('./Database');
 const con = db.connect("localhost", "root", "Bacardi12312300", "JetBlue");
 
+// Seeder (only used if a new csv is loaded)
+const seeder = require('./Seeder');
+
 var readAndInsertLowestFares = false;
 if(readAndInsertLowestFares){
-    // Seeder (only used if a new csv is loaded)
-    const seeder = require('./Seeder');
-
     // Seed the database
     seeder.seedLowestFares("Data/LowestFares.csv");
 }
 
 var readAndInsertAirports = false;
 if(readAndInsertAirports){
-    // Seeder (only used if a new csv is loaded)
-    const seeder = require('./Seeder');
-
     // Seed the database
     seeder.seedAirportLocations("Data/airportlocations.csv");
 }
 
 var readAndInsertLanguages = false;
+
 if(readAndInsertLanguages){
-    // Seeder (only used if a new csv is loaded)
-    const seeder = require('./Seeder');
 
     // Seed the database
     seeder.seedLanguages("Data/CountryLanguage.csv");
