@@ -45,8 +45,7 @@ function insertData(table, connection, data){
 }
 
 /* ---- Select functions ---- */
-function selectData(connection, select_data, callback){
-    console.log(select_data);
+function selectData(connection, select_data, callback){    
     var selects = select_data.selects;
     var from_table =  select_data.from_table;
     var join_table = select_data.join_table;
@@ -60,7 +59,6 @@ function selectData(connection, select_data, callback){
     console.log(sql);
     connection.query(sql, function (err, result) {
         if (err) throw err;
-        console.log(result);
         callback(result);
     }, this);
 }
@@ -73,7 +71,8 @@ function selectFlights(connection, flight_params, callback){
         join_clause: "JetBlue.Destination = AirportLocations.Airport",
         where_clause: "(Origin like " + flight_params.origin  + " \
                         AND Destination like " + flight_params.destination  + " \
-                        AND IsDomesticRoute = " + flight_params.isDomesticRoute  + "\
+                        AND IsDomesticRoute = " + flight_params.isDomestic  + "\
+                        AND UberOrNot = " + flight_params.isUber  + "\
                         )"
 
     }

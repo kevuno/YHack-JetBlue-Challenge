@@ -5,7 +5,6 @@
 const db = require('./Database');
 const con = db.connect("localhost", "root", "Bacardi12312300", "JetBlue");
 
-
 var readAndInsertLowestFares = false;
 if(readAndInsertLowestFares){
     // Seeder (only used if a new csv is loaded)
@@ -41,7 +40,17 @@ if(readAndInsertLanguages){
 
 // Express lib
 const express = require('express');
+var bodyParser = require('body-parser');
 const app = express();
+
+// parse application/x-www-form-urlencoded
+app.use(bodyParser.urlencoded({ extended: false }))
+
+// parse application/json
+app.use(bodyParser.json())
+
+
+
 
 app.all('*', function(req, res, next) {
     res.header('Access-Control-Allow-Origin', '*');
@@ -50,16 +59,21 @@ app.all('*', function(req, res, next) {
     next();
 });
 
-app.get('/origins/:origin/destinations/:destination', function(req, res){
-    console.log(req.params);
+
+app.listen(3000, function(){
+    console.log('Example app listening on port 3000!');
+});
+
+app.post('/', function(req, res){
     var flight_params = {
-        origin:  "'"+ req.params.origin +"'",
+        origin:  "'"+ req.body.origin +"'",
         destination:  "'%'",
-        data: "",
-        price_low: "",
-        price_high: "",
-        isDomesticRoute: 1
+        price_min: req.body.price_min,
+        price_max: req.body.price_max,
+        isDomestic: req.body.isDomestic,
+        isUber: req.body.isUber,
     }
+    console.log(flight_params);
 
     db.selectFlights(con, flight_params, function(result){
         res.send(result);
@@ -67,6 +81,3 @@ app.get('/origins/:origin/destinations/:destination', function(req, res){
     
 });
 
-app.listen(3000, function(){
-    console.log('Example app listening on port 3000!');
-});

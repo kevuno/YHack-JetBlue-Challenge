@@ -1,13 +1,12 @@
 function getAirports(search_data){
-    var origin = search_data.origin;
-    var destination = search_data.destination;
     $.ajax({
-        url: "http://localhost:3000/origins/"+origin+"/destinations/"+destination,
-        type: "GET",
+        url: "http://localhost:3000/",
+        type: "POST",
         dataType: "json",
+        data: search_data,
         crossDomain: true,
         success: function(result){
-            App.trips = result;
+            App.result = result;
             console.log(result);
             $("#results").html(result);
         },
@@ -78,8 +77,8 @@ var App = new Vue({
                 departure_date:  this.departure_date,
                 price_min: this.price_min,
                 price_max: this.price_max,
-                isDomestic: this.isDomestic,
-                isUber: this.isUber
+                isDomestic: this.isDomestic ? 1 : 0,
+                isUber: this.isUber ? 1 :0
             }
             console.log(flight_search);
             getAirports(flight_search);
