@@ -70,7 +70,7 @@ app.post('/', function(req, res){
         isUber: req.body.isUber,
         departure_date: req.body.departure_date,
         language: req.body.language,
-        weather: req.body.language
+        weather: req.body.weather
     }
     console.log(flight_params);
 

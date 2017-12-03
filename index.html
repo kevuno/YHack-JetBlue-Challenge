@@ -51,7 +51,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
                         </div>
                         <div class="w3-row-padding" style="margin:8px -16px;">
                         <div class="w3-half w3-margin-bottom">
-                            <label><i class="fa fa-sun-o"></i> Weather °F</label>
+                            <label><i class="fa fa-sun-o"></i> Weather °C</label>
                             <input class="w3-input w3-border" type="number" value="1" v-model="weather" name="Weather" min="1" max="6">
                         </div>
                         <div class="w3-half">       
@@ -87,8 +87,8 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
         
         <!-- !PAGE CONTENT! -->
         <div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
-                   
             
+            <h1 v-if="results.length > 0"> These were the best destinations we found according to your preferences! </h1>
             <div class="w3-row-padding w3-padding-16">
                 <div v-for="result in results"  class="w3-third w3-margin-bottom">
                     <img v-bind:src="result.image_src" alt="IMG" style="width:100%">
@@ -97,8 +97,8 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
                             <h2> {{result.Airport}}, {{result.City}} </h2>
                             <h6 class="w3-opacity">From USD${{result.DollarFare}}</h6>    
                             <p>Flight Type: {{result.FlightType}} </p>
-                            <p>Expected Arrival Temperature: {{result.Temperature}} </p>
-                            <p class="w3-large"> <i class="fa fa-wifi"></i><i class="fa fa-taxi"></i></p>    
+                            <p>Expected Arrival Temperature: {{result.Temperature}} °C </p>
+                            <p class="w3-large"> <i  v-if="result.IsDomesticRoute" class="fa fa-home"></i><i v-if="result.UberOrNot" class="fa fa-taxi"></i></p>    
                         </div>
                         <button class="w3-button w3-block w3-black w3-margin-bottom">Choose Flight</button>
                     </div>
