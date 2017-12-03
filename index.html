@@ -98,9 +98,9 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
                             <h6 class="w3-opacity">From USD${{result.DollarFare}}</h6>    
                             <p>Flight Type: {{result.FlightType}} </p>
                             <p>Expected Arrival Temperature: {{result.Temperature}} °C </p>
-                            <p>Flight Cost: ${{result.DollarFare}+{result.DollarTax}}</p>
+                            <p>Total Flight Cost: ${{result.DollarFare + result.DollarTax}}</p>
                             <p>Estimated Daily Living Cost: ${{result.DailyCost}}</p>
-                            <p class="w3-large"> <i  v-if="result.IsDomesticRoute" class="fa fa-home"></i><i v-if="result.UberOrNot" class="fa fa-taxi"></i></p>    
+                            <p class="w3-large"> <i  v-if="result.IsDomesticRoute" class="fa fa-home"></i> <i v-if="result.UberOrNot" class="fa fa-taxi"></i></p>    
                         </div>
                         <button class="w3-button w3-block w3-black w3-margin-bottom">Choose Flight</button>
                     </div>
