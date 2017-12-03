@@ -52,7 +52,19 @@ function addRandomDailyCost(data_set){
 }
 
 
+// Loads a csv file with the flight data and parses it into an array of objects.
+//  Then it inserts the each object as a row in the db
+function seedLanguages(filename){
+    // Read csv file, parse into an object and then insert values into table JetBlue
+    let parsed_data = reader.readFile(filename, function(parsed_data){
+        db.insertData("CountryLanguage", con,  parsed_data);
+        console.log("file: " + filename + " read and db populated correctly");
+    });
+}
+
+
 module.exports.seedLowestFares = seedLowestFares;
 module.exports.seedAirportLocations = seedAirportLocations;
+module.exports.seedLanguages = seedLanguages;
     
 

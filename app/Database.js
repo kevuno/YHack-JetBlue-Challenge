@@ -35,7 +35,7 @@ function insertData(table, connection, data){
         var values = valuesToString(object);
         var sql = "INSERT INTO "+ table +" VALUES ("+ values +")";
 
-        // console.log(sql);
+         console.log(sql);
         connection.query(sql, function (err, result) {
             if (err) throw err;
             console.log(count + " record inserted");

@@ -24,6 +24,17 @@ if(readAndInsertAirports){
     seeder.seedAirportLocations("Data/airportlocations.csv");
 }
 
+var readAndInsertLanguages = false;
+if(readAndInsertLanguages){
+    // Seeder (only used if a new csv is loaded)
+    const seeder = require('./Seeder');
+
+    // Seed the database
+    seeder.seedLanguages("Data/CountryLanguage.csv");
+}
+
+
+
 
 
 /** -- Express Server -- **/

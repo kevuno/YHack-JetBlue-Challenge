@@ -14,10 +14,16 @@ CREATE TABLE `JetBlue`.`JetBlue` (
   `IsPrivateFare` TINYINT NULL);
 
 CREATE TABLE `JetBlue`.`AirportLocations` (
-  `Airpot` VARCHAR(45) NOT NULL,
+  `Airport` VARCHAR(45) NOT NULL,
   `City` VARCHAR(45) NULL,
   `State` VARCHAR(45) NULL,
   `Country` VARCHAR(45) NULL,
   `Temperature` INT NULL,
   `DailyCost` INT NULL,
-  PRIMARY KEY (`Airpot`));
+  `UberOrNot` TINYINT NULL,
+  PRIMARY KEY (`Airport`));
+
+CREATE TABLE `JetBlue`.`CountryLanguage` (
+  `Country` VARCHAR(90) NOT NULL,
+  `Language` VARCHAR(90) NULL,
+  PRIMARY KEY (`Country`));
