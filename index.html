@@ -17,7 +17,7 @@ rel = "stylesheet">
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 <script>
   $( function() {
-    $( "#datepicker" ).datepicker();
+    $( "#departure_date" ).datepicker();
   } );
   </script>
 <style>
@@ -42,39 +42,39 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
                         <div class="w3-row-padding" style="margin:0 -16px;">
                         <div class="w3-half w3-margin-bottom">
                             <label><i class="fa fa-calendar-o"></i> Fly From</label>
-                            <input class="w3-input w3-border" type="text" placeholder="Airport" name="Fly From" required>
+                            <input class="w3-input w3-border" type="text" placeholder="Airport" v-model="origin" name="Fly From" required>
                         </div>
                         <div class="w3-half">
                             <label><i class="fa fa-calendar-o"></i> Departure Date </label>
-                            <input type="text" id="datepicker">
+                            <input type="text" id="departure_date" v-model="departure_date" name="departure_date">
                         </div>
                         </div>
                         <div class="w3-row-padding" style="margin:8px -16px;">
                         <div class="w3-half w3-margin-bottom">
                             <label><i class="fa fa-sun-o"></i> Weather °F</label>
-                            <input class="w3-input w3-border" type="number" value="1" name="Weather" min="1" max="6">
+                            <input class="w3-input w3-border" type="number" value="1" v-model="weather" name="Weather" min="1" max="6">
                         </div>
                         <div class="w3-half">       
                             <div data-role="rangeslider">
                                 <label for="price-min">Adjust Price:</label>
-                                <input type="range" name="price-min" id="price-min" value="50" min="0" max="1000">
+                                <input type="range" name="price_min" id="price_min" v-model="price_min" value="50" min="0" max="1000">
                                 <label for="price-max">Price:</label>
-                                <input type="range" name="price-max" id="price-max" value="800" min="0" max="1000">
+                                <input type="range" name="price_max" id="price_max" v-model="price_max" value="800" min="0" max="1000">
                             </div>       
                         </div>
                         <div class="w3-row-padding" style="margin:8px -16px;">
                             <div class="w3-half w3-margin-bottom">
-                                <label><i class="fa fa-language"></i> Language</label>
-                                <input class="w3-input w3-border" type="text" placeholder="Airport" name="Fly From" required>
+                                <label><i class="fa fa-language"></i> Language Spoken </label>
+                                <input class="w3-input w3-border" type="text" v-model="language" name="Language">
                             </div>
                             <div class="w3-half w3-margin-bottom">
                                 <div class="w3-half w3-margin-bottom">
                                     <label><i class="fa fa-taxi"></i> Uber? </label>
-                                    <input type="checkbox" class="w3-check">
+                                    <input type="checkbox" v-model="isUber" name="isUber" class="w3-check">
                                 </div>
                                 <div class="w3-half">
                                     <label><i class="fa fa-plane"></i> Domestic? </label>
-                                    <input type="checkbox" class="w3-check">
+                                    <input type="checkbox" v-model="isDomestic" name="isDomestic" class="w3-check">
                                 </div>
                             </div>
                         </div>

@@ -21,6 +21,13 @@ var App = new Vue({
     el: "#main_container" ,
     data: {
         origin: "",
+        departure_date: "",
+        weather: "",
+        price_min: 0,
+        price_max: 0,
+        language: "English",
+        isUber: false,
+        isDomestic: false,
         results: [{
             Airport:"JFK",
             City: "New York City",
@@ -62,15 +69,20 @@ var App = new Vue({
         }]
     },
     methods: {
-        perform_search: function(){
+        perform_search: function(){            
+            this.departure_date = $("#departure_date").val();
+            this.price_min = $("#price_min").val();
+            this.price_max = $("#price_max").val();
             var flight_search = {
-                origin: "ROC",
-                destination:  "ANYBRO",
-                price_low: "",
-                price_high: "",
-                isDomesticRoute: 1
+                origin: this.origin,
+                departure_date:  this.departure_date,
+                price_min: this.price_min,
+                price_max: this.price_max,
+                isDomestic: this.isDomestic,
+                isUber: this.isUber
             }
+            console.log(flight_search);
             getAirports(flight_search);
         }
-    }
+    },
 });
