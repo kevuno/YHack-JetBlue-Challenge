@@ -1,3 +1,4 @@
+
 function getAirports(search_data){
     $.ajax({
         url: "http://localhost:3000/",
@@ -13,6 +14,8 @@ function getAirports(search_data){
                 if(!ignore_flag){
                     result.image_src = App.img_dir + result.Airport + ".jpg";
                     console.log(result.image_src);
+
+                    // Make sure to format the date
                     App.results.push(result);
                     
                 }
