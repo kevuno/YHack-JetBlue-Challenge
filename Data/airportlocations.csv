@@ -1,103 +1,103 @@
-Airport,City,State,Country
-ABQ,Albuquerque,New Mexico,United States
-ACK,Nantucket,Massachusetts,United States
-ALB,Albany,New York,United States
-ANC,Anchorage,Alaska,United States
-ANU,Antigua,,Antigua and Barbuda
-ATL,Atlanta,Georgia,United States
-AUA,Aruba,,Aruba
-AUS,Austin,Texas,United States
-BDA,Bermuda (Hamilton),,Bermuda
-BDL,Hartford,Connecticut,United States
-BGI,Bridgetown,,Barbados
-BNA,Nashville,Tennessee,United States
-BOG,Bogota,,Colombia
-BOS,Boston,Massachusetts,United States
-BQN,Aguadilla,Puerto Rico,United States
-BTV,Burington,Virginia,United States
-BUF,Buffalo,New York,United States
-BUR,Burbank,California,United States
-BWI,Baltimore,Maryland,United States
-CHS,Charleston,South Carolina,United States
-CLE,Cleveland,Ohio,United States
-CLT,Charlotte,North Carolina,United States
-CMW,Camaguey,,Cuba
-CTG,Cartagena,,Colombia
-CUN,Cancun,,Mexico
-CUR,Curacao,,Curacao
-DAB,Daytona Beach,Florida,United States
-DCA,Washington, DC,Washington, DC,United States
-DEN,Denver,Colorado,United States
-DFW,Dallas / Fort Worth,Texas,United States
-DTW,Detroit,Michigan,United States
-EWR,Newark,New Jersey,United States
-FLL,Fort Lauderdale,Florida,United States
-GCM,Grand Cayman,,Cayman Islands
-GND,Grenada,,Grenada
-HAV,Havana,,Cuba
-HOG,Holguin,,Cuba
-HOU,Houston,Texas,United States
-HPN,Westchester County,New York,United States
-HYA,Hyannis,Massachusetts,United States
-IAD,Washington, DC,Washington, DC,United States
-JAX,Jacksonville,Florida,United States
-JFK,New York City,New York,United States
-KIN,Kingston,,Jamaica
-LAS,Las Vegas,Nevada,United States
-LAX,Los Angeles,California,United States
-LGA,New York City,New York,United States
-LGB,Long Beach,California,United States
-LIM,Lima,,Peru
-LIR,Liberia,,Costa Rica
-LRM,La Romana,,Dominican Republic
-MBJ,Montego Bay,,Jamaica
-MCO,Orlando,Florida,United States
-MDE,Medellin,,Colombia
-MEX,Mexico City,,Mexico
-MSP,Minneapolis-St. Paul,Minnesota,United States
-MSY,New Orleans,Louisiana,United States
-MVY,Martha\'s Vineyard,Massachusetts,United States
-NAS,Nassau,,Bahamas
-OAK,Oakland,California,United States
-ORD,Chicago,Illinois,United States
-ORH,Worcester,Massachusetts,United States
-PAP,Port-au-Prince,,Haiti
-PBI,West Palm Beach,Florida,United States
-PDX,Portland,Oregon,United States
-PHL,Philadelphia,Pennsylvania,United States
-PHX,Phoenix,Arizona,United States
-PIT,Pittsburgh,Pennsylvania,United States
-PLS,Providenciales,,Turks & Caicos Islands
-POP,Puerto Plata,,Dominican Republic
-POS,Port-of-Spain,,Trinidad & Tobago
-PSE,Ponce,Puerto Rico,United States
-PSP,Palm Springs,California,United States
-PUJ,Punta Cana,,Dominican Republic
-PVD,Providence,Rhode Island,United States
-PWM,Portland,Maine,United States
-RDU,Raleigh-Durham,North Carolina,United States
-RIC,Richmond,Virginia,United States
-RNO,Reno / Tahoe,Nevada,United States
-ROC,Rochester,New York,United States
-RSW,Fort Myers,Florida,United States
-SAN,San Diego,California,United States
-SAV,Savannah / Hilton Head,Georgia,United States
-SDQ,Santo Domingo,,Dominican Republic
-SEA,Seattle,Washington,United States
-SFO,San Francisco,California,United States
-SJC,San Jose,California,United States
-SJO,San Jose,,Costa Rica
-SJU,San Juan,Puerto Rico,United States
-SLC,Salt Lake City,Utah,United States
-SMF,Sacramento,California,United States
-SNU,Santa Clara,,Cuba
-SRQ,Sarasota,Florida,United States
-STI,Santiago,,Dominican Republic
-STT,St. Thomas,Virgin Islands,United States
-STX,St. Croix,Virgin Islands,United States
-SWF,Newburgh,New Jersey,United States
-SXM,St. Maarten,,St. Maarten
-SYR,Syracuse,New York,United States
-TPA,Tampa Bay,Florida,United States
-UIO,Quito,,Ecuador
-UVF,St. Lucia,,St. Lucia
+Airport,City,State,Country,Temperature,DailyCost
+ABQ,Albuquerque,"New Mexico","United States",10,45
+ACK,Nantucket,Massachusetts,"United States",-8,-13
+ALB,Albany,"New York","United States",10,13
+ANC,Anchorage,Alaska,"United States",-8,54
+ANU,Antigua,,"Antigua and Barbuda",-5,96
+ATL,Atlanta,Georgia,"United States",7,52
+AUA,Aruba,,Aruba,15,83
+AUS,Austin,Texas,"United States",7,94
+BDA,"Bermuda (Hamilton)",,Bermuda,8,94
+BDL,Hartford,Connecticut,"United States",-1,46
+BGI,Bridgetown,,Barbados,-4,119
+BNA,Nashville,Tennessee,"United States",-4,75
+BOG,Bogota,,Colombia,-5,-18
+BOS,Boston,Massachusetts,"United States",-7,100
+BQN,Aguadilla,"Puerto Rico","United States",1,94
+BTV,Burington,Virginia,"United States",14,80
+BUF,Buffalo,"New York","United States",15,124
+BUR,Burbank,California,"United States",6,47
+BWI,Baltimore,Maryland,"United States",11,61
+CHS,Charleston,"South Carolina","United States",-7,104
+CLE,Cleveland,Ohio,"United States",7,113
+CLT,Charlotte,"North Carolina","United States",11,24
+CMW,Camaguey,,Cuba,2,82
+CTG,Cartagena,,Colombia,11,100
+CUN,Cancun,,Mexico,5,121
+CUR,Curacao,,Curacao,12,46
+DAB,"Daytona Beach",Florida,"United States",3,98
+DCA,Washington," DC",Washington,18,97
+DEN,Denver,Colorado,"United States",-6,-2
+DFW,"Dallas / Fort Worth",Texas,"United States",-4,102
+DTW,Detroit,Michigan,"United States",-4,51
+EWR,Newark,"New Jersey","United States",4,29
+FLL,"Fort Lauderdale",Florida,"United States",2,98
+GCM,"Grand Cayman",,"Cayman Islands",-10,44
+GND,Grenada,,Grenada,-8,-5
+HAV,Havana,,Cuba,2,32
+HOG,Holguin,,Cuba,-2,41
+HOU,Houston,Texas,"United States",16,80
+HPN,"Westchester County","New York","United States",-5,91
+HYA,Hyannis,Massachusetts,"United States",2,-4
+IAD,Washington," DC",Washington,3,10
+JAX,Jacksonville,Florida,"United States",12,25
+JFK,"New York City","New York","United States",9,75
+KIN,Kingston,,Jamaica,17,-4
+LAS,"Las Vegas",Nevada,"United States",0,82
+LAX,"Los Angeles",California,"United States",1,98
+LGA,"New York City","New York","United States",18,48
+LGB,"Long Beach",California,"United States",17,9
+LIM,Lima,,Peru,-4,58
+LIR,Liberia,,"Costa Rica",1,72
+LRM,"La Romana",,"Dominican Republic",0,61
+MBJ,"Montego Bay",,Jamaica,6,-10
+MCO,Orlando,Florida,"United States",15,35
+MDE,Medellin,,Colombia,-4,114
+MEX,"Mexico City",,Mexico,11,117
+MSP,"Minneapolis-St. Paul",Minnesota,"United States",-7,100
+MSY,"New Orleans",Louisiana,"United States",4,35
+MVY,"Martha's Vineyard",Massachusetts,"United States",6,82
+NAS,Nassau,,Bahamas,0,-8
+OAK,Oakland,California,"United States",13,114
+ORD,Chicago,Illinois,"United States",17,-14
+ORH,Worcester,Massachusetts,"United States",10,81
+PAP,Port-au-Prince,,Haiti,11,-14
+PBI,"West Palm Beach",Florida,"United States",-6,109
+PDX,Portland,Oregon,"United States",3,68
+PHL,Philadelphia,Pennsylvania,"United States",-3,64
+PHX,Phoenix,Arizona,"United States",19,57
+PIT,Pittsburgh,Pennsylvania,"United States",8,26
+PLS,Providenciales,,"Turks & Caicos Islands",-7,89
+POP,"Puerto Plata",,"Dominican Republic",17,-11
+POS,Port-of-Spain,,"Trinidad & Tobago",16,13
+PSE,Ponce,"Puerto Rico","United States",6,-16
+PSP,"Palm Springs",California,"United States",17,-11
+PUJ,"Punta Cana",,"Dominican Republic",6,117
+PVD,Providence,"Rhode Island","United States",5,12
+PWM,Portland,Maine,"United States",-7,-16
+RDU,Raleigh-Durham,"North Carolina","United States",13,67
+RIC,Richmond,Virginia,"United States",16,61
+RNO,"Reno / Tahoe",Nevada,"United States",-8,19
+ROC,Rochester,"New York","United States",-6,128
+RSW,"Fort Myers",Florida,"United States",-8,51
+SAN,"San Diego",California,"United States",-5,117
+SAV,"Savannah / Hilton Head",Georgia,"United States",-6,59
+SDQ,"Santo Domingo",,"Dominican Republic",8,48
+SEA,Seattle,Washington,"United States",0,56
+SFO,"San Francisco",California,"United States",17,25
+SJC,"San Jose",California,"United States",5,83
+SJO,"San Jose",,"Costa Rica",19,99
+SJU,"San Juan","Puerto Rico","United States",9,16
+SLC,"Salt Lake City",Utah,"United States",-8,66
+SMF,Sacramento,California,"United States",2,-10
+SNU,"Santa Clara",,Cuba,-2,89
+SRQ,Sarasota,Florida,"United States",4,69
+STI,Santiago,,"Dominican Republic",13,18
+STT,"St. Thomas","Virgin Islands","United States",-6,28
+STX,"St. Croix","Virgin Islands","United States",-6,61
+SWF,Newburgh,"New Jersey","United States",19,106
+SXM,"St. Maarten",,"St. Maarten",6,59
+SYR,Syracuse,"New York","United States",7,39
+TPA,"Tampa Bay",Florida,"United States",-4,10
+UIO,Quito,,Ecuador,5,112
+UVF,"St. Lucia",,"St. Lucia",16,96
