@@ -83,16 +83,142 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
                 </div>
             </div>
         </header>
-
+            
         
         <!-- !PAGE CONTENT! -->
-        <div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">    
+        <div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+            
+            
+            <div>
+                <h1> Results from search </h1>
+                <div v-for="result in results">
+                    <h2> Airport: {{result.Airport}}</h2>
+                </div>
+                <div v-for="result in results">
+                    <h2> City: {{result.City}}</h2>
+                </div>
+                <div v-for="result in results">
+                    <h2> Country: {{result.Country}}</h2>
+                </div>
+                <div v-for="result in results">
+                    <h2> DailyCost: {{result.DailyCost}}</h2>
+                </div>
+                <div v-for="result in results">
+                    <h2> DollarFare: {{result.DollarFare}}</h2>
+                </div>
+                <div v-for="result in results">
+                    <h2> DollarTax: {{results.DollarTax}}</h2>
+                </div>
+                <div v-for="result in results">
+                    <h2> FareType: {{result.FareType}}</h2>
+                </div>
+                <div v-for="result in results">
+                    <h2> FlightDate: {{result.FlightDate}}</h2>
+                </div>
+                <div v-for="result in results">
+                    <h2> FlightType: {{result.FlightType}}</h2>
+                </div>
+                <div v-for="result in results">
+                    <h2> IsDomesticRoute: {{result.IsDomesticRoute}}</h2>
+                </div>
+                <div v-for="result in results">
+                    <h2> IsPrivateFare: {{result.IsPrivateFare}}</h2>
+                </div>
+                <div v-for="result in results">
+                    <h2> Origin: {{result.Origin}}</h2>
+                </div>
+                <div v-for="result in results">
+                    <h2> PointFare: {{result.PointFare}}</h2>
+                </div>
+                <div v-for="result in results">
+                    <h2> PointsTax: {{result.PointsTax}}</h2>
+                </div>
+                <div v-for="result in results">
+                    <h2> State: {{result.State}}</h2>
+                </div>
+                <div v-for="result in results">
+                    <h2> Temperature: {{result.Temperature}}</h2>
+                </div>
+                <div v-for="result in results">
+                    <h2> UberOrNot: {{result.UberOrNot}}</h2>
+                </div>
+                
+                
+                </div>
+                
+            </div>
+            
+            
+            <div class="w3-row-padding w3-padding-16">
+                <div class="w3-third w3-margin-bottom">
+                  <img src="https://lonelyplanetimages.imgix.net/mastheads/GettyImages-538096543_medium.jpg?sharp=10&vib=20&w=1200" alt="NY" style="width:100%">
+                  <div class="w3-container w3-white">
+                      
+                    <div v-for="result in results">
+                    <h2> {{result.Airport}}, {{result.City}} </h2>
+                    <h6 class="w3-opacity">From USD${{result.DollarFare}}</h6>    
+                    <p>Flight Type: {{result.FlightType}} </p>
+                    <p>Expected Arrival Temperature: {{result.Temperature}} </p>
+                    <p class="w3-large"> <i class="fa fa-wifi"></i><i class="fa fa-taxi"></i></p>    
+                </div>
+                    </h3>
+                    
+                    
+                    <button class="w3-button w3-block w3-black w3-margin-bottom">Choose Flight</button>
+                  </div>
+                </div>
+                <div class="w3-third w3-margin-bottom">
+                  <img src="https://lonelyplanetimages.imgix.net/mastheads/GettyImages-538096543_medium.jpg?sharp=10&vib=20&w=1200" alt="NY" style="width:100%">
+                  <div class="w3-container w3-white">
+                      
+                    <div v-for="result in results">
+                    <h2> {{result.Airport}}, {{result.City}} </h2>
+                    <h6 class="w3-opacity">From USD${{result.DollarFare}}</h6>    
+                    <p>Flight Type: {{result.FlightType}} </p>
+                    <p>Expected Arrival Temperature: {{result.Temperature}} </p>
+                    <p class="w3-large"> <i class="fa fa-wifi"></i><i class="fa fa-taxi"></i></p>    
+                </div>
+                    </h3>
+                    
+                    
+                    <button class="w3-button w3-block w3-black w3-margin-bottom">Choose Flight</button>
+                  </div>
+                </div>
+                <div class="w3-third w3-margin-bottom">
+                  <img src="https://lonelyplanetimages.imgix.net/mastheads/GettyImages-538096543_medium.jpg?sharp=10&vib=20&w=1200" alt="NY" style="width:100%">
+                  <div class="w3-container w3-white">
+                      
+                    <div v-for="result in results">
+                    <h2> {{result.Airport}}, {{result.City}} </h2>
+                    <h6 class="w3-opacity">From USD${{result.DollarFare}}</h6>    
+                    <p>Flight Type: {{result.FlightType}} </p>
+                    <p>Expected Arrival Temperature: {{result.Temperature}} </p>
+                    <p class="w3-large"> <i class="fa fa-wifi"></i><i class="fa fa-taxi"></i></p>    
+                </div>
+                    </h3>
+                    
+                    
+                    <button class="w3-button w3-block w3-black w3-margin-bottom">Choose Flight</button>
+                  </div>
+                </div>
+            </div>
+            
+            
+            
+            
             <!-- First Photo Grid-->
-            <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+            <div class="w3-row-padding w3-padding-16 w3-center" id="search">
                 <div class="w3-quarter">
                     <img src="http://www.visitflorida.com/bin/vf/static/a0t4/a0t40000007quQjAAI/rendition.52840_original.268.150.imagecache">
-                    <h3>The Perfect Holiday</h3>
-                    <p>Just some random text, about the amazing time you will have.</p>
+                    <h3><div v-for="result in results">
+                    <h2> {{result.City}}</h2>
+                </div>
+                <div v-for="result in results">
+                    <h4> {{result.Country}}</h4>
+                </div></h3>
+                    <div v-for="result in results">
+                        <p> UberOrNot: {{result.UberOrNot}}</p>
+                </div>
                 </div>
                 <div class="w3-quarter">
                     <img src="https://www.popsci.com/sites/popsci.com/files/styles/1000_1x_/public/images/2017/03/la-skyline.jpg?itok=7dDE4YyW&fc=50,50" alt="LA" style="width:100%">

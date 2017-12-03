@@ -40,25 +40,6 @@ var App = new Vue({
             State: "New York",
             Temperature: 29,
             UberOrNot: 1,
-        },{
-            Airport:"JFK",
-            City: "New York City",
-            Country: "United States",
-            DailyCost: 44,
-            Destination:"JFK",
-            DollarFare: 203,
-            DollarTax: 27,
-            FareType:"LOWEST",
-            FlightDate: "2017-11-30T10:11:00.000Z",
-            FlightType: "NONSTOP",
-            IsDomesticRoute: 1,
-            IsPrivateFare: 0,
-            Origin: "ROC",
-            PointFare: 0,
-            PointsTax:0,
-            State: "New York",
-            Temperature: 29,
-            UberOrNot: 1,
         }]
     },
     methods: {
@@ -71,6 +52,9 @@ var App = new Vue({
                 isDomesticRoute: 1
             }
             getAirports(flight_search);
+        },
+        price_low: function(){
+            
         }
     }
 });
