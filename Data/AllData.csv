@@ -1,0 +1,1001 @@
+Origin,Destination,FlightDate,FlightType,FareType,DollarFare,DollarTax,PointFare,PointsTax,IsDomesticRoute,IsPrivateFare,Airport,City,State,Country,Temperature
+SFO,BOS,"2017-11-29 02:11:00",NONSTOP,LOWEST,683,61,0,0,1,0,BOS,Boston,Massachusetts,"United States",20
+SFO,BOS,"2017-11-29 02:11:00",NONSTOP,POINTS,499,48,42200,6,1,1,BOS,Boston,Massachusetts,"United States",20
+LGB,SEA,"2017-11-29 02:11:00",NONSTOP,LOWEST,164,25,0,0,1,0,SEA,Seattle,Washington,"United States",15
+LGB,SEA,"2017-11-29 02:11:00",NONSTOP,POINTS,164,25,11200,6,1,0,SEA,Seattle,Washington,"United States",15
+LAS,LGB,"2017-11-29 02:11:00",NONSTOP,LOWEST,40,16,0,0,1,0,LGB,"Long Beach",California,"United States",29
+LAS,LGB,"2017-11-29 02:11:00",NONSTOP,POINTS,40,16,2000,6,1,0,LGB,"Long Beach",California,"United States",29
+LAS,BOS,"2017-11-29 03:11:00",NONSTOP,LOWEST,415,42,0,0,1,0,BOS,Boston,Massachusetts,"United States",20
+LAS,BOS,"2017-11-29 03:11:00",NONSTOP,POINTS,415,42,34900,6,1,0,BOS,Boston,Massachusetts,"United States",20
+LGB,JFK,"2017-11-29 03:11:00",NONSTOP,LOWEST,471,46,0,0,1,0,JFK,"New York City","New York","United States",2
+LGB,JFK,"2017-11-29 03:11:00",NONSTOP,POINTS,471,46,43600,6,1,0,JFK,"New York City","New York","United States",2
+LGB,LAS,"2017-11-29 03:11:00",NONSTOP,LOWEST,40,16,0,0,1,0,LAS,"Las Vegas",Nevada,"United States",24
+LGB,LAS,"2017-11-29 03:11:00",NONSTOP,POINTS,40,16,2000,6,1,0,LAS,"Las Vegas",Nevada,"United States",24
+SFO,LGB,"2017-11-29 03:11:00",NONSTOP,LOWEST,69,18,0,0,1,0,LGB,"Long Beach",California,"United States",29
+SFO,LGB,"2017-11-29 03:11:00",NONSTOP,POINTS,69,18,4100,6,1,0,LGB,"Long Beach",California,"United States",29
+LGB,OAK,"2017-11-29 03:11:00",NONSTOP,LOWEST,109,21,0,0,1,0,OAK,Oakland,California,"United States",3
+LGB,OAK,"2017-11-29 03:11:00",NONSTOP,POINTS,109,21,7100,6,1,0,OAK,Oakland,California,"United States",3
+LAX,JFK,"2017-11-29 03:11:00",NONSTOP,LOWEST,471,46,0,0,1,0,JFK,"New York City","New York","United States",2
+LAX,JFK,"2017-11-29 03:11:00",NONSTOP,POINTS,471,46,43600,6,1,0,JFK,"New York City","New York","United States",2
+LGB,SLC,"2017-11-29 03:11:00",NONSTOP,LOWEST,140,23,0,0,1,0,SLC,"Salt Lake City",Utah,"United States",5
+LGB,SLC,"2017-11-29 03:11:00",NONSTOP,POINTS,140,23,9400,6,1,0,SLC,"Salt Lake City",Utah,"United States",5
+LAX,BOS,"2017-11-29 03:11:00",NONSTOP,LOWEST,292,34,0,0,1,0,BOS,Boston,Massachusetts,"United States",20
+LAX,BOS,"2017-11-29 03:11:00",NONSTOP,POINTS,292,34,22300,6,1,0,BOS,Boston,Massachusetts,"United States",20
+LGB,SFO,"2017-11-29 03:11:00",NONSTOP,LOWEST,69,18,0,0,1,0,SFO,"San Francisco",California,"United States",14
+LGB,SFO,"2017-11-29 03:11:00",NONSTOP,POINTS,69,18,4100,6,1,0,SFO,"San Francisco",California,"United States",14
+SFO,JFK,"2017-11-29 03:11:00",NONSTOP,LOWEST,448,44,0,0,1,0,JFK,"New York City","New York","United States",2
+SFO,JFK,"2017-11-29 03:11:00",NONSTOP,POINTS,448,44,45700,6,1,0,JFK,"New York City","New York","United States",2
+BNA,FLL,"2017-11-29 04:11:00",NONSTOP,LOWEST,234,30,0,0,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+BNA,FLL,"2017-11-29 04:11:00",NONSTOP,POINTS,234,30,19200,6,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+LGB,SMF,"2017-11-29 04:11:00",NONSTOP,LOWEST,133,23,0,0,1,0,SMF,Sacramento,California,"United States",13
+LGB,SMF,"2017-11-29 04:11:00",NONSTOP,POINTS,133,23,8900,6,1,0,SMF,Sacramento,California,"United States",13
+OAK,LGB,"2017-11-29 05:11:00",NONSTOP,LOWEST,109,21,0,0,1,0,LGB,"Long Beach",California,"United States",29
+OAK,LGB,"2017-11-29 05:11:00",NONSTOP,POINTS,109,21,7100,6,1,0,LGB,"Long Beach",California,"United States",29
+DCA,BOS,"2017-11-29 05:11:00",NONSTOP,LOWEST,298,34,0,0,1,0,BOS,Boston,Massachusetts,"United States",20
+DCA,BOS,"2017-11-29 05:11:00",NONSTOP,POINTS,242,30,19900,6,1,1,BOS,Boston,Massachusetts,"United States",20
+MEX,FLL,"2017-11-29 05:11:00",NONSTOP,LOWEST,204,84,0,0,0,0,FLL,"Fort Lauderdale",Florida,"United States",36
+MEX,FLL,"2017-11-29 05:11:00",NONSTOP,POINTS,204,84,8900,56,0,0,FLL,"Fort Lauderdale",Florida,"United States",36
+LGB,SJC,"2017-11-29 05:11:00",NONSTOP,LOWEST,69,18,0,0,1,0,SJC,"San Jose",California,"United States",33
+LGB,SJC,"2017-11-29 05:11:00",NONSTOP,POINTS,69,18,4100,6,1,0,SJC,"San Jose",California,"United States",33
+CTG,FLL,"2017-11-29 05:11:00",NONSTOP,LOWEST,513,170,0,0,0,0,FLL,"Fort Lauderdale",Florida,"United States",36
+CTG,FLL,"2017-11-29 05:11:00",NONSTOP,POINTS,513,170,32700,82,0,0,FLL,"Fort Lauderdale",Florida,"United States",36
+DCA,BDL,"2017-11-29 05:11:00",NONSTOP,LOWEST,161,24,0,0,1,0,BDL,Hartford,Connecticut,"United States",17
+DCA,BDL,"2017-11-29 05:11:00",NONSTOP,POINTS,161,24,10900,6,1,0,BDL,Hartford,Connecticut,"United States",17
+PVD,MCO,"2017-11-29 05:11:00",NONSTOP,LOWEST,168,25,0,0,1,0,MCO,Orlando,Florida,"United States",37
+PVD,MCO,"2017-11-29 05:11:00",NONSTOP,POINTS,168,25,11500,6,1,0,MCO,Orlando,Florida,"United States",37
+MSY,JFK,"2017-11-29 05:11:00",NONSTOP,LOWEST,395,41,0,0,1,0,JFK,"New York City","New York","United States",2
+MSY,JFK,"2017-11-29 05:11:00",NONSTOP,POINTS,395,41,36300,6,1,0,JFK,"New York City","New York","United States",2
+CLT,BOS,"2017-11-29 05:11:00",NONSTOP,LOWEST,257,30,0,0,1,0,BOS,Boston,Massachusetts,"United States",20
+CLT,BOS,"2017-11-29 05:11:00",NONSTOP,POINTS,257,30,19600,6,1,0,BOS,Boston,Massachusetts,"United States",20
+ATL,BOS,"2017-11-29 05:11:00",NONSTOP,LOWEST,221,29,0,0,1,0,BOS,Boston,Massachusetts,"United States",20
+ATL,BOS,"2017-11-29 05:11:00",NONSTOP,POINTS,221,29,18000,6,1,0,BOS,Boston,Massachusetts,"United States",20
+LGA,BOS,"2017-11-29 05:11:00",NONSTOP,LOWEST,213,28,0,0,1,0,BOS,Boston,Massachusetts,"United States",20
+LGA,BOS,"2017-11-29 05:11:00",NONSTOP,POINTS,174,25,11900,6,1,1,BOS,Boston,Massachusetts,"United States",20
+JFK,LAS,"2017-11-29 05:11:00",NONSTOP,LOWEST,829,71,0,0,1,0,LAS,"Las Vegas",Nevada,"United States",24
+JFK,LAS,"2017-11-29 05:11:00",NONSTOP,POINTS,829,71,63200,6,1,0,LAS,"Las Vegas",Nevada,"United States",24
+MCO,BOS,"2017-11-29 05:11:00",NONSTOP,LOWEST,320,36,0,0,1,0,BOS,Boston,Massachusetts,"United States",20
+MCO,BOS,"2017-11-29 05:11:00",NONSTOP,POINTS,320,36,26700,6,1,0,BOS,Boston,Massachusetts,"United States",20
+JFK,LGB,"2017-11-29 05:11:00",NONSTOP,LOWEST,471,46,0,0,1,0,LGB,"Long Beach",California,"United States",29
+JFK,LGB,"2017-11-29 05:11:00",NONSTOP,POINTS,471,46,43600,6,1,0,LGB,"Long Beach",California,"United States",29
+JFK,MCO,"2017-11-29 05:11:00",NONSTOP,LOWEST,169,25,0,0,1,0,MCO,Orlando,Florida,"United States",37
+JFK,MCO,"2017-11-29 05:11:00",NONSTOP,POINTS,169,25,11500,6,1,0,MCO,Orlando,Florida,"United States",37
+FLL,SAN,"2017-11-29 05:11:00",NONSTOP,LOWEST,395,41,0,0,1,0,SAN,"San Diego",California,"United States",4
+FLL,SAN,"2017-11-29 05:11:00",NONSTOP,POINTS,395,41,33200,6,1,0,SAN,"San Diego",California,"United States",4
+JFK,TPA,"2017-11-29 05:11:00",NONSTOP,LOWEST,291,34,0,0,1,0,TPA,"Tampa Bay",Florida,"United States",6
+JFK,TPA,"2017-11-29 05:11:00",NONSTOP,POINTS,259,31,19600,6,1,1,TPA,"Tampa Bay",Florida,"United States",6
+AUS,LGB,"2017-11-29 05:11:00",NONSTOP,LOWEST,235,30,0,0,1,0,LGB,"Long Beach",California,"United States",29
+AUS,LGB,"2017-11-29 05:11:00",NONSTOP,POINTS,235,30,16400,6,1,0,LGB,"Long Beach",California,"United States",29
+MCO,HPN,"2017-11-29 05:11:00",NONSTOP,LOWEST,357,38,0,0,1,0,HPN,"Westchester County","New York","United States",21
+MCO,HPN,"2017-11-29 05:11:00",NONSTOP,POINTS,296,34,22600,6,1,1,HPN,"Westchester County","New York","United States",21
+RSW,DCA,"2017-11-29 05:11:00",NONSTOP,LOWEST,406,42,0,0,1,0,DCA,Washington," DC",Washington,1
+RSW,DCA,"2017-11-29 05:11:00",NONSTOP,POINTS,406,42,41300,6,1,0,DCA,Washington," DC",Washington,1
+FLL,SFO,"2017-11-29 05:11:00",NONSTOP,LOWEST,514,49,0,0,1,0,SFO,"San Francisco",California,"United States",14
+FLL,SFO,"2017-11-29 05:11:00",NONSTOP,POINTS,514,49,52700,6,1,0,SFO,"San Francisco",California,"United States",14
+SAV,JFK,"2017-11-29 05:11:00",NONSTOP,LOWEST,224,29,0,0,1,0,JFK,"New York City","New York","United States",2
+SAV,JFK,"2017-11-29 05:11:00",NONSTOP,POINTS,224,29,18300,6,1,0,JFK,"New York City","New York","United States",2
+FLL,LGA,"2017-11-29 05:11:00",NONSTOP,LOWEST,175,25,0,0,1,0,LGA,"New York City","New York","United States",36
+FLL,LGA,"2017-11-29 05:11:00",NONSTOP,POINTS,175,25,12000,6,1,0,LGA,"New York City","New York","United States",36
+BOS,LGB,"2017-11-29 05:11:00",NONSTOP,LOWEST,292,34,0,0,1,0,LGB,"Long Beach",California,"United States",29
+BOS,LGB,"2017-11-29 05:11:00",NONSTOP,POINTS,292,34,22300,6,1,0,LGB,"Long Beach",California,"United States",29
+SEA,LGB,"2017-11-29 05:11:00",NONSTOP,LOWEST,164,25,0,0,1,0,LGB,"Long Beach",California,"United States",29
+SEA,LGB,"2017-11-29 05:11:00",NONSTOP,POINTS,164,25,11200,6,1,0,LGB,"Long Beach",California,"United States",29
+BOS,PHX,"2017-11-29 05:11:00",NONSTOP,LOWEST,377,40,0,0,1,0,PHX,Phoenix,Arizona,"United States",9
+BOS,PHX,"2017-11-29 05:11:00",NONSTOP,POINTS,377,40,26900,6,1,0,PHX,Phoenix,Arizona,"United States",9
+EWR,BOS,"2017-11-29 05:11:00",NONSTOP,LOWEST,213,28,0,0,1,0,BOS,Boston,Massachusetts,"United States",20
+EWR,PBI,"2017-11-29 05:11:00",NONSTOP,LOWEST,461,45,0,0,1,0,PBI,"West Palm Beach",Florida,"United States",10
+EWR,PBI,"2017-11-29 05:11:00",NONSTOP,POINTS,461,45,47100,6,1,0,PBI,"West Palm Beach",Florida,"United States",10
+BOS,MVY,"2017-11-29 06:11:00",NONSTOP,LOWEST,169,21,0,0,1,0,MVY,"Martha's Vineyard",Massachusetts,"United States",20
+FLL,SJU,"2017-11-29 06:11:00",NONSTOP,LOWEST,512,28,0,0,1,0,SJU,"San Juan","Puerto Rico","United States",20
+FLL,SJU,"2017-11-29 06:11:00",NONSTOP,POINTS,512,28,53800,6,1,0,SJU,"San Juan","Puerto Rico","United States",20
+JFK,RDU,"2017-11-29 06:11:00",NONSTOP,LOWEST,223,29,0,0,1,0,RDU,Raleigh-Durham,"North Carolina","United States",12
+JFK,RDU,"2017-11-29 06:11:00",NONSTOP,POINTS,223,29,16800,6,1,0,RDU,Raleigh-Durham,"North Carolina","United States",12
+TPA,HPN,"2017-11-29 06:11:00",NONSTOP,LOWEST,420,43,0,0,1,0,HPN,"Westchester County","New York","United States",21
+TPA,HPN,"2017-11-29 06:11:00",NONSTOP,POINTS,328,36,27400,6,1,1,HPN,"Westchester County","New York","United States",21
+CLE,BOS,"2017-11-29 06:11:00",NONSTOP,LOWEST,183,26,0,0,1,0,BOS,Boston,Massachusetts,"United States",20
+CLE,BOS,"2017-11-29 06:11:00",NONSTOP,POINTS,183,26,14700,6,1,0,BOS,Boston,Massachusetts,"United States",20
+PBI,JFK,"2017-11-29 06:11:00",NONSTOP,LOWEST,196,27,0,0,1,0,JFK,"New York City","New York","United States",2
+PBI,JFK,"2017-11-29 06:11:00",NONSTOP,POINTS,196,27,13500,6,1,0,JFK,"New York City","New York","United States",2
+CHS,JFK,"2017-11-29 06:11:00",NONSTOP,LOWEST,231,29,0,0,1,0,JFK,"New York City","New York","United States",2
+CHS,JFK,"2017-11-29 06:11:00",NONSTOP,POINTS,231,29,18900,6,1,0,JFK,"New York City","New York","United States",2
+BWI,MCO,"2017-11-29 06:11:00",NONSTOP,LOWEST,209,28,0,0,1,0,MCO,Orlando,Florida,"United States",37
+BWI,MCO,"2017-11-29 06:11:00",NONSTOP,POINTS,209,28,15700,6,1,0,MCO,Orlando,Florida,"United States",37
+FLL,JAX,"2017-11-29 06:11:00",NONSTOP,LOWEST,212,28,0,0,1,0,JAX,Jacksonville,Florida,"United States",31
+FLL,JAX,"2017-11-29 06:11:00",NONSTOP,POINTS,212,28,17200,6,1,0,JAX,Jacksonville,Florida,"United States",31
+RIC,FLL,"2017-11-29 06:11:00",NONSTOP,LOWEST,234,30,0,0,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+RIC,FLL,"2017-11-29 06:11:00",NONSTOP,POINTS,234,30,17600,6,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+BOS,IAD,"2017-11-29 06:11:00",NONSTOP,LOWEST,268,32,0,0,1,0,IAD,Washington," DC",Washington,19
+BOS,IAD,"2017-11-29 06:11:00",NONSTOP,POINTS,218,28,15200,6,1,1,IAD,Washington," DC",Washington,19
+BUF,BOS,"2017-11-29 06:11:00",NONSTOP,LOWEST,83,19,0,0,1,0,BOS,Boston,Massachusetts,"United States",20
+BUF,BOS,"2017-11-29 06:11:00",NONSTOP,POINTS,83,19,5200,6,1,0,BOS,Boston,Massachusetts,"United States",20
+BDL,FLL,"2017-11-29 06:11:00",NONSTOP,LOWEST,159,24,0,0,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+BDL,FLL,"2017-11-29 06:11:00",NONSTOP,POINTS,159,24,10800,6,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+BOS,SJC,"2017-11-29 06:11:00",NONSTOP,LOWEST,489,47,0,0,1,0,SJC,"San Jose",California,"United States",33
+BOS,SJC,"2017-11-29 06:11:00",NONSTOP,POINTS,489,47,50000,6,1,0,SJC,"San Jose",California,"United States",33
+HOU,BOS,"2017-11-29 06:11:00",NONSTOP,LOWEST,279,33,0,0,1,0,BOS,Boston,Massachusetts,"United States",20
+HOU,BOS,"2017-11-29 06:11:00",NONSTOP,POINTS,279,33,23100,6,1,0,BOS,Boston,Massachusetts,"United States",20
+TPA,JFK,"2017-11-29 06:11:00",NONSTOP,LOWEST,291,34,0,0,1,0,JFK,"New York City","New York","United States",2
+TPA,JFK,"2017-11-29 06:11:00",NONSTOP,POINTS,259,31,19600,6,1,1,JFK,"New York City","New York","United States",2
+DCA,CHS,"2017-11-29 06:11:00",NONSTOP,LOWEST,179,26,0,0,1,0,CHS,Charleston,"South Carolina","United States",26
+DCA,CHS,"2017-11-29 06:11:00",NONSTOP,POINTS,179,26,12300,6,1,0,CHS,Charleston,"South Carolina","United States",26
+JFK,SMF,"2017-11-29 06:11:00",NONSTOP,LOWEST,525,50,0,0,1,0,SMF,Sacramento,California,"United States",13
+JFK,SMF,"2017-11-29 06:11:00",NONSTOP,POINTS,464,46,39200,6,1,1,SMF,Sacramento,California,"United States",13
+ORD,JFK,"2017-11-29 06:11:00",NONSTOP,LOWEST,376,39,0,0,1,0,JFK,"New York City","New York","United States",2
+ORD,JFK,"2017-11-29 06:11:00",NONSTOP,POINTS,376,39,38200,6,1,0,JFK,"New York City","New York","United States",2
+NAS,FLL,"2017-11-29 06:11:00",NONSTOP,LOWEST,154,114,0,0,0,0,FLL,"Fort Lauderdale",Florida,"United States",36
+NAS,FLL,"2017-11-29 06:11:00",NONSTOP,POINTS,154,114,3000,90,0,0,FLL,"Fort Lauderdale",Florida,"United States",36
+SYR,JFK,"2017-11-29 06:11:00",NONSTOP,LOWEST,123,22,0,0,1,0,JFK,"New York City","New York","United States",2
+SYR,JFK,"2017-11-29 06:11:00",NONSTOP,POINTS,123,22,8100,6,1,0,JFK,"New York City","New York","United States",2
+JFK,SEA,"2017-11-29 06:11:00",NONSTOP,LOWEST,247,30,0,0,1,0,SEA,Seattle,Washington,"United States",15
+JFK,SEA,"2017-11-29 06:11:00",NONSTOP,POINTS,247,30,17300,6,1,0,SEA,Seattle,Washington,"United States",15
+TPA,BDL,"2017-11-29 06:11:00",NONSTOP,LOWEST,249,31,0,0,1,0,BDL,Hartford,Connecticut,"United States",17
+TPA,BDL,"2017-11-29 06:11:00",NONSTOP,POINTS,249,31,18800,6,1,0,BDL,Hartford,Connecticut,"United States",17
+DFW,BOS,"2017-11-29 06:11:00",NONSTOP,LOWEST,225,29,0,0,1,0,BOS,Boston,Massachusetts,"United States",20
+DFW,BOS,"2017-11-29 06:11:00",NONSTOP,POINTS,225,29,18400,6,1,0,BOS,Boston,Massachusetts,"United States",20
+JFK,PSP,"2017-11-29 06:11:00",NONSTOP,LOWEST,313,35,0,0,1,0,PSP,"Palm Springs",California,"United States",13
+JFK,PSP,"2017-11-29 06:11:00",NONSTOP,POINTS,313,35,26000,6,1,0,PSP,"Palm Springs",California,"United States",13
+IAD,BOS,"2017-11-29 06:11:00",NONSTOP,LOWEST,268,32,0,0,1,0,BOS,Boston,Massachusetts,"United States",20
+IAD,BOS,"2017-11-29 06:11:00",NONSTOP,POINTS,218,28,15200,6,1,1,BOS,Boston,Massachusetts,"United States",20
+AUS,BOS,"2017-11-29 06:11:00",NONSTOP,LOWEST,394,41,0,0,1,0,BOS,Boston,Massachusetts,"United States",20
+AUS,BOS,"2017-11-29 06:11:00",NONSTOP,POINTS,394,41,36200,6,1,0,BOS,Boston,Massachusetts,"United States",20
+HPN,FLL,"2017-11-29 06:11:00",NONSTOP,LOWEST,358,38,0,0,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+HPN,FLL,"2017-11-29 06:11:00",NONSTOP,POINTS,358,38,30000,6,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+FLL,EWR,"2017-11-29 06:11:00",NONSTOP,LOWEST,70,18,0,0,1,0,EWR,Newark,"New Jersey","United States",2
+FLL,EWR,"2017-11-29 06:11:00",NONSTOP,POINTS,70,18,4200,6,1,0,EWR,Newark,"New Jersey","United States",2
+BOS,MCO,"2017-11-29 06:11:00",NONSTOP,LOWEST,78,19,0,0,1,0,MCO,Orlando,Florida,"United States",37
+BOS,MCO,"2017-11-29 06:11:00",NONSTOP,POINTS,78,19,4800,6,1,0,MCO,Orlando,Florida,"United States",37
+BOS,DEN,"2017-11-29 06:11:00",NONSTOP,LOWEST,301,34,0,0,1,0,DEN,Denver,Colorado,"United States",34
+BOS,DEN,"2017-11-29 06:11:00",NONSTOP,POINTS,301,34,21300,6,1,0,DEN,Denver,Colorado,"United States",34
+MCO,DCA,"2017-11-29 06:11:00",NONSTOP,LOWEST,171,25,0,0,1,0,DCA,Washington," DC",Washington,1
+MCO,DCA,"2017-11-29 06:11:00",NONSTOP,POINTS,171,25,11700,6,1,0,DCA,Washington," DC",Washington,1
+MCO,LAX,"2017-11-29 06:11:00",NONSTOP,LOWEST,123,22,0,0,1,0,LAX,"Los Angeles",California,"United States",26
+MCO,LAX,"2017-11-29 06:11:00",NONSTOP,POINTS,123,22,8100,6,1,0,LAX,"Los Angeles",California,"United States",26
+MCO,EWR,"2017-11-29 06:11:00",NONSTOP,LOWEST,205,28,0,0,1,0,EWR,Newark,"New Jersey","United States",2
+MCO,EWR,"2017-11-29 06:11:00",NONSTOP,POINTS,205,28,14200,6,1,0,EWR,Newark,"New Jersey","United States",2
+BOS,LAX,"2017-11-29 06:11:00",NONSTOP,LOWEST,328,36,0,0,1,0,LAX,"Los Angeles",California,"United States",26
+BOS,LAX,"2017-11-29 06:11:00",NONSTOP,POINTS,328,36,27400,6,1,0,LAX,"Los Angeles",California,"United States",26
+BOS,SFO,"2017-11-29 06:11:00",NONSTOP,LOWEST,683,61,0,0,1,0,SFO,"San Francisco",California,"United States",14
+BOS,SFO,"2017-11-29 06:11:00",NONSTOP,POINTS,499,48,42200,6,1,1,SFO,"San Francisco",California,"United States",14
+FLL,LGB,"2017-11-29 06:11:00",NONSTOP,LOWEST,109,21,0,0,1,0,LGB,"Long Beach",California,"United States",29
+FLL,LGB,"2017-11-29 06:11:00",NONSTOP,POINTS,109,21,7100,6,1,0,LGB,"Long Beach",California,"United States",29
+JFK,FLL,"2017-11-29 06:11:00",NONSTOP,LOWEST,149,24,0,0,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+JFK,FLL,"2017-11-29 06:11:00",NONSTOP,POINTS,149,24,10000,6,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+MCO,SLC,"2017-11-29 06:11:00",NONSTOP,LOWEST,334,37,0,0,1,0,SLC,"Salt Lake City",Utah,"United States",5
+MCO,SLC,"2017-11-29 06:11:00",NONSTOP,POINTS,334,37,25600,6,1,0,SLC,"Salt Lake City",Utah,"United States",5
+SMF,LGB,"2017-11-29 06:11:00",NONSTOP,LOWEST,133,23,0,0,1,0,LGB,"Long Beach",California,"United States",29
+SMF,LGB,"2017-11-29 06:11:00",NONSTOP,POINTS,133,23,8900,6,1,0,LGB,"Long Beach",California,"United States",29
+MCO,JFK,"2017-11-29 06:11:00",NONSTOP,LOWEST,169,25,0,0,1,0,JFK,"New York City","New York","United States",2
+MCO,JFK,"2017-11-29 06:11:00",NONSTOP,POINTS,169,25,11500,6,1,0,JFK,"New York City","New York","United States",2
+PBI,LGA,"2017-11-29 07:11:00",NONSTOP,LOWEST,196,27,0,0,1,0,LGA,"New York City","New York","United States",36
+PBI,LGA,"2017-11-29 07:11:00",NONSTOP,POINTS,196,27,13500,6,1,0,LGA,"New York City","New York","United States",36
+JFK,BDA,"2017-11-29 07:11:00",NONSTOP,LOWEST,258,28,0,0,0,0,BDA,"Bermuda (Hamilton)",,Bermuda,5
+JFK,BDA,"2017-11-29 07:11:00",NONSTOP,POINTS,258,28,17100,6,0,0,BDA,"Bermuda (Hamilton)",,Bermuda,5
+SLC,LGB,"2017-11-29 07:11:00",NONSTOP,LOWEST,140,23,0,0,1,0,LGB,"Long Beach",California,"United States",29
+SLC,LGB,"2017-11-29 07:11:00",NONSTOP,POINTS,140,23,9400,6,1,0,LGB,"Long Beach",California,"United States",29
+ORH,FLL,"2017-11-29 07:11:00",NONSTOP,LOWEST,109,17,0,0,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+ORH,FLL,"2017-11-29 07:11:00",NONSTOP,POINTS,109,17,7400,6,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+SJU,DCA,"2017-11-29 07:11:00",NONSTOP,LOWEST,512,28,0,0,1,0,DCA,Washington," DC",Washington,1
+SJU,DCA,"2017-11-29 07:11:00",NONSTOP,POINTS,512,28,53800,6,1,0,DCA,Washington," DC",Washington,1
+FLL,BDL,"2017-11-29 07:11:00",NONSTOP,LOWEST,159,24,0,0,1,0,BDL,Hartford,Connecticut,"United States",17
+FLL,BDL,"2017-11-29 07:11:00",NONSTOP,POINTS,159,24,10800,6,1,0,BDL,Hartford,Connecticut,"United States",17
+FLL,HPN,"2017-11-29 07:11:00",NONSTOP,LOWEST,358,38,0,0,1,0,HPN,"Westchester County","New York","United States",21
+FLL,HPN,"2017-11-29 07:11:00",NONSTOP,POINTS,358,38,30000,6,1,0,HPN,"Westchester County","New York","United States",21
+RDU,BOS,"2017-11-29 07:11:00",NONSTOP,LOWEST,278,33,0,0,1,0,BOS,Boston,Massachusetts,"United States",20
+RDU,BOS,"2017-11-29 07:11:00",NONSTOP,POINTS,278,33,19600,6,1,0,BOS,Boston,Massachusetts,"United States",20
+FLL,LAS,"2017-11-29 07:11:00",NONSTOP,LOWEST,210,28,0,0,1,0,LAS,"Las Vegas",Nevada,"United States",24
+FLL,LAS,"2017-11-29 07:11:00",NONSTOP,POINTS,210,28,14600,6,1,0,LAS,"Las Vegas",Nevada,"United States",24
+PBI,HPN,"2017-11-29 07:11:00",NONSTOP,LOWEST,349,38,0,0,1,0,HPN,"Westchester County","New York","United States",21
+PBI,HPN,"2017-11-29 07:11:00",NONSTOP,POINTS,349,38,26800,6,1,0,HPN,"Westchester County","New York","United States",21
+RIC,BOS,"2017-11-29 07:11:00",NONSTOP,LOWEST,231,29,0,0,1,0,BOS,Boston,Massachusetts,"United States",20
+RIC,BOS,"2017-11-29 07:11:00",NONSTOP,POINTS,231,29,18900,6,1,0,BOS,Boston,Massachusetts,"United States",20
+DTW,BOS,"2017-11-29 07:11:00",NONSTOP,LOWEST,205,28,0,0,1,0,BOS,Boston,Massachusetts,"United States",20
+DTW,BOS,"2017-11-29 07:11:00",NONSTOP,POINTS,205,28,15300,6,1,0,BOS,Boston,Massachusetts,"United States",20
+SJC,LGB,"2017-11-29 07:11:00",NONSTOP,LOWEST,78,19,0,0,1,0,LGB,"Long Beach",California,"United States",29
+SJC,LGB,"2017-11-29 07:11:00",NONSTOP,POINTS,78,19,4800,6,1,0,LGB,"Long Beach",California,"United States",29
+BWI,BOS,"2017-11-29 07:11:00",NONSTOP,LOWEST,76,19,0,0,1,0,BOS,Boston,Massachusetts,"United States",20
+BWI,BOS,"2017-11-29 07:11:00",NONSTOP,POINTS,76,19,4600,6,1,0,BOS,Boston,Massachusetts,"United States",20
+BDL,DCA,"2017-11-29 07:11:00",NONSTOP,LOWEST,161,24,0,0,1,0,DCA,Washington," DC",Washington,1
+BDL,DCA,"2017-11-29 07:11:00",NONSTOP,POINTS,161,24,10900,6,1,0,DCA,Washington," DC",Washington,1
+TPA,BOS,"2017-11-29 07:11:00",NONSTOP,LOWEST,98,20,0,0,1,0,BOS,Boston,Massachusetts,"United States",20
+TPA,BOS,"2017-11-29 07:11:00",NONSTOP,POINTS,98,20,6300,6,1,0,BOS,Boston,Massachusetts,"United States",20
+MCO,LGA,"2017-11-29 07:11:00",NONSTOP,LOWEST,123,22,0,0,1,0,LGA,"New York City","New York","United States",36
+MCO,LGA,"2017-11-29 07:11:00",NONSTOP,POINTS,123,22,8100,6,1,0,LGA,"New York City","New York","United States",36
+EWR,MCO,"2017-11-29 07:11:00",NONSTOP,LOWEST,205,28,0,0,1,0,MCO,Orlando,Florida,"United States",37
+EWR,MCO,"2017-11-29 07:11:00",NONSTOP,POINTS,205,28,14200,6,1,0,MCO,Orlando,Florida,"United States",37
+JFK,PHX,"2017-11-29 07:11:00",NONSTOP,LOWEST,405,41,0,0,1,0,PHX,Phoenix,Arizona,"United States",9
+JFK,PHX,"2017-11-29 07:11:00",NONSTOP,POINTS,405,41,34000,6,1,0,PHX,Phoenix,Arizona,"United States",9
+MCO,BOG,"2017-11-29 07:11:00",NONSTOP,LOWEST,421,43,0,0,0,0,BOG,Bogota,,Colombia,35
+MCO,BOG,"2017-11-29 07:11:00",NONSTOP,POINTS,421,43,32900,21,0,0,BOG,Bogota,,Colombia,35
+SJU,JFK,"2017-11-29 07:11:00",NONSTOP,LOWEST,478,28,0,0,1,0,JFK,"New York City","New York","United States",2
+SJU,JFK,"2017-11-29 07:11:00",NONSTOP,POINTS,478,28,42900,6,1,0,JFK,"New York City","New York","United States",2
+BOS,RIC,"2017-11-29 07:11:00",NONSTOP,LOWEST,231,29,0,0,1,0,RIC,Richmond,Virginia,"United States",36
+BOS,RIC,"2017-11-29 07:11:00",NONSTOP,POINTS,231,29,18900,6,1,0,RIC,Richmond,Virginia,"United States",36
+BOS,EWR,"2017-11-29 07:11:00",NONSTOP,LOWEST,213,28,0,0,1,0,EWR,Newark,"New Jersey","United States",2
+BOS,EWR,"2017-11-29 07:11:00",NONSTOP,POINTS,174,25,11900,6,1,1,EWR,Newark,"New Jersey","United States",2
+BNA,BOS,"2017-11-29 07:11:00",NONSTOP,LOWEST,229,29,0,0,1,0,BOS,Boston,Massachusetts,"United States",20
+BNA,BOS,"2017-11-29 07:11:00",NONSTOP,POINTS,229,29,17200,6,1,0,BOS,Boston,Massachusetts,"United States",20
+MCO,SYR,"2017-11-29 07:11:00",NONSTOP,LOWEST,318,35,0,0,1,0,SYR,Syracuse,"New York","United States",24
+MCO,SYR,"2017-11-29 07:11:00",NONSTOP,POINTS,305,35,23300,6,1,1,SYR,Syracuse,"New York","United States",24
+DCA,MCO,"2017-11-29 07:11:00",NONSTOP,LOWEST,316,35,0,0,1,0,MCO,Orlando,Florida,"United States",37
+DCA,MCO,"2017-11-29 07:11:00",NONSTOP,POINTS,316,35,31800,6,1,0,MCO,Orlando,Florida,"United States",37
+TPA,EWR,"2017-11-29 07:11:00",NONSTOP,LOWEST,281,33,0,0,1,0,EWR,Newark,"New Jersey","United States",2
+TPA,EWR,"2017-11-29 07:11:00",NONSTOP,POINTS,281,33,19800,6,1,0,EWR,Newark,"New Jersey","United States",2
+FLL,CLE,"2017-11-29 07:11:00",NONSTOP,LOWEST,153,24,0,0,1,0,CLE,Cleveland,Ohio,"United States",1
+FLL,CLE,"2017-11-29 07:11:00",NONSTOP,POINTS,153,24,10300,6,1,0,CLE,Cleveland,Ohio,"United States",1
+FLL,UIO,"2017-11-29 07:11:00",NONSTOP,LOWEST,287,38,0,0,0,0,UIO,Quito,,Ecuador,26
+FLL,UIO,"2017-11-29 07:11:00",NONSTOP,POINTS,287,38,18500,16,0,0,UIO,Quito,,Ecuador,26
+SWF,FLL,"2017-11-29 07:11:00",NONSTOP,LOWEST,320,36,0,0,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+SWF,FLL,"2017-11-29 07:11:00",NONSTOP,POINTS,300,34,22900,6,1,1,FLL,"Fort Lauderdale",Florida,"United States",36
+BOS,LGA,"2017-11-29 07:11:00",NONSTOP,LOWEST,213,28,0,0,1,0,LGA,"New York City","New York","United States",36
+BOS,LGA,"2017-11-29 07:11:00",NONSTOP,POINTS,174,25,11900,6,1,1,LGA,"New York City","New York","United States",36
+FLL,DCA,"2017-11-29 07:11:00",NONSTOP,LOWEST,196,27,0,0,1,0,DCA,Washington," DC",Washington,1
+FLL,DCA,"2017-11-29 07:11:00",NONSTOP,POINTS,196,27,14600,6,1,0,DCA,Washington," DC",Washington,1
+BOS,TPA,"2017-11-29 07:11:00",NONSTOP,LOWEST,363,39,0,0,1,0,TPA,"Tampa Bay",Florida,"United States",6
+BOS,TPA,"2017-11-29 07:11:00",NONSTOP,POINTS,363,39,33300,6,1,0,TPA,"Tampa Bay",Florida,"United States",6
+BOS,JFK,"2017-11-29 07:11:00",NONSTOP,LOWEST,213,28,0,0,1,0,JFK,"New York City","New York","United States",2
+BOS,JFK,"2017-11-29 07:11:00",NONSTOP,POINTS,174,25,11900,6,1,1,JFK,"New York City","New York","United States",2
+STI,EWR,"2017-11-29 07:11:00",NONSTOP,LOWEST,275,115,0,0,0,0,EWR,Newark,"New Jersey","United States",2
+STI,EWR,"2017-11-29 07:11:00",NONSTOP,POINTS,275,115,11900,62,0,0,EWR,Newark,"New Jersey","United States",2
+ORD,BOS,"2017-11-29 07:11:00",NONSTOP,LOWEST,157,24,0,0,1,0,BOS,Boston,Massachusetts,"United States",20
+ORD,BOS,"2017-11-29 07:11:00",NONSTOP,POINTS,157,24,10600,6,1,0,BOS,Boston,Massachusetts,"United States",20
+LGB,PDX,"2017-11-29 07:11:00",NONSTOP,LOWEST,133,23,0,0,1,0,PDX,Portland,Oregon,"United States",33
+LGB,PDX,"2017-11-29 07:11:00",NONSTOP,POINTS,133,23,8900,6,1,0,PDX,Portland,Oregon,"United States",33
+PIT,BOS,"2017-11-29 07:11:00",NONSTOP,LOWEST,83,19,0,0,1,0,BOS,Boston,Massachusetts,"United States",20
+PIT,BOS,"2017-11-29 07:11:00",NONSTOP,POINTS,83,19,5200,6,1,0,BOS,Boston,Massachusetts,"United States",20
+RSW,JFK,"2017-11-29 07:11:00",NONSTOP,LOWEST,369,39,0,0,1,0,JFK,"New York City","New York","United States",2
+RSW,JFK,"2017-11-29 07:11:00",NONSTOP,POINTS,318,35,26500,6,1,1,JFK,"New York City","New York","United States",2
+JAX,JFK,"2017-11-29 07:11:00",NONSTOP,LOWEST,291,34,0,0,1,0,JFK,"New York City","New York","United States",2
+JAX,JFK,"2017-11-29 07:11:00",NONSTOP,POINTS,268,32,20400,6,1,1,JFK,"New York City","New York","United States",2
+PBI,BOS,"2017-11-29 07:11:00",NONSTOP,LOWEST,78,19,0,0,1,0,BOS,Boston,Massachusetts,"United States",20
+PBI,BOS,"2017-11-29 07:11:00",NONSTOP,POINTS,78,19,4800,6,1,0,BOS,Boston,Massachusetts,"United States",20
+MCO,AUS,"2017-11-29 07:11:00",NONSTOP,LOWEST,394,41,0,0,1,0,AUS,Austin,Texas,"United States",18
+MCO,AUS,"2017-11-29 07:11:00",NONSTOP,POINTS,310,35,23700,6,1,1,AUS,Austin,Texas,"United States",18
+BOS,BUF,"2017-11-29 08:11:00",NONSTOP,LOWEST,83,19,0,0,1,0,BUF,Buffalo,"New York","United States",29
+BOS,BUF,"2017-11-29 08:11:00",NONSTOP,POINTS,83,19,5200,6,1,0,BUF,Buffalo,"New York","United States",29
+DCA,FLL,"2017-11-29 08:11:00",NONSTOP,LOWEST,426,43,0,0,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+DCA,FLL,"2017-11-29 08:11:00",NONSTOP,POINTS,426,43,43400,6,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+JAX,FLL,"2017-11-29 08:11:00",NONSTOP,LOWEST,212,28,0,0,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+JAX,FLL,"2017-11-29 08:11:00",NONSTOP,POINTS,212,28,17200,6,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+RSW,BOS,"2017-11-29 08:11:00",NONSTOP,LOWEST,78,19,0,0,1,0,BOS,Boston,Massachusetts,"United States",20
+RSW,BOS,"2017-11-29 08:11:00",NONSTOP,POINTS,78,19,4800,6,1,0,BOS,Boston,Massachusetts,"United States",20
+SDQ,SJU,"2017-11-29 08:11:00",NONSTOP,LOWEST,516,136,0,0,0,0,SJU,"San Juan","Puerto Rico","United States",20
+SDQ,SJU,"2017-11-29 08:11:00",NONSTOP,POINTS,516,136,42300,62,0,0,SJU,"San Juan","Puerto Rico","United States",20
+JFK,DEN,"2017-11-29 08:11:00",NONSTOP,LOWEST,228,29,0,0,1,0,DEN,Denver,Colorado,"United States",34
+JFK,DEN,"2017-11-29 08:11:00",NONSTOP,POINTS,228,29,17200,6,1,0,DEN,Denver,Colorado,"United States",34
+BOS,DTW,"2017-11-29 08:11:00",NONSTOP,LOWEST,205,28,0,0,1,0,DTW,Detroit,Michigan,"United States",5
+BOS,DTW,"2017-11-29 08:11:00",NONSTOP,POINTS,205,28,15300,6,1,0,DTW,Detroit,Michigan,"United States",5
+EWR,RSW,"2017-11-29 08:11:00",NONSTOP,LOWEST,168,25,0,0,1,0,RSW,"Fort Myers",Florida,"United States",20
+EWR,RSW,"2017-11-29 08:11:00",NONSTOP,POINTS,168,25,11500,6,1,0,RSW,"Fort Myers",Florida,"United States",20
+BOS,FLL,"2017-11-29 08:11:00",NONSTOP,LOWEST,128,22,0,0,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+BOS,FLL,"2017-11-29 08:11:00",NONSTOP,POINTS,128,22,8500,6,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+RDU,JFK,"2017-11-29 08:11:00",NONSTOP,LOWEST,254,31,0,0,1,0,JFK,"New York City","New York","United States",2
+RDU,JFK,"2017-11-29 08:11:00",NONSTOP,POINTS,254,31,20900,6,1,0,JFK,"New York City","New York","United States",2
+FLL,SYR,"2017-11-29 08:11:00",NONSTOP,LOWEST,325,36,0,0,1,0,SYR,Syracuse,"New York","United States",24
+FLL,SYR,"2017-11-29 08:11:00",NONSTOP,POINTS,325,36,27100,6,1,0,SYR,Syracuse,"New York","United States",24
+JFK,JAX,"2017-11-29 08:11:00",NONSTOP,LOWEST,291,34,0,0,1,0,JAX,Jacksonville,Florida,"United States",31
+JFK,JAX,"2017-11-29 08:11:00",NONSTOP,POINTS,268,32,20400,6,1,1,JAX,Jacksonville,Florida,"United States",31
+SDQ,JFK,"2017-11-29 08:11:00",NONSTOP,LOWEST,275,115,0,0,0,0,JFK,"New York City","New York","United States",2
+SDQ,JFK,"2017-11-29 08:11:00",NONSTOP,POINTS,275,115,11900,62,0,0,JFK,"New York City","New York","United States",2
+BOS,PBI,"2017-11-29 08:11:00",NONSTOP,LOWEST,128,22,0,0,1,0,PBI,"West Palm Beach",Florida,"United States",10
+BOS,PBI,"2017-11-29 08:11:00",NONSTOP,POINTS,128,22,8500,6,1,0,PBI,"West Palm Beach",Florida,"United States",10
+JFK,BOS,"2017-11-29 08:11:00",NONSTOP,LOWEST,213,28,0,0,1,0,BOS,Boston,Massachusetts,"United States",20
+JFK,BOS,"2017-11-29 08:11:00",NONSTOP,POINTS,174,25,11900,6,1,1,BOS,Boston,Massachusetts,"United States",20
+MCO,PVD,"2017-11-29 08:11:00",NONSTOP,LOWEST,168,25,0,0,1,0,PVD,Providence,"Rhode Island","United States",13
+MCO,PVD,"2017-11-29 08:11:00",NONSTOP,POINTS,168,25,11500,6,1,0,PVD,Providence,"Rhode Island","United States",13
+BOS,DCA,"2017-11-29 08:11:00",NONSTOP,LOWEST,298,34,0,0,1,0,DCA,Washington," DC",Washington,1
+BOS,DCA,"2017-11-29 08:11:00",NONSTOP,POINTS,242,30,19900,6,1,1,DCA,Washington," DC",Washington,1
+IAD,JFK,"2017-11-29 08:11:00",NONSTOP,LOWEST,216,28,0,0,1,0,JFK,"New York City","New York","United States",2
+IAD,JFK,"2017-11-29 08:11:00",NONSTOP,POINTS,216,28,17600,6,1,0,JFK,"New York City","New York","United States",2
+FLL,PIT,"2017-11-29 08:11:00",NONSTOP,LOWEST,193,27,0,0,1,0,PIT,Pittsburgh,Pennsylvania,"United States",18
+FLL,PIT,"2017-11-29 08:11:00",NONSTOP,POINTS,193,27,14400,6,1,0,PIT,Pittsburgh,Pennsylvania,"United States",18
+BUF,JFK,"2017-11-29 08:11:00",NONSTOP,LOWEST,98,20,0,0,1,0,JFK,"New York City","New York","United States",2
+BUF,JFK,"2017-11-29 08:11:00",NONSTOP,POINTS,98,20,6300,6,1,0,JFK,"New York City","New York","United States",2
+FLL,PHL,"2017-11-29 08:11:00",NONSTOP,LOWEST,74,18,0,0,1,0,PHL,Philadelphia,Pennsylvania,"United States",27
+FLL,PHL,"2017-11-29 08:11:00",NONSTOP,POINTS,74,18,4500,6,1,0,PHL,Philadelphia,Pennsylvania,"United States",27
+BOS,RDU,"2017-11-29 08:11:00",NONSTOP,LOWEST,278,33,0,0,1,0,RDU,Raleigh-Durham,"North Carolina","United States",12
+BOS,RDU,"2017-11-29 08:11:00",NONSTOP,POINTS,278,33,19600,6,1,0,RDU,Raleigh-Durham,"North Carolina","United States",12
+BOS,JAX,"2017-11-29 08:11:00",NONSTOP,LOWEST,78,19,0,0,1,0,JAX,Jacksonville,Florida,"United States",31
+BOS,JAX,"2017-11-29 08:11:00",NONSTOP,POINTS,78,19,4800,6,1,0,JAX,Jacksonville,Florida,"United States",31
+JFK,RSW,"2017-11-29 08:11:00",NONSTOP,LOWEST,369,39,0,0,1,0,RSW,"Fort Myers",Florida,"United States",20
+JFK,RSW,"2017-11-29 08:11:00",NONSTOP,POINTS,318,35,26500,6,1,1,RSW,"Fort Myers",Florida,"United States",20
+BOS,PIT,"2017-11-29 08:11:00",NONSTOP,LOWEST,83,19,0,0,1,0,PIT,Pittsburgh,Pennsylvania,"United States",18
+BOS,PIT,"2017-11-29 08:11:00",NONSTOP,POINTS,83,19,5200,6,1,0,PIT,Pittsburgh,Pennsylvania,"United States",18
+FLL,BOS,"2017-11-29 08:11:00",NONSTOP,LOWEST,78,19,0,0,1,0,BOS,Boston,Massachusetts,"United States",20
+FLL,BOS,"2017-11-29 08:11:00",NONSTOP,POINTS,78,19,4800,6,1,0,BOS,Boston,Massachusetts,"United States",20
+FLL,ORD,"2017-11-29 08:11:00",NONSTOP,LOWEST,165,25,0,0,1,0,ORD,Chicago,Illinois,"United States",37
+FLL,ORD,"2017-11-29 08:11:00",NONSTOP,POINTS,165,25,11200,6,1,0,ORD,Chicago,Illinois,"United States",37
+BOS,BWI,"2017-11-29 08:11:00",NONSTOP,LOWEST,76,19,0,0,1,0,BWI,Baltimore,Maryland,"United States",34
+BOS,BWI,"2017-11-29 08:11:00",NONSTOP,POINTS,76,19,4600,6,1,0,BWI,Baltimore,Maryland,"United States",34
+FLL,DTW,"2017-11-29 08:11:00",NONSTOP,LOWEST,178,26,0,0,1,0,DTW,Detroit,Michigan,"United States",5
+FLL,DTW,"2017-11-29 08:11:00",NONSTOP,POINTS,178,26,13200,6,1,0,DTW,Detroit,Michigan,"United States",5
+JFK,PDX,"2017-11-29 08:11:00",NONSTOP,LOWEST,607,56,0,0,1,0,PDX,Portland,Oregon,"United States",33
+JFK,PDX,"2017-11-29 08:11:00",NONSTOP,POINTS,504,48,42700,6,1,1,PDX,Portland,Oregon,"United States",33
+JFK,SLC,"2017-11-29 08:11:00",NONSTOP,LOWEST,198,27,0,0,1,0,SLC,"Salt Lake City",Utah,"United States",5
+JFK,SLC,"2017-11-29 08:11:00",NONSTOP,POINTS,198,27,13700,6,1,0,SLC,"Salt Lake City",Utah,"United States",5
+JFK,OAK,"2017-11-29 08:11:00",NONSTOP,LOWEST,448,44,0,0,1,0,OAK,Oakland,California,"United States",3
+JFK,OAK,"2017-11-29 08:11:00",NONSTOP,POINTS,448,44,45700,6,1,0,OAK,Oakland,California,"United States",3
+BOS,ATL,"2017-11-29 09:11:00",NONSTOP,LOWEST,221,29,0,0,1,0,ATL,Atlanta,Georgia,"United States",34
+BOS,ATL,"2017-11-29 09:11:00",NONSTOP,POINTS,221,29,18000,6,1,0,ATL,Atlanta,Georgia,"United States",34
+BOS,RSW,"2017-11-29 09:11:00",NONSTOP,LOWEST,78,19,0,0,1,0,RSW,"Fort Myers",Florida,"United States",20
+BOS,RSW,"2017-11-29 09:11:00",NONSTOP,POINTS,78,19,4800,6,1,0,RSW,"Fort Myers",Florida,"United States",20
+EWR,FLL,"2017-11-29 09:11:00",NONSTOP,LOWEST,148,24,0,0,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+EWR,FLL,"2017-11-29 09:11:00",NONSTOP,POINTS,148,24,10000,6,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+FLL,BWI,"2017-11-29 09:11:00",NONSTOP,LOWEST,218,28,0,0,1,0,BWI,Baltimore,Maryland,"United States",34
+FLL,BWI,"2017-11-29 09:11:00",NONSTOP,POINTS,218,28,19500,6,1,0,BWI,Baltimore,Maryland,"United States",34
+HPN,PBI,"2017-11-29 09:11:00",NONSTOP,LOWEST,349,38,0,0,1,0,PBI,"West Palm Beach",Florida,"United States",10
+HPN,PBI,"2017-11-29 09:11:00",NONSTOP,POINTS,349,38,26800,6,1,0,PBI,"West Palm Beach",Florida,"United States",10
+LGA,MCO,"2017-11-29 09:11:00",NONSTOP,LOWEST,245,30,0,0,1,0,MCO,Orlando,Florida,"United States",37
+LGA,MCO,"2017-11-29 09:11:00",NONSTOP,POINTS,245,30,17200,6,1,0,MCO,Orlando,Florida,"United States",37
+PHL,BOS,"2017-11-29 09:11:00",NONSTOP,LOWEST,218,28,0,0,1,0,BOS,Boston,Massachusetts,"United States",20
+PHL,BOS,"2017-11-29 09:11:00",NONSTOP,POINTS,218,28,19500,6,1,0,BOS,Boston,Massachusetts,"United States",20
+RSW,EWR,"2017-11-29 09:11:00",NONSTOP,LOWEST,168,25,0,0,1,0,EWR,Newark,"New Jersey","United States",2
+RSW,EWR,"2017-11-29 09:11:00",NONSTOP,POINTS,168,25,11500,6,1,0,EWR,Newark,"New Jersey","United States",2
+JFK,KIN,"2017-11-29 09:11:00",NONSTOP,LOWEST,539,72,0,0,0,0,KIN,Kingston,,Jamaica,33
+JFK,KIN,"2017-11-29 09:11:00",NONSTOP,POINTS,539,72,49200,50,0,0,KIN,Kingston,,Jamaica,33
+LAX,FLL,"2017-11-29 09:11:00",NONSTOP,LOWEST,195,27,0,0,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+LAX,FLL,"2017-11-29 09:11:00",NONSTOP,POINTS,195,27,13500,6,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+JFK,AUS,"2017-11-29 09:11:00",NONSTOP,LOWEST,338,37,0,0,1,0,AUS,Austin,Texas,"United States",18
+JFK,AUS,"2017-11-29 09:11:00",NONSTOP,POINTS,338,37,28200,6,1,0,AUS,Austin,Texas,"United States",18
+BOS,PHL,"2017-11-29 09:11:00",NONSTOP,LOWEST,83,19,0,0,1,0,PHL,Philadelphia,Pennsylvania,"United States",27
+BOS,PHL,"2017-11-29 09:11:00",NONSTOP,POINTS,83,19,5200,6,1,0,PHL,Philadelphia,Pennsylvania,"United States",27
+SAN,BOS,"2017-11-29 09:11:00",NONSTOP,LOWEST,585,54,0,0,1,0,BOS,Boston,Massachusetts,"United States",20
+SAN,BOS,"2017-11-29 09:11:00",NONSTOP,POINTS,540,51,45800,6,1,1,BOS,Boston,Massachusetts,"United States",20
+SAN,FLL,"2017-11-29 09:11:00",NONSTOP,LOWEST,395,41,0,0,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+SAN,FLL,"2017-11-29 09:11:00",NONSTOP,POINTS,395,41,33200,6,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+MCO,BDL,"2017-11-29 09:11:00",NONSTOP,LOWEST,184,26,0,0,1,0,BDL,Hartford,Connecticut,"United States",17
+MCO,BDL,"2017-11-29 09:11:00",NONSTOP,POINTS,184,26,12600,6,1,0,BDL,Hartford,Connecticut,"United States",17
+LGB,FLL,"2017-11-29 09:11:00",NONSTOP,LOWEST,256,31,0,0,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+LGB,FLL,"2017-11-29 09:11:00",NONSTOP,POINTS,256,31,18000,6,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+LGB,BOS,"2017-11-29 09:11:00",NONSTOP,LOWEST,328,36,0,0,1,0,BOS,Boston,Massachusetts,"United States",20
+LGB,BOS,"2017-11-29 09:11:00",NONSTOP,POINTS,328,36,27400,6,1,0,BOS,Boston,Massachusetts,"United States",20
+SAN,JFK,"2017-11-29 09:11:00",NONSTOP,LOWEST,450,45,0,0,1,0,JFK,"New York City","New York","United States",2
+SAN,JFK,"2017-11-29 09:11:00",NONSTOP,POINTS,450,45,38000,6,1,0,JFK,"New York City","New York","United States",2
+BOS,CLE,"2017-11-29 09:11:00",NONSTOP,LOWEST,183,26,0,0,1,0,CLE,Cleveland,Ohio,"United States",1
+BOS,CLE,"2017-11-29 09:11:00",NONSTOP,POINTS,183,26,14700,6,1,0,CLE,Cleveland,Ohio,"United States",1
+BUR,JFK,"2017-11-29 09:11:00",NONSTOP,LOWEST,807,68,0,0,1,0,JFK,"New York City","New York","United States",2
+BUR,JFK,"2017-11-29 09:11:00",NONSTOP,POINTS,807,68,88300,6,1,0,JFK,"New York City","New York","United States",2
+LGA,FLL,"2017-11-29 09:11:00",NONSTOP,LOWEST,113,21,0,0,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+LGA,FLL,"2017-11-29 09:11:00",NONSTOP,POINTS,113,21,7400,6,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+JFK,IAD,"2017-11-29 09:11:00",NONSTOP,LOWEST,216,28,0,0,1,0,IAD,Washington," DC",Washington,19
+JFK,IAD,"2017-11-29 09:11:00",NONSTOP,POINTS,216,28,17600,6,1,0,IAD,Washington," DC",Washington,19
+EWR,BOS,"2017-11-29 09:11:00",NONSTOP,POINTS,174,25,11900,6,1,1,BOS,Boston,Massachusetts,"United States",20
+FLL,MDE,"2017-11-29 09:11:00",NONSTOP,LOWEST,558,43,0,0,0,0,MDE,Medellin,,Colombia,37
+FLL,MDE,"2017-11-29 09:11:00",NONSTOP,POINTS,558,43,54300,21,0,0,MDE,Medellin,,Colombia,37
+MCO,SDQ,"2017-11-29 09:11:00",NONSTOP,LOWEST,373,59,0,0,0,0,SDQ,"Santo Domingo",,"Dominican Republic",23
+MCO,SDQ,"2017-11-29 09:11:00",NONSTOP,POINTS,373,59,23300,37,0,0,SDQ,"Santo Domingo",,"Dominican Republic",23
+LAS,JFK,"2017-11-29 09:11:00",NONSTOP,LOWEST,473,46,0,0,1,0,JFK,"New York City","New York","United States",2
+LAS,JFK,"2017-11-29 09:11:00",NONSTOP,POINTS,473,46,43800,6,1,0,JFK,"New York City","New York","United States",2
+FLL,RDU,"2017-11-29 09:11:00",NONSTOP,LOWEST,181,26,0,0,1,0,RDU,Raleigh-Durham,"North Carolina","United States",12
+FLL,RDU,"2017-11-29 09:11:00",NONSTOP,POINTS,181,26,12400,6,1,0,RDU,Raleigh-Durham,"North Carolina","United States",12
+JFK,LAX,"2017-11-29 09:11:00",NONSTOP,LOWEST,471,46,0,0,1,0,LAX,"Los Angeles",California,"United States",26
+JFK,LAX,"2017-11-29 09:11:00",NONSTOP,POINTS,471,46,43600,6,1,0,LAX,"Los Angeles",California,"United States",26
+SJU,MCO,"2017-11-29 09:11:00",NONSTOP,LOWEST,512,28,0,0,1,0,MCO,Orlando,Florida,"United States",37
+SJU,MCO,"2017-11-29 09:11:00",NONSTOP,POINTS,512,28,53800,6,1,0,MCO,Orlando,Florida,"United States",37
+BOS,SDQ,"2017-11-29 09:11:00",NONSTOP,LOWEST,565,59,0,0,0,0,SDQ,"Santo Domingo",,"Dominican Republic",23
+BOS,SDQ,"2017-11-29 09:11:00",NONSTOP,POINTS,565,59,53300,37,0,0,SDQ,"Santo Domingo",,"Dominican Republic",23
+OAK,JFK,"2017-11-29 10:11:00",NONSTOP,LOWEST,698,62,0,0,1,0,JFK,"New York City","New York","United States",2
+OAK,JFK,"2017-11-29 10:11:00",NONSTOP,POINTS,698,62,76000,6,1,0,JFK,"New York City","New York","United States",2
+FLL,JFK,"2017-11-29 10:11:00",NONSTOP,LOWEST,113,21,0,0,1,0,JFK,"New York City","New York","United States",2
+FLL,JFK,"2017-11-29 10:11:00",NONSTOP,POINTS,113,21,7400,6,1,0,JFK,"New York City","New York","United States",2
+SJU,FLL,"2017-11-29 10:11:00",NONSTOP,LOWEST,324,28,0,0,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+SJU,FLL,"2017-11-29 10:11:00",NONSTOP,POINTS,324,28,28200,6,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+LAX,MCO,"2017-11-29 10:11:00",NONSTOP,LOWEST,218,28,0,0,1,0,MCO,Orlando,Florida,"United States",37
+LAX,MCO,"2017-11-29 10:11:00",NONSTOP,POINTS,218,28,15200,6,1,0,MCO,Orlando,Florida,"United States",37
+SFO,FLL,"2017-11-29 10:11:00",NONSTOP,LOWEST,334,37,0,0,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+SFO,FLL,"2017-11-29 10:11:00",NONSTOP,POINTS,334,37,25600,6,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+DEN,BOS,"2017-11-29 10:11:00",NONSTOP,LOWEST,301,34,0,0,1,0,BOS,Boston,Massachusetts,"United States",20
+DEN,BOS,"2017-11-29 10:11:00",NONSTOP,POINTS,301,34,21300,6,1,0,BOS,Boston,Massachusetts,"United States",20
+LAS,FLL,"2017-11-29 10:11:00",NONSTOP,LOWEST,210,28,0,0,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+LAS,FLL,"2017-11-29 10:11:00",NONSTOP,POINTS,210,28,14600,6,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+JFK,PBI,"2017-11-29 10:11:00",NONSTOP,LOWEST,196,27,0,0,1,0,PBI,"West Palm Beach",Florida,"United States",10
+JFK,PBI,"2017-11-29 10:11:00",NONSTOP,POINTS,196,27,13500,6,1,0,PBI,"West Palm Beach",Florida,"United States",10
+JFK,BTV,"2017-11-29 10:11:00",NONSTOP,LOWEST,203,27,0,0,1,0,BTV,Burington,Virginia,"United States",5
+JFK,BTV,"2017-11-29 10:11:00",NONSTOP,POINTS,203,27,15200,6,1,0,BTV,Burington,Virginia,"United States",5
+JFK,PWM,"2017-11-29 10:11:00",NONSTOP,LOWEST,98,20,0,0,1,0,PWM,Portland,Maine,"United States",22
+JFK,PWM,"2017-11-29 10:11:00",NONSTOP,POINTS,98,20,6300,6,1,0,PWM,Portland,Maine,"United States",22
+JFK,ROC,"2017-11-29 10:11:00",NONSTOP,LOWEST,173,25,0,0,1,0,ROC,Rochester,"New York","United States",6
+JFK,ROC,"2017-11-29 10:11:00",NONSTOP,POINTS,173,25,12800,6,1,0,ROC,Rochester,"New York","United States",6
+JFK,BUF,"2017-11-29 10:11:00",NONSTOP,LOWEST,98,20,0,0,1,0,BUF,Buffalo,"New York","United States",29
+JFK,BUF,"2017-11-29 10:11:00",NONSTOP,POINTS,98,20,6300,6,1,0,BUF,Buffalo,"New York","United States",29
+PSP,JFK,"2017-11-29 10:11:00",NONSTOP,LOWEST,313,35,0,0,1,0,JFK,"New York City","New York","United States",2
+PSP,JFK,"2017-11-29 10:11:00",NONSTOP,POINTS,313,35,26000,6,1,0,JFK,"New York City","New York","United States",2
+SLC,JFK,"2017-11-29 10:11:00",NONSTOP,LOWEST,198,27,0,0,1,0,JFK,"New York City","New York","United States",2
+SLC,JFK,"2017-11-29 10:11:00",NONSTOP,POINTS,198,27,13700,6,1,0,JFK,"New York City","New York","United States",2
+PHX,JFK,"2017-11-29 10:11:00",NONSTOP,LOWEST,405,41,0,0,1,0,JFK,"New York City","New York","United States",2
+PHX,JFK,"2017-11-29 10:11:00",NONSTOP,POINTS,405,41,34000,6,1,0,JFK,"New York City","New York","United States",2
+SLC,MCO,"2017-11-29 10:11:00",NONSTOP,LOWEST,198,27,0,0,1,0,MCO,Orlando,Florida,"United States",37
+SLC,MCO,"2017-11-29 10:11:00",NONSTOP,POINTS,198,27,13700,6,1,0,MCO,Orlando,Florida,"United States",37
+SEA,JFK,"2017-11-29 10:11:00",NONSTOP,LOWEST,325,36,0,0,1,0,JFK,"New York City","New York","United States",2
+SEA,JFK,"2017-11-29 10:11:00",NONSTOP,POINTS,325,36,27100,6,1,0,JFK,"New York City","New York","United States",2
+JFK,SYR,"2017-11-29 10:11:00",NONSTOP,LOWEST,98,20,0,0,1,0,SYR,Syracuse,"New York","United States",24
+JFK,SYR,"2017-11-29 10:11:00",NONSTOP,POINTS,98,20,6300,6,1,0,SYR,Syracuse,"New York","United States",24
+PDX,JFK,"2017-11-29 10:11:00",NONSTOP,LOWEST,607,56,0,0,1,0,JFK,"New York City","New York","United States",2
+PDX,JFK,"2017-11-29 10:11:00",NONSTOP,POINTS,504,48,42700,6,1,1,JFK,"New York City","New York","United States",2
+SJC,BOS,"2017-11-29 11:11:00",NONSTOP,LOWEST,489,47,0,0,1,0,BOS,Boston,Massachusetts,"United States",20
+SJC,BOS,"2017-11-29 11:11:00",NONSTOP,POINTS,489,47,50000,6,1,0,BOS,Boston,Massachusetts,"United States",20
+SMF,JFK,"2017-11-29 11:11:00",NONSTOP,LOWEST,525,50,0,0,1,0,JFK,"New York City","New York","United States",2
+SMF,JFK,"2017-11-29 11:11:00",NONSTOP,POINTS,525,50,53800,6,1,0,JFK,"New York City","New York","United States",2
+STI,JFK,"2017-11-29 11:11:00",NONSTOP,LOWEST,292,117,0,0,0,0,JFK,"New York City","New York","United States",2
+STI,JFK,"2017-11-29 11:11:00",NONSTOP,POINTS,292,117,13000,62,0,0,JFK,"New York City","New York","United States",2
+JFK,BQN,"2017-11-29 11:11:00",NONSTOP,LOWEST,333,28,0,0,1,0,BQN,Aguadilla,"Puerto Rico","United States",33
+JFK,BQN,"2017-11-29 11:11:00",NONSTOP,POINTS,333,28,24400,6,1,0,BQN,Aguadilla,"Puerto Rico","United States",33
+JFK,STI,"2017-11-29 11:11:00",NONSTOP,LOWEST,357,59,0,0,0,0,STI,Santiago,,"Dominican Republic",15
+JFK,STI,"2017-11-29 11:11:00",NONSTOP,POINTS,357,59,22100,37,0,0,STI,Santiago,,"Dominican Republic",15
+DEN,JFK,"2017-11-29 11:11:00",NONSTOP,LOWEST,228,29,0,0,1,0,JFK,"New York City","New York","United States",2
+DEN,JFK,"2017-11-29 11:11:00",NONSTOP,POINTS,228,29,17200,6,1,0,JFK,"New York City","New York","United States",2
+JFK,SDQ,"2017-11-29 11:11:00",NONSTOP,LOWEST,322,59,0,0,0,0,SDQ,"Santo Domingo",,"Dominican Republic",23
+JFK,SDQ,"2017-11-29 11:11:00",NONSTOP,POINTS,322,59,19500,37,0,0,SDQ,"Santo Domingo",,"Dominican Republic",23
+JFK,PSE,"2017-11-29 11:11:00",NONSTOP,LOWEST,286,28,0,0,1,0,PSE,Ponce,"Puerto Rico","United States",20
+JFK,PSE,"2017-11-29 11:11:00",NONSTOP,POINTS,286,28,19200,6,1,0,PSE,Ponce,"Puerto Rico","United States",20
+PHX,BOS,"2017-11-29 11:11:00",NONSTOP,LOWEST,377,40,0,0,1,0,BOS,Boston,Massachusetts,"United States",20
+PHX,BOS,"2017-11-29 11:11:00",NONSTOP,POINTS,377,40,26900,6,1,0,BOS,Boston,Massachusetts,"United States",20
+LIM,FLL,"2017-11-29 11:11:00",NONSTOP,LOWEST,476,128,0,0,0,0,FLL,"Fort Lauderdale",Florida,"United States",36
+LIM,FLL,"2017-11-29 11:11:00",NONSTOP,POINTS,476,128,25800,104,0,0,FLL,"Fort Lauderdale",Florida,"United States",36
+UIO,FLL,"2017-11-30 12:11:00",NONSTOP,LOWEST,378,172,0,0,0,0,FLL,"Fort Lauderdale",Florida,"United States",36
+UIO,FLL,"2017-11-30 12:11:00",NONSTOP,POINTS,378,172,15300,148,0,0,FLL,"Fort Lauderdale",Florida,"United States",36
+MDE,FLL,"2017-11-30 01:11:00",NONSTOP,LOWEST,257,127,0,0,0,0,FLL,"Fort Lauderdale",Florida,"United States",36
+MDE,FLL,"2017-11-30 01:11:00",NONSTOP,POINTS,257,127,9700,79,0,0,FLL,"Fort Lauderdale",Florida,"United States",36
+KIN,JFK,"2017-11-30 02:11:00",NONSTOP,LOWEST,310,116,0,0,0,0,JFK,"New York City","New York","United States",2
+KIN,JFK,"2017-11-30 02:11:00",NONSTOP,POINTS,310,116,14400,88,0,0,JFK,"New York City","New York","United States",2
+PSE,MCO,"2017-11-30 03:11:00",NONSTOP,LOWEST,329,24,0,0,1,0,MCO,Orlando,Florida,"United States",37
+PSE,MCO,"2017-11-30 03:11:00",NONSTOP,POINTS,329,24,32200,6,1,0,MCO,Orlando,Florida,"United States",37
+SDQ,BOS,"2017-11-30 04:11:00",NONSTOP,LOWEST,441,140,0,0,0,0,BOS,Boston,Massachusetts,"United States",20
+SDQ,BOS,"2017-11-30 04:11:00",NONSTOP,POINTS,441,140,22300,62,0,0,BOS,Boston,Massachusetts,"United States",20
+BUF,JFK,"2017-11-30 05:11:00",NONSTOP,LOWEST,178,26,0,0,1,0,JFK,"New York City","New York","United States",2
+BUF,JFK,"2017-11-30 05:11:00",NONSTOP,POINTS,178,26,13200,6,1,0,JFK,"New York City","New York","United States",2
+MCO,SJU,"2017-11-30 05:11:00",NONSTOP,LOWEST,512,28,0,0,1,0,SJU,"San Juan","Puerto Rico","United States",20
+MCO,SJU,"2017-11-30 05:11:00",NONSTOP,POINTS,512,28,53800,6,1,0,SJU,"San Juan","Puerto Rico","United States",20
+BTV,JFK,"2017-11-30 05:11:00",NONSTOP,LOWEST,98,20,0,0,1,0,JFK,"New York City","New York","United States",2
+BTV,JFK,"2017-11-30 05:11:00",NONSTOP,POINTS,98,20,6300,6,1,0,JFK,"New York City","New York","United States",2
+BOS,JFK,"2017-11-30 05:11:00",NONSTOP,LOWEST,213,28,0,0,1,0,JFK,"New York City","New York","United States",2
+BOS,JFK,"2017-11-30 05:11:00",NONSTOP,POINTS,174,25,11900,6,1,1,JFK,"New York City","New York","United States",2
+SYR,JFK,"2017-11-30 05:11:00",NONSTOP,LOWEST,123,22,0,0,1,0,JFK,"New York City","New York","United States",2
+SYR,JFK,"2017-11-30 05:11:00",NONSTOP,POINTS,123,22,8100,6,1,0,JFK,"New York City","New York","United States",2
+ROC,JFK,"2017-11-30 05:11:00",NONSTOP,LOWEST,203,27,0,0,1,0,JFK,"New York City","New York","United States",2
+ROC,JFK,"2017-11-30 05:11:00",NONSTOP,POINTS,203,27,16500,6,1,0,JFK,"New York City","New York","United States",2
+PWM,JFK,"2017-11-30 05:11:00",NONSTOP,LOWEST,98,20,0,0,1,0,JFK,"New York City","New York","United States",2
+PWM,JFK,"2017-11-30 05:11:00",NONSTOP,POINTS,98,20,6300,6,1,0,JFK,"New York City","New York","United States",2
+AUS,JFK,"2017-11-30 05:11:00",NONSTOP,LOWEST,338,37,0,0,1,0,JFK,"New York City","New York","United States",2
+AUS,JFK,"2017-11-30 05:11:00",NONSTOP,POINTS,338,37,28200,6,1,0,JFK,"New York City","New York","United States",2
+EWR,MCO,"2017-11-30 05:11:00",NONSTOP,LOWEST,205,28,0,0,1,0,MCO,Orlando,Florida,"United States",37
+EWR,MCO,"2017-11-30 05:11:00",NONSTOP,POINTS,205,28,14200,6,1,0,MCO,Orlando,Florida,"United States",37
+EWR,BOS,"2017-11-30 05:11:00",NONSTOP,LOWEST,213,28,0,0,1,0,BOS,Boston,Massachusetts,"United States",20
+FLL,SDQ,"2017-11-30 05:11:00",NONSTOP,LOWEST,252,59,0,0,0,0,SDQ,"Santo Domingo",,"Dominican Republic",23
+FLL,SDQ,"2017-11-30 05:11:00",NONSTOP,POINTS,252,59,15500,37,0,0,SDQ,"Santo Domingo",,"Dominican Republic",23
+STI,JFK,"2017-11-30 05:11:00",NONSTOP,LOWEST,275,115,0,0,0,0,JFK,"New York City","New York","United States",2
+STI,JFK,"2017-11-30 05:11:00",NONSTOP,POINTS,275,115,11900,62,0,0,JFK,"New York City","New York","United States",2
+EWR,FLL,"2017-11-30 06:11:00",NONSTOP,LOWEST,148,24,0,0,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+EWR,FLL,"2017-11-30 06:11:00",NONSTOP,POINTS,148,24,10000,6,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+BQN,JFK,"2017-11-30 06:11:00",NONSTOP,LOWEST,508,24,0,0,1,0,JFK,"New York City","New York","United States",2
+BQN,JFK,"2017-11-30 06:11:00",NONSTOP,POINTS,508,24,53800,6,1,0,JFK,"New York City","New York","United States",2
+FLL,JFK,"2017-11-30 06:11:00",NONSTOP,LOWEST,149,24,0,0,1,0,JFK,"New York City","New York","United States",2
+FLL,JFK,"2017-11-30 06:11:00",NONSTOP,POINTS,149,24,10000,6,1,0,JFK,"New York City","New York","United States",2
+LAX,BOS,"2017-11-30 06:11:00",NONSTOP,LOWEST,292,34,0,0,1,0,BOS,Boston,Massachusetts,"United States",20
+LAX,BOS,"2017-11-30 06:11:00",NONSTOP,POINTS,292,34,22300,6,1,0,BOS,Boston,Massachusetts,"United States",20
+PSE,JFK,"2017-11-30 06:11:00",NONSTOP,LOWEST,282,24,0,0,1,0,JFK,"New York City","New York","United States",2
+PSE,JFK,"2017-11-30 06:11:00",NONSTOP,POINTS,282,24,19200,6,1,0,JFK,"New York City","New York","United States",2
+JFK,FLL,"2017-11-30 06:11:00",NONSTOP,LOWEST,175,25,0,0,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+JFK,FLL,"2017-11-30 06:11:00",NONSTOP,POINTS,175,25,12000,6,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+SDQ,JFK,"2017-11-30 06:11:00",NONSTOP,LOWEST,275,115,0,0,0,0,JFK,"New York City","New York","United States",2
+SDQ,JFK,"2017-11-30 06:11:00",NONSTOP,POINTS,275,115,11900,62,0,0,JFK,"New York City","New York","United States",2
+BOS,EWR,"2017-11-30 06:11:00",NONSTOP,LOWEST,213,28,0,0,1,0,EWR,Newark,"New Jersey","United States",2
+BOS,EWR,"2017-11-30 06:11:00",NONSTOP,POINTS,174,25,11900,6,1,1,EWR,Newark,"New Jersey","United States",2
+BOS,PBI,"2017-11-30 06:11:00",NONSTOP,LOWEST,148,24,0,0,1,0,PBI,"West Palm Beach",Florida,"United States",10
+BOS,PBI,"2017-11-30 06:11:00",NONSTOP,POINTS,148,24,10000,6,1,0,PBI,"West Palm Beach",Florida,"United States",10
+FLL,LGA,"2017-11-30 06:11:00",NONSTOP,LOWEST,149,24,0,0,1,0,LGA,"New York City","New York","United States",36
+FLL,LGA,"2017-11-30 06:11:00",NONSTOP,POINTS,149,24,10000,6,1,0,LGA,"New York City","New York","United States",36
+BOS,BWI,"2017-11-30 06:11:00",NONSTOP,LOWEST,76,19,0,0,1,0,BWI,Baltimore,Maryland,"United States",34
+BOS,BWI,"2017-11-30 06:11:00",NONSTOP,POINTS,76,19,4600,6,1,0,BWI,Baltimore,Maryland,"United States",34
+JFK,BUF,"2017-11-30 06:11:00",NONSTOP,LOWEST,178,26,0,0,1,0,BUF,Buffalo,"New York","United States",29
+JFK,BUF,"2017-11-30 06:11:00",NONSTOP,POINTS,178,26,13200,6,1,0,BUF,Buffalo,"New York","United States",29
+PHL,BOS,"2017-11-30 06:11:00",NONSTOP,LOWEST,83,19,0,0,1,0,BOS,Boston,Massachusetts,"United States",20
+PHL,BOS,"2017-11-30 06:11:00",NONSTOP,POINTS,83,19,5200,6,1,0,BOS,Boston,Massachusetts,"United States",20
+BOS,RDU,"2017-11-30 06:11:00",NONSTOP,LOWEST,278,33,0,0,1,0,RDU,Raleigh-Durham,"North Carolina","United States",12
+BOS,RDU,"2017-11-30 06:11:00",NONSTOP,POINTS,278,33,19600,6,1,0,RDU,Raleigh-Durham,"North Carolina","United States",12
+BOS,MCO,"2017-11-30 06:11:00",NONSTOP,LOWEST,128,22,0,0,1,0,MCO,Orlando,Florida,"United States",37
+BOS,MCO,"2017-11-30 06:11:00",NONSTOP,POINTS,128,22,8500,6,1,0,MCO,Orlando,Florida,"United States",37
+JAX,BOS,"2017-11-30 06:11:00",NONSTOP,LOWEST,78,19,0,0,1,0,BOS,Boston,Massachusetts,"United States",20
+JAX,BOS,"2017-11-30 06:11:00",NONSTOP,POINTS,78,19,4800,6,1,0,BOS,Boston,Massachusetts,"United States",20
+HPN,MCO,"2017-11-30 06:11:00",NONSTOP,LOWEST,357,38,0,0,1,0,MCO,Orlando,Florida,"United States",37
+HPN,MCO,"2017-11-30 06:11:00",NONSTOP,POINTS,296,34,22600,6,1,1,MCO,Orlando,Florida,"United States",37
+LGA,BOS,"2017-11-30 06:11:00",NONSTOP,LOWEST,213,28,0,0,1,0,BOS,Boston,Massachusetts,"United States",20
+LGA,BOS,"2017-11-30 06:11:00",NONSTOP,POINTS,174,25,11900,6,1,1,BOS,Boston,Massachusetts,"United States",20
+SJC,LGB,"2017-11-30 06:11:00",NONSTOP,LOWEST,69,18,0,0,1,0,LGB,"Long Beach",California,"United States",29
+SJC,LGB,"2017-11-30 06:11:00",NONSTOP,POINTS,69,18,4100,6,1,0,LGB,"Long Beach",California,"United States",29
+CHS,DCA,"2017-11-30 06:11:00",NONSTOP,LOWEST,179,26,0,0,1,0,DCA,Washington," DC",Washington,1
+CHS,DCA,"2017-11-30 06:11:00",NONSTOP,POINTS,179,26,12300,6,1,0,DCA,Washington," DC",Washington,1
+SYR,FLL,"2017-11-30 06:11:00",NONSTOP,LOWEST,325,36,0,0,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+SYR,FLL,"2017-11-30 06:11:00",NONSTOP,POINTS,325,36,27100,6,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+JFK,MSY,"2017-11-30 06:11:00",NONSTOP,LOWEST,395,41,0,0,1,0,MSY,"New Orleans",Louisiana,"United States",25
+JFK,MSY,"2017-11-30 06:11:00",NONSTOP,POINTS,395,41,36300,6,1,0,MSY,"New Orleans",Louisiana,"United States",25
+DCA,FLL,"2017-11-30 06:11:00",NONSTOP,LOWEST,196,27,0,0,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+DCA,FLL,"2017-11-30 06:11:00",NONSTOP,POINTS,196,27,14600,6,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+EWR,TPA,"2017-11-30 06:11:00",NONSTOP,LOWEST,281,33,0,0,1,0,TPA,"Tampa Bay",Florida,"United States",6
+EWR,TPA,"2017-11-30 06:11:00",NONSTOP,POINTS,281,33,19800,6,1,0,TPA,"Tampa Bay",Florida,"United States",6
+JFK,MBJ,"2017-11-30 06:11:00",NONSTOP,LOWEST,391,72,0,0,0,0,MBJ,"Montego Bay",,Jamaica,11
+JFK,MBJ,"2017-11-30 06:11:00",NONSTOP,POINTS,391,72,25600,50,0,0,MBJ,"Montego Bay",,Jamaica,11
+FLL,MEX,"2017-11-30 06:11:00",NONSTOP,LOWEST,175,55,0,0,0,0,MEX,"Mexico City",,Mexico,30
+FLL,MEX,"2017-11-30 06:11:00",NONSTOP,POINTS,175,55,8900,32,0,0,MEX,"Mexico City",,Mexico,30
+LGB,SJC,"2017-11-30 06:11:00",NONSTOP,LOWEST,69,18,0,0,1,0,SJC,"San Jose",California,"United States",33
+LGB,SJC,"2017-11-30 06:11:00",NONSTOP,POINTS,69,18,4100,6,1,0,SJC,"San Jose",California,"United States",33
+LGB,SFO,"2017-11-30 06:11:00",NONSTOP,LOWEST,69,18,0,0,1,0,SFO,"San Francisco",California,"United States",14
+LGB,SFO,"2017-11-30 06:11:00",NONSTOP,POINTS,69,18,4100,6,1,0,SFO,"San Francisco",California,"United States",14
+LGB,OAK,"2017-11-30 06:11:00",NONSTOP,LOWEST,109,21,0,0,1,0,OAK,Oakland,California,"United States",3
+LGB,OAK,"2017-11-30 06:11:00",NONSTOP,POINTS,109,21,7100,6,1,0,OAK,Oakland,California,"United States",3
+BOS,LAS,"2017-11-30 06:11:00",NONSTOP,LOWEST,370,39,0,0,1,0,LAS,"Las Vegas",Nevada,"United States",24
+BOS,LAS,"2017-11-30 06:11:00",NONSTOP,POINTS,370,39,28500,6,1,0,LAS,"Las Vegas",Nevada,"United States",24
+BOS,LAX,"2017-11-30 07:11:00",NONSTOP,LOWEST,292,34,0,0,1,0,LAX,"Los Angeles",California,"United States",26
+BOS,LAX,"2017-11-30 07:11:00",NONSTOP,POINTS,292,34,22300,6,1,0,LAX,"Los Angeles",California,"United States",26
+BOS,ORD,"2017-11-30 07:11:00",NONSTOP,LOWEST,147,23,0,0,1,0,ORD,Chicago,Illinois,"United States",37
+BOS,ORD,"2017-11-30 07:11:00",NONSTOP,POINTS,147,23,9900,6,1,0,ORD,Chicago,Illinois,"United States",37
+BOS,HOU,"2017-11-30 07:11:00",NONSTOP,LOWEST,279,33,0,0,1,0,HOU,Houston,Texas,"United States",36
+BOS,HOU,"2017-11-30 07:11:00",NONSTOP,POINTS,279,33,23100,6,1,0,HOU,Houston,Texas,"United States",36
+ATL,BOS,"2017-11-30 07:11:00",NONSTOP,LOWEST,221,29,0,0,1,0,BOS,Boston,Massachusetts,"United States",20
+ATL,BOS,"2017-11-30 07:11:00",NONSTOP,POINTS,221,29,18000,6,1,0,BOS,Boston,Massachusetts,"United States",20
+BDL,MCO,"2017-11-30 07:11:00",NONSTOP,LOWEST,184,26,0,0,1,0,MCO,Orlando,Florida,"United States",37
+BDL,MCO,"2017-11-30 07:11:00",NONSTOP,POINTS,184,26,12600,6,1,0,MCO,Orlando,Florida,"United States",37
+BWI,FLL,"2017-11-30 07:11:00",NONSTOP,LOWEST,218,28,0,0,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+BWI,FLL,"2017-11-30 07:11:00",NONSTOP,POINTS,218,28,19500,6,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+BOS,SAN,"2017-11-30 07:11:00",NONSTOP,LOWEST,585,54,0,0,1,0,SAN,"San Diego",California,"United States",4
+BOS,SAN,"2017-11-30 07:11:00",NONSTOP,POINTS,540,51,45800,6,1,1,SAN,"San Diego",California,"United States",4
+JFK,BOS,"2017-11-30 07:11:00",NONSTOP,LOWEST,213,28,0,0,1,0,BOS,Boston,Massachusetts,"United States",20
+JFK,BOS,"2017-11-30 07:11:00",NONSTOP,POINTS,174,25,11900,6,1,1,BOS,Boston,Massachusetts,"United States",20
+JFK,SFO,"2017-11-30 07:11:00",NONSTOP,LOWEST,448,44,0,0,1,0,SFO,"San Francisco",California,"United States",14
+JFK,SFO,"2017-11-30 07:11:00",NONSTOP,POINTS,448,44,45700,6,1,0,SFO,"San Francisco",California,"United States",14
+MCO,BOS,"2017-11-30 07:11:00",NONSTOP,LOWEST,78,19,0,0,1,0,BOS,Boston,Massachusetts,"United States",20
+MCO,BOS,"2017-11-30 07:11:00",NONSTOP,POINTS,78,19,4800,6,1,0,BOS,Boston,Massachusetts,"United States",20
+ORD,FLL,"2017-11-30 07:11:00",NONSTOP,LOWEST,103,20,0,0,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+ORD,FLL,"2017-11-30 07:11:00",NONSTOP,POINTS,103,20,6600,6,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+PVD,MCO,"2017-11-30 07:11:00",NONSTOP,LOWEST,168,25,0,0,1,0,MCO,Orlando,Florida,"United States",37
+PVD,MCO,"2017-11-30 07:11:00",NONSTOP,POINTS,168,25,11500,6,1,0,MCO,Orlando,Florida,"United States",37
+SDQ,SJU,"2017-11-30 07:11:00",NONSTOP,LOWEST,139,79,0,0,0,0,SJU,"San Juan","Puerto Rico","United States",20
+SDQ,SJU,"2017-11-30 07:11:00",NONSTOP,POINTS,139,79,4500,62,0,0,SJU,"San Juan","Puerto Rico","United States",20
+JFK,MCO,"2017-11-30 07:11:00",NONSTOP,LOWEST,169,25,0,0,1,0,MCO,Orlando,Florida,"United States",37
+JFK,MCO,"2017-11-30 07:11:00",NONSTOP,POINTS,169,25,11500,6,1,0,MCO,Orlando,Florida,"United States",37
+FLL,RIC,"2017-11-30 07:11:00",NONSTOP,LOWEST,234,30,0,0,1,0,RIC,Richmond,Virginia,"United States",36
+FLL,RIC,"2017-11-30 07:11:00",NONSTOP,POINTS,234,30,17600,6,1,0,RIC,Richmond,Virginia,"United States",36
+RDU,FLL,"2017-11-30 07:11:00",NONSTOP,LOWEST,181,26,0,0,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+RDU,FLL,"2017-11-30 07:11:00",NONSTOP,POINTS,181,26,12400,6,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+BOS,AUS,"2017-11-30 07:11:00",NONSTOP,LOWEST,394,41,0,0,1,0,AUS,Austin,Texas,"United States",18
+BOS,AUS,"2017-11-30 07:11:00",NONSTOP,POINTS,394,41,36200,6,1,0,AUS,Austin,Texas,"United States",18
+BOS,AUA,"2017-11-30 07:11:00",NONSTOP,LOWEST,513,38,0,0,0,0,AUA,Aruba,,Aruba,8
+BOS,AUA,"2017-11-30 07:11:00",NONSTOP,POINTS,513,38,41400,16,0,0,AUA,Aruba,,Aruba,8
+PHL,FLL,"2017-11-30 07:11:00",NONSTOP,LOWEST,140,23,0,0,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+PHL,FLL,"2017-11-30 07:11:00",NONSTOP,POINTS,140,23,9400,6,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+MCO,NAS,"2017-11-30 07:11:00",NONSTOP,LOWEST,127,28,0,0,0,0,NAS,Nassau,,Bahamas,16
+MCO,NAS,"2017-11-30 07:11:00",NONSTOP,POINTS,127,28,7400,6,0,0,NAS,Nassau,,Bahamas,16
+BUF,FLL,"2017-11-30 07:11:00",NONSTOP,LOWEST,163,25,0,0,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+BUF,FLL,"2017-11-30 07:11:00",NONSTOP,POINTS,163,25,11100,6,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+CLE,FLL,"2017-11-30 07:11:00",NONSTOP,LOWEST,153,24,0,0,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+CLE,FLL,"2017-11-30 07:11:00",NONSTOP,POINTS,153,24,10300,6,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+JFK,SAV,"2017-11-30 07:11:00",NONSTOP,LOWEST,224,29,0,0,1,0,SAV,"Savannah / Hilton Head",Georgia,"United States",36
+JFK,SAV,"2017-11-30 07:11:00",NONSTOP,POINTS,224,29,18300,6,1,0,SAV,"Savannah / Hilton Head",Georgia,"United States",36
+JFK,TPA,"2017-11-30 07:11:00",NONSTOP,LOWEST,291,34,0,0,1,0,TPA,"Tampa Bay",Florida,"United States",6
+JFK,TPA,"2017-11-30 07:11:00",NONSTOP,POINTS,259,31,19600,6,1,1,TPA,"Tampa Bay",Florida,"United States",6
+PIT,FLL,"2017-11-30 07:11:00",NONSTOP,LOWEST,193,27,0,0,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+PIT,FLL,"2017-11-30 07:11:00",NONSTOP,POINTS,193,27,14400,6,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+DTW,FLL,"2017-11-30 07:11:00",NONSTOP,LOWEST,373,39,0,0,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+DTW,FLL,"2017-11-30 07:11:00",NONSTOP,POINTS,373,39,37800,6,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+BOG,MCO,"2017-11-30 07:11:00",NONSTOP,LOWEST,550,172,0,0,0,0,MCO,Orlando,Florida,"United States",37
+BOG,MCO,"2017-11-30 07:11:00",NONSTOP,POINTS,550,172,32900,77,0,0,MCO,Orlando,Florida,"United States",37
+LGB,LAS,"2017-11-30 07:11:00",NONSTOP,LOWEST,58,17,0,0,1,0,LAS,"Las Vegas",Nevada,"United States",24
+LGB,LAS,"2017-11-30 07:11:00",NONSTOP,POINTS,58,17,3300,6,1,0,LAS,"Las Vegas",Nevada,"United States",24
+PBI,EWR,"2017-11-30 07:11:00",NONSTOP,LOWEST,196,27,0,0,1,0,EWR,Newark,"New Jersey","United States",2
+PBI,EWR,"2017-11-30 07:11:00",NONSTOP,POINTS,196,27,13500,6,1,0,EWR,Newark,"New Jersey","United States",2
+PDX,LGB,"2017-11-30 07:11:00",NONSTOP,LOWEST,180,26,0,0,1,0,LGB,"Long Beach",California,"United States",29
+PDX,LGB,"2017-11-30 07:11:00",NONSTOP,POINTS,180,26,13300,6,1,0,LGB,"Long Beach",California,"United States",29
+BOS,DFW,"2017-11-30 07:11:00",NONSTOP,LOWEST,449,45,0,0,1,0,DFW,"Dallas / Fort Worth",Texas,"United States",0
+BOS,DFW,"2017-11-30 07:11:00",NONSTOP,POINTS,449,45,45800,6,1,0,DFW,"Dallas / Fort Worth",Texas,"United States",0
+AUS,MCO,"2017-11-30 07:11:00",NONSTOP,LOWEST,394,41,0,0,1,0,MCO,Orlando,Florida,"United States",37
+AUS,MCO,"2017-11-30 07:11:00",NONSTOP,POINTS,310,35,23700,6,1,1,MCO,Orlando,Florida,"United States",37
+LGA,PBI,"2017-11-30 07:11:00",NONSTOP,LOWEST,251,31,0,0,1,0,PBI,"West Palm Beach",Florida,"United States",10
+LGA,PBI,"2017-11-30 07:11:00",NONSTOP,POINTS,251,31,19000,6,1,0,PBI,"West Palm Beach",Florida,"United States",10
+JFK,LGB,"2017-11-30 07:11:00",NONSTOP,LOWEST,471,46,0,0,1,0,LGB,"Long Beach",California,"United States",29
+JFK,LGB,"2017-11-30 07:11:00",NONSTOP,POINTS,471,46,43600,6,1,0,LGB,"Long Beach",California,"United States",29
+BGI,FLL,"2017-11-30 07:11:00",NONSTOP,LOWEST,259,94,0,0,0,0,FLL,"Fort Lauderdale",Florida,"United States",36
+BGI,FLL,"2017-11-30 07:11:00",NONSTOP,POINTS,259,94,12300,42,0,0,FLL,"Fort Lauderdale",Florida,"United States",36
+BDL,FLL,"2017-11-30 07:11:00",NONSTOP,LOWEST,284,33,0,0,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+BDL,FLL,"2017-11-30 07:11:00",NONSTOP,POINTS,284,33,21600,6,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+SYR,MCO,"2017-11-30 07:11:00",NONSTOP,LOWEST,318,35,0,0,1,0,MCO,Orlando,Florida,"United States",37
+SYR,MCO,"2017-11-30 07:11:00",NONSTOP,POINTS,305,35,23300,6,1,1,MCO,Orlando,Florida,"United States",37
+BOS,BNA,"2017-11-30 07:11:00",NONSTOP,LOWEST,267,32,0,0,1,0,BNA,Nashville,Tennessee,"United States",31
+BOS,BNA,"2017-11-30 07:11:00",NONSTOP,POINTS,267,32,22000,6,1,0,BNA,Nashville,Tennessee,"United States",31
+JFK,CHS,"2017-11-30 07:11:00",NONSTOP,LOWEST,231,29,0,0,1,0,CHS,Charleston,"South Carolina","United States",26
+JFK,CHS,"2017-11-30 07:11:00",NONSTOP,POINTS,231,29,18900,6,1,0,CHS,Charleston,"South Carolina","United States",26
+JFK,GND,"2017-11-30 07:11:00",NONSTOP,LOWEST,479,43,0,0,0,0,GND,Grenada,,Grenada,11
+JFK,GND,"2017-11-30 07:11:00",NONSTOP,POINTS,479,43,38000,21,0,0,GND,Grenada,,Grenada,11
+JFK,RDU,"2017-11-30 07:11:00",NONSTOP,LOWEST,223,29,0,0,1,0,RDU,Raleigh-Durham,"North Carolina","United States",12
+JFK,RDU,"2017-11-30 07:11:00",NONSTOP,POINTS,223,29,16800,6,1,0,RDU,Raleigh-Durham,"North Carolina","United States",12
+DCA,BOS,"2017-11-30 07:11:00",NONSTOP,LOWEST,298,34,0,0,1,0,BOS,Boston,Massachusetts,"United States",20
+DCA,BOS,"2017-11-30 07:11:00",NONSTOP,POINTS,242,30,19900,6,1,1,BOS,Boston,Massachusetts,"United States",20
+JFK,ROC,"2017-11-30 07:11:00",NONSTOP,LOWEST,203,27,0,0,1,0,ROC,Rochester,"New York","United States",6
+JFK,ROC,"2017-11-30 07:11:00",NONSTOP,POINTS,203,27,16500,6,1,0,ROC,Rochester,"New York","United States",6
+JFK,POP,"2017-11-30 07:11:00",NONSTOP,LOWEST,453,59,0,0,0,0,POP,"Puerto Plata",,"Dominican Republic",36
+JFK,POP,"2017-11-30 07:11:00",NONSTOP,POINTS,453,59,34300,37,0,0,POP,"Puerto Plata",,"Dominican Republic",36
+FLL,HAV,"2017-11-30 07:11:00",NONSTOP,LOWEST,118,53,0,0,0,0,HAV,Havana,,Cuba,2
+FLL,HAV,"2017-11-30 07:11:00",NONSTOP,POINTS,118,53,4900,31,0,0,HAV,Havana,,Cuba,2
+JFK,AUA,"2017-11-30 07:11:00",NONSTOP,LOWEST,412,38,0,0,0,0,AUA,Aruba,,Aruba,8
+JFK,AUA,"2017-11-30 07:11:00",NONSTOP,POINTS,412,38,27800,16,0,0,AUA,Aruba,,Aruba,8
+DCA,SJU,"2017-11-30 08:11:00",NONSTOP,LOWEST,512,28,0,0,1,0,SJU,"San Juan","Puerto Rico","United States",20
+DCA,SJU,"2017-11-30 08:11:00",NONSTOP,POINTS,512,28,53800,6,1,0,SJU,"San Juan","Puerto Rico","United States",20
+HPN,RSW,"2017-11-30 08:11:00",NONSTOP,LOWEST,387,40,0,0,1,0,RSW,"Fort Myers",Florida,"United States",20
+HPN,RSW,"2017-11-30 08:11:00",NONSTOP,POINTS,387,40,35600,6,1,0,RSW,"Fort Myers",Florida,"United States",20
+JFK,CLT,"2017-11-30 08:11:00",NONSTOP,LOWEST,155,24,0,0,1,0,CLT,Charlotte,"North Carolina","United States",34
+JFK,CLT,"2017-11-30 08:11:00",NONSTOP,POINTS,155,24,10500,6,1,0,CLT,Charlotte,"North Carolina","United States",34
+EWR,BOS,"2017-11-30 08:11:00",NONSTOP,POINTS,174,25,11900,6,1,1,BOS,Boston,Massachusetts,"United States",20
+SFO,FLL,"2017-11-30 08:11:00",NONSTOP,LOWEST,334,37,0,0,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+SFO,FLL,"2017-11-30 08:11:00",NONSTOP,POINTS,334,37,25600,6,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+LGB,SLC,"2017-11-30 08:11:00",NONSTOP,LOWEST,140,23,0,0,1,0,SLC,"Salt Lake City",Utah,"United States",5
+LGB,SLC,"2017-11-30 08:11:00",NONSTOP,POINTS,140,23,9400,6,1,0,SLC,"Salt Lake City",Utah,"United States",5
+JFK,GCM,"2017-11-30 08:11:00",NONSTOP,LOWEST,549,28,0,0,0,0,GCM,"Grand Cayman",,"Cayman Islands",2
+JFK,GCM,"2017-11-30 08:11:00",NONSTOP,POINTS,549,28,54900,6,0,0,GCM,"Grand Cayman",,"Cayman Islands",2
+JFK,ORD,"2017-11-30 08:11:00",NONSTOP,LOWEST,119,22,0,0,1,0,ORD,Chicago,Illinois,"United States",37
+JFK,ORD,"2017-11-30 08:11:00",NONSTOP,POINTS,119,22,7800,6,1,0,ORD,Chicago,Illinois,"United States",37
+PBI,BOS,"2017-11-30 08:11:00",NONSTOP,LOWEST,78,19,0,0,1,0,BOS,Boston,Massachusetts,"United States",20
+PBI,BOS,"2017-11-30 08:11:00",NONSTOP,POINTS,78,19,4800,6,1,0,BOS,Boston,Massachusetts,"United States",20
+MCO,RIC,"2017-11-30 08:11:00",NONSTOP,LOWEST,302,34,0,0,1,0,RIC,Richmond,Virginia,"United States",36
+MCO,RIC,"2017-11-30 08:11:00",NONSTOP,POINTS,302,34,27500,6,1,0,RIC,Richmond,Virginia,"United States",36
+DCA,PBI,"2017-11-30 08:11:00",NONSTOP,LOWEST,439,44,0,0,1,0,PBI,"West Palm Beach",Florida,"United States",10
+DCA,PBI,"2017-11-30 08:11:00",NONSTOP,POINTS,439,44,44800,6,1,0,PBI,"West Palm Beach",Florida,"United States",10
+BOS,MVY,"2017-11-30 08:11:00",NONSTOP,LOWEST,199,23,0,0,1,0,MVY,"Martha's Vineyard",Massachusetts,"United States",20
+FLL,BOG,"2017-11-30 08:11:00",NONSTOP,LOWEST,540,43,0,0,0,0,BOG,Bogota,,Colombia,35
+FLL,BOG,"2017-11-30 08:11:00",NONSTOP,POINTS,540,43,52400,21,0,0,BOG,Bogota,,Colombia,35
+JFK,DAB,"2017-11-30 08:11:00",NONSTOP,LOWEST,289,33,0,0,1,0,DAB,"Daytona Beach",Florida,"United States",12
+JFK,DAB,"2017-11-30 08:11:00",NONSTOP,POINTS,289,33,26200,6,1,0,DAB,"Daytona Beach",Florida,"United States",12
+BDA,JFK,"2017-11-30 08:11:00",NONSTOP,LOWEST,365,135,0,0,0,0,JFK,"New York City","New York","United States",2
+BDA,JFK,"2017-11-30 08:11:00",NONSTOP,POINTS,365,135,17100,111,0,0,JFK,"New York City","New York","United States",2
+BWI,BOS,"2017-11-30 08:11:00",NONSTOP,LOWEST,76,19,0,0,1,0,BOS,Boston,Massachusetts,"United States",20
+BWI,BOS,"2017-11-30 08:11:00",NONSTOP,POINTS,76,19,4600,6,1,0,BOS,Boston,Massachusetts,"United States",20
+FLL,JAX,"2017-11-30 08:11:00",NONSTOP,LOWEST,212,28,0,0,1,0,JAX,Jacksonville,Florida,"United States",31
+FLL,JAX,"2017-11-30 08:11:00",NONSTOP,POINTS,212,28,17200,6,1,0,JAX,Jacksonville,Florida,"United States",31
+MCO,HAV,"2017-11-30 08:11:00",NONSTOP,LOWEST,163,53,0,0,0,0,HAV,Havana,,Cuba,2
+MCO,HAV,"2017-11-30 08:11:00",NONSTOP,POINTS,163,53,8200,31,0,0,HAV,Havana,,Cuba,2
+MCO,MEX,"2017-11-30 08:11:00",NONSTOP,LOWEST,125,55,0,0,0,0,MEX,"Mexico City",,Mexico,30
+MCO,MEX,"2017-11-30 08:11:00",NONSTOP,POINTS,125,55,5200,32,0,0,MEX,"Mexico City",,Mexico,30
+FLL,EWR,"2017-11-30 08:11:00",NONSTOP,LOWEST,70,18,0,0,1,0,EWR,Newark,"New Jersey","United States",2
+FLL,EWR,"2017-11-30 08:11:00",NONSTOP,POINTS,70,18,4200,6,1,0,EWR,Newark,"New Jersey","United States",2
+LGB,RNO,"2017-11-30 08:11:00",NONSTOP,LOWEST,128,22,0,0,1,0,RNO,"Reno / Tahoe",Nevada,"United States",16
+LGB,RNO,"2017-11-30 08:11:00",NONSTOP,POINTS,128,22,8500,6,1,0,RNO,"Reno / Tahoe",Nevada,"United States",16
+BOS,ATL,"2017-11-30 08:11:00",NONSTOP,LOWEST,221,29,0,0,1,0,ATL,Atlanta,Georgia,"United States",34
+BOS,ATL,"2017-11-30 08:11:00",NONSTOP,POINTS,221,29,18000,6,1,0,ATL,Atlanta,Georgia,"United States",34
+JFK,CUR,"2017-11-30 08:11:00",NONSTOP,LOWEST,371,28,0,0,0,0,CUR,Curacao,,Curacao,23
+JFK,CUR,"2017-11-30 08:11:00",NONSTOP,POINTS,371,28,25500,6,0,0,CUR,Curacao,,Curacao,23
+JFK,LAS,"2017-11-30 08:11:00",NONSTOP,LOWEST,348,38,0,0,1,0,LAS,"Las Vegas",Nevada,"United States",24
+JFK,LAS,"2017-11-30 08:11:00",NONSTOP,POINTS,348,38,26800,6,1,0,LAS,"Las Vegas",Nevada,"United States",24
+BOS,LGA,"2017-11-30 08:11:00",NONSTOP,LOWEST,213,28,0,0,1,0,LGA,"New York City","New York","United States",36
+BOS,LGA,"2017-11-30 08:11:00",NONSTOP,POINTS,174,25,11900,6,1,1,LGA,"New York City","New York","United States",36
+BOS,PHL,"2017-11-30 08:11:00",NONSTOP,LOWEST,83,19,0,0,1,0,PHL,Philadelphia,Pennsylvania,"United States",27
+BOS,PHL,"2017-11-30 08:11:00",NONSTOP,POINTS,83,19,5200,6,1,0,PHL,Philadelphia,Pennsylvania,"United States",27
+OAK,LGB,"2017-11-30 08:11:00",NONSTOP,LOWEST,109,21,0,0,1,0,LGB,"Long Beach",California,"United States",29
+OAK,LGB,"2017-11-30 08:11:00",NONSTOP,POINTS,109,21,7100,6,1,0,LGB,"Long Beach",California,"United States",29
+RIC,BOS,"2017-11-30 08:11:00",NONSTOP,LOWEST,231,29,0,0,1,0,BOS,Boston,Massachusetts,"United States",20
+RIC,BOS,"2017-11-30 08:11:00",NONSTOP,POINTS,231,29,18900,6,1,0,BOS,Boston,Massachusetts,"United States",20
+FLL,SFO,"2017-11-30 08:11:00",NONSTOP,LOWEST,334,37,0,0,1,0,SFO,"San Francisco",California,"United States",14
+FLL,SFO,"2017-11-30 08:11:00",NONSTOP,POINTS,334,37,25600,6,1,0,SFO,"San Francisco",California,"United States",14
+SFO,LGB,"2017-11-30 08:11:00",NONSTOP,LOWEST,69,18,0,0,1,0,LGB,"Long Beach",California,"United States",29
+SFO,LGB,"2017-11-30 08:11:00",NONSTOP,POINTS,69,18,4100,6,1,0,LGB,"Long Beach",California,"United States",29
+DCA,MCO,"2017-11-30 08:11:00",NONSTOP,LOWEST,246,30,0,0,1,0,MCO,Orlando,Florida,"United States",37
+DCA,MCO,"2017-11-30 08:11:00",NONSTOP,POINTS,246,30,20200,6,1,0,MCO,Orlando,Florida,"United States",37
+DCA,JAX,"2017-11-30 08:11:00",NONSTOP,LOWEST,245,30,0,0,1,0,JAX,Jacksonville,Florida,"United States",31
+DCA,JAX,"2017-11-30 08:11:00",NONSTOP,POINTS,245,30,22000,6,1,0,JAX,Jacksonville,Florida,"United States",31
+JFK,SAN,"2017-11-30 09:11:00",NONSTOP,LOWEST,450,45,0,0,1,0,SAN,"San Diego",California,"United States",4
+JFK,SAN,"2017-11-30 09:11:00",NONSTOP,POINTS,450,45,38000,6,1,0,SAN,"San Diego",California,"United States",4
+JFK,SYR,"2017-11-30 09:11:00",NONSTOP,LOWEST,123,22,0,0,1,0,SYR,Syracuse,"New York","United States",24
+JFK,SYR,"2017-11-30 09:11:00",NONSTOP,POINTS,123,22,8100,6,1,0,SYR,Syracuse,"New York","United States",24
+FLL,MSY,"2017-11-30 09:11:00",NONSTOP,LOWEST,89,19,0,0,1,0,MSY,"New Orleans",Louisiana,"United States",25
+FLL,MSY,"2017-11-30 09:11:00",NONSTOP,POINTS,89,19,5600,6,1,0,MSY,"New Orleans",Louisiana,"United States",25
+BUF,BOS,"2017-11-30 09:11:00",NONSTOP,LOWEST,83,19,0,0,1,0,BOS,Boston,Massachusetts,"United States",20
+BUF,BOS,"2017-11-30 09:11:00",NONSTOP,POINTS,83,19,5200,6,1,0,BOS,Boston,Massachusetts,"United States",20
+BOS,CLT,"2017-11-30 09:11:00",NONSTOP,LOWEST,258,31,0,0,1,0,CLT,Charlotte,"North Carolina","United States",34
+BOS,CLT,"2017-11-30 09:11:00",NONSTOP,POINTS,258,31,19600,6,1,0,CLT,Charlotte,"North Carolina","United States",34
+JFK,HAV,"2017-11-30 09:11:00",NONSTOP,LOWEST,203,53,0,0,0,0,HAV,Havana,,Cuba,2
+JFK,HAV,"2017-11-30 09:11:00",NONSTOP,POINTS,203,53,11200,31,0,0,HAV,Havana,,Cuba,2
+RDU,BOS,"2017-11-30 09:11:00",NONSTOP,LOWEST,278,33,0,0,1,0,BOS,Boston,Massachusetts,"United States",20
+RDU,BOS,"2017-11-30 09:11:00",NONSTOP,POINTS,278,33,19600,6,1,0,BOS,Boston,Massachusetts,"United States",20
+JFK,POS,"2017-11-30 09:11:00",NONSTOP,LOWEST,639,28,0,0,0,0,POS,Port-of-Spain,,"Trinidad & Tobago",7
+JFK,POS,"2017-11-30 09:11:00",NONSTOP,POINTS,639,28,64400,6,0,0,POS,Port-of-Spain,,"Trinidad & Tobago",7
+MCO,EWR,"2017-11-30 09:11:00",NONSTOP,LOWEST,134,23,0,0,1,0,EWR,Newark,"New Jersey","United States",2
+MCO,EWR,"2017-11-30 09:11:00",NONSTOP,POINTS,134,23,8900,6,1,0,EWR,Newark,"New Jersey","United States",2
+FLL,LAX,"2017-11-30 09:11:00",NONSTOP,LOWEST,159,24,0,0,1,0,LAX,"Los Angeles",California,"United States",26
+FLL,LAX,"2017-11-30 09:11:00",NONSTOP,POINTS,159,24,10800,6,1,0,LAX,"Los Angeles",California,"United States",26
+SJU,STT,"2017-11-30 09:11:00",NONSTOP,LOWEST,98,10,0,0,1,0,STT,"St. Thomas","Virgin Islands","United States",23
+SJU,STT,"2017-11-30 09:11:00",NONSTOP,POINTS,98,10,6600,6,1,0,STT,"St. Thomas","Virgin Islands","United States",23
+KIN,FLL,"2017-11-30 09:11:00",NONSTOP,LOWEST,241,116,0,0,0,0,FLL,"Fort Lauderdale",Florida,"United States",36
+KIN,FLL,"2017-11-30 09:11:00",NONSTOP,POINTS,241,116,9300,88,0,0,FLL,"Fort Lauderdale",Florida,"United States",36
+JFK,NAS,"2017-11-30 09:11:00",NONSTOP,LOWEST,503,28,0,0,0,0,NAS,Nassau,,Bahamas,16
+JFK,NAS,"2017-11-30 09:11:00",NONSTOP,POINTS,503,28,50000,6,0,0,NAS,Nassau,,Bahamas,16
+MVY,BOS,"2017-11-30 09:11:00",NONSTOP,LOWEST,144,19,0,0,1,0,BOS,Boston,Massachusetts,"United States",20
+BOS,MSY,"2017-11-30 09:11:00",NONSTOP,LOWEST,409,42,0,0,1,0,MSY,"New Orleans",Louisiana,"United States",25
+BOS,MSY,"2017-11-30 09:11:00",NONSTOP,POINTS,409,42,37700,6,1,0,MSY,"New Orleans",Louisiana,"United States",25
+NAS,MCO,"2017-11-30 09:11:00",NONSTOP,LOWEST,159,114,0,0,0,0,MCO,Orlando,Florida,"United States",37
+NAS,MCO,"2017-11-30 09:11:00",NONSTOP,POINTS,159,114,3400,90,0,0,MCO,Orlando,Florida,"United States",37
+JFK,BTV,"2017-11-30 09:11:00",NONSTOP,LOWEST,98,20,0,0,1,0,BTV,Burington,Virginia,"United States",5
+JFK,BTV,"2017-11-30 09:11:00",NONSTOP,POINTS,98,20,6300,6,1,0,BTV,Burington,Virginia,"United States",5
+EWR,PBI,"2017-11-30 09:11:00",NONSTOP,LOWEST,196,27,0,0,1,0,PBI,"West Palm Beach",Florida,"United States",10
+EWR,PBI,"2017-11-30 09:11:00",NONSTOP,POINTS,196,27,13500,6,1,0,PBI,"West Palm Beach",Florida,"United States",10
+FLL,PHL,"2017-11-30 09:11:00",NONSTOP,LOWEST,140,23,0,0,1,0,PHL,Philadelphia,Pennsylvania,"United States",27
+FLL,PHL,"2017-11-30 09:11:00",NONSTOP,POINTS,140,23,9400,6,1,0,PHL,Philadelphia,Pennsylvania,"United States",27
+ORD,BOS,"2017-11-30 09:11:00",NONSTOP,LOWEST,131,22,0,0,1,0,BOS,Boston,Massachusetts,"United States",20
+ORD,BOS,"2017-11-30 09:11:00",NONSTOP,POINTS,131,22,8700,6,1,0,BOS,Boston,Massachusetts,"United States",20
+FLL,BOS,"2017-11-30 09:11:00",NONSTOP,LOWEST,78,19,0,0,1,0,BOS,Boston,Massachusetts,"United States",20
+FLL,BOS,"2017-11-30 09:11:00",NONSTOP,POINTS,78,19,4800,6,1,0,BOS,Boston,Massachusetts,"United States",20
+LGA,FLL,"2017-11-30 09:11:00",NONSTOP,LOWEST,149,24,0,0,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+LGA,FLL,"2017-11-30 09:11:00",NONSTOP,POINTS,149,24,10000,6,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+BOS,SAV,"2017-11-30 09:11:00",NONSTOP,LOWEST,138,23,0,0,1,0,SAV,"Savannah / Hilton Head",Georgia,"United States",36
+BOS,SAV,"2017-11-30 09:11:00",NONSTOP,POINTS,138,23,9200,6,1,0,SAV,"Savannah / Hilton Head",Georgia,"United States",36
+PIT,BOS,"2017-11-30 09:11:00",NONSTOP,LOWEST,83,19,0,0,1,0,BOS,Boston,Massachusetts,"United States",20
+PIT,BOS,"2017-11-30 09:11:00",NONSTOP,POINTS,83,19,5200,6,1,0,BOS,Boston,Massachusetts,"United States",20
+SDQ,FLL,"2017-11-30 09:11:00",NONSTOP,LOWEST,313,120,0,0,0,0,FLL,"Fort Lauderdale",Florida,"United States",36
+SDQ,FLL,"2017-11-30 09:11:00",NONSTOP,POINTS,313,120,15500,62,0,0,FLL,"Fort Lauderdale",Florida,"United States",36
+BOS,RIC,"2017-11-30 10:11:00",NONSTOP,LOWEST,231,29,0,0,1,0,RIC,Richmond,Virginia,"United States",36
+BOS,RIC,"2017-11-30 10:11:00",NONSTOP,POINTS,231,29,18900,6,1,0,RIC,Richmond,Virginia,"United States",36
+BOS,BUF,"2017-11-30 10:11:00",NONSTOP,LOWEST,83,19,0,0,1,0,BUF,Buffalo,"New York","United States",29
+BOS,BUF,"2017-11-30 10:11:00",NONSTOP,POINTS,83,19,5200,6,1,0,BUF,Buffalo,"New York","United States",29
+FLL,DCA,"2017-11-30 10:11:00",NONSTOP,LOWEST,196,27,0,0,1,0,DCA,Washington," DC",Washington,1
+FLL,DCA,"2017-11-30 10:11:00",NONSTOP,POINTS,196,27,14600,6,1,0,DCA,Washington," DC",Washington,1
+JFK,PAP,"2017-11-30 10:11:00",NONSTOP,LOWEST,464,41,0,0,0,0,PAP,Port-au-Prince,,Haiti,1
+JFK,PAP,"2017-11-30 10:11:00",NONSTOP,POINTS,464,41,36800,18,0,0,PAP,Port-au-Prince,,Haiti,1
+MCO,SJO,"2017-11-30 10:11:00",NONSTOP,LOWEST,332,45,0,0,0,0,SJO,"San Jose",,"Costa Rica",36
+MCO,SJO,"2017-11-30 10:11:00",NONSTOP,POINTS,332,45,21300,22,0,0,SJO,"San Jose",,"Costa Rica",36
+DTW,BOS,"2017-11-30 10:11:00",NONSTOP,LOWEST,205,28,0,0,1,0,BOS,Boston,Massachusetts,"United States",20
+DTW,BOS,"2017-11-30 10:11:00",NONSTOP,POINTS,205,28,15300,6,1,0,BOS,Boston,Massachusetts,"United States",20
+FLL,CMW,"2017-11-30 10:11:00",NONSTOP,LOWEST,398,53,0,0,0,0,CMW,Camaguey,,Cuba,17
+FLL,CMW,"2017-11-30 10:11:00",NONSTOP,POINTS,398,53,36400,31,0,0,CMW,Camaguey,,Cuba,17
+PAP,FLL,"2017-11-30 10:11:00",NONSTOP,LOWEST,341,125,0,0,0,0,FLL,"Fort Lauderdale",Florida,"United States",36
+PAP,FLL,"2017-11-30 10:11:00",NONSTOP,POINTS,341,125,16000,102,0,0,FLL,"Fort Lauderdale",Florida,"United States",36
+JFK,PUJ,"2017-11-30 10:11:00",NONSTOP,LOWEST,428,59,0,0,0,0,PUJ,"Punta Cana",,"Dominican Republic",17
+JFK,PUJ,"2017-11-30 10:11:00",NONSTOP,POINTS,428,59,29600,37,0,0,PUJ,"Punta Cana",,"Dominican Republic",17
+JFK,SXM,"2017-11-30 10:11:00",NONSTOP,LOWEST,267,28,0,0,0,0,SXM,"St. Maarten",,"St. Maarten",5
+JFK,SXM,"2017-11-30 10:11:00",NONSTOP,POINTS,267,28,17800,6,0,0,SXM,"St. Maarten",,"St. Maarten",5
+RDU,JFK,"2017-11-30 10:11:00",NONSTOP,LOWEST,254,31,0,0,1,0,JFK,"New York City","New York","United States",2
+RDU,JFK,"2017-11-30 10:11:00",NONSTOP,POINTS,254,31,20900,6,1,0,JFK,"New York City","New York","United States",2
+BOS,PIT,"2017-11-30 10:11:00",NONSTOP,LOWEST,83,19,0,0,1,0,PIT,Pittsburgh,Pennsylvania,"United States",18
+BOS,PIT,"2017-11-30 10:11:00",NONSTOP,POINTS,83,19,5200,6,1,0,PIT,Pittsburgh,Pennsylvania,"United States",18
+CLE,BOS,"2017-11-30 10:11:00",NONSTOP,LOWEST,183,26,0,0,1,0,BOS,Boston,Massachusetts,"United States",20
+CLE,BOS,"2017-11-30 10:11:00",NONSTOP,POINTS,183,26,14700,6,1,0,BOS,Boston,Massachusetts,"United States",20
+HAV,FLL,"2017-11-30 10:11:00",NONSTOP,LOWEST,124,59,0,0,0,0,FLL,"Fort Lauderdale",Florida,"United States",36
+HAV,FLL,"2017-11-30 10:11:00",NONSTOP,POINTS,124,59,4900,36,0,0,FLL,"Fort Lauderdale",Florida,"United States",36
+STT,SJU,"2017-11-30 10:11:00",NONSTOP,LOWEST,98,10,0,0,1,0,SJU,"San Juan","Puerto Rico","United States",20
+STT,SJU,"2017-11-30 10:11:00",NONSTOP,POINTS,98,10,6600,6,1,0,SJU,"San Juan","Puerto Rico","United States",20
+BDL,RSW,"2017-11-30 10:11:00",NONSTOP,LOWEST,138,23,0,0,1,0,RSW,"Fort Myers",Florida,"United States",20
+BDL,RSW,"2017-11-30 10:11:00",NONSTOP,POINTS,138,23,9200,6,1,0,RSW,"Fort Myers",Florida,"United States",20
+CLT,JFK,"2017-11-30 10:11:00",NONSTOP,LOWEST,154,23,0,0,1,0,JFK,"New York City","New York","United States",2
+CLT,JFK,"2017-11-30 10:11:00",NONSTOP,POINTS,154,23,10500,6,1,0,JFK,"New York City","New York","United States",2
+ORD,JFK,"2017-11-30 10:11:00",NONSTOP,LOWEST,119,22,0,0,1,0,JFK,"New York City","New York","United States",2
+ORD,JFK,"2017-11-30 10:11:00",NONSTOP,POINTS,119,22,7800,6,1,0,JFK,"New York City","New York","United States",2
+JAX,DCA,"2017-11-30 10:11:00",NONSTOP,LOWEST,245,30,0,0,1,0,DCA,Washington," DC",Washington,1
+JAX,DCA,"2017-11-30 10:11:00",NONSTOP,POINTS,245,30,22000,6,1,0,DCA,Washington," DC",Washington,1
+MCO,HPN,"2017-11-30 10:11:00",NONSTOP,LOWEST,357,38,0,0,1,0,HPN,"Westchester County","New York","United States",21
+MCO,HPN,"2017-11-30 10:11:00",NONSTOP,POINTS,296,34,22600,6,1,1,HPN,"Westchester County","New York","United States",21
+FLL,CHS,"2017-11-30 10:11:00",NONSTOP,LOWEST,231,29,0,0,1,0,CHS,Charleston,"South Carolina","United States",26
+FLL,CHS,"2017-11-30 10:11:00",NONSTOP,POINTS,231,29,17400,6,1,0,CHS,Charleston,"South Carolina","United States",26
+RIC,MCO,"2017-11-30 10:11:00",NONSTOP,LOWEST,302,34,0,0,1,0,MCO,Orlando,Florida,"United States",37
+RIC,MCO,"2017-11-30 10:11:00",NONSTOP,POINTS,302,34,27500,6,1,0,MCO,Orlando,Florida,"United States",37
+JFK,CUN,"2017-11-30 10:11:00",NONSTOP,LOWEST,249,55,0,0,0,0,CUN,Cancun,,Mexico,37
+JFK,CUN,"2017-11-30 10:11:00",NONSTOP,POINTS,249,55,14400,32,0,0,CUN,Cancun,,Mexico,37
+SJU,STI,"2017-11-30 10:11:00",NONSTOP,LOWEST,238,41,0,0,0,0,STI,Santiago,,"Dominican Republic",15
+SJU,STI,"2017-11-30 10:11:00",NONSTOP,POINTS,238,41,14600,37,0,0,STI,Santiago,,"Dominican Republic",15
+RNO,LGB,"2017-11-30 10:11:00",NONSTOP,LOWEST,128,22,0,0,1,0,LGB,"Long Beach",California,"United States",29
+RNO,LGB,"2017-11-30 10:11:00",NONSTOP,POINTS,128,22,8500,6,1,0,LGB,"Long Beach",California,"United States",29
+FLL,CUN,"2017-11-30 10:11:00",NONSTOP,LOWEST,130,55,0,0,0,0,CUN,Cancun,,Mexico,37
+FLL,CUN,"2017-11-30 10:11:00",NONSTOP,POINTS,130,55,5600,32,0,0,CUN,Cancun,,Mexico,37
+FLL,MBJ,"2017-11-30 10:11:00",NONSTOP,LOWEST,295,72,0,0,0,0,MBJ,"Montego Bay",,Jamaica,11
+FLL,MBJ,"2017-11-30 10:11:00",NONSTOP,POINTS,295,72,17900,50,0,0,MBJ,"Montego Bay",,Jamaica,11
+MSY,FLL,"2017-11-30 10:11:00",NONSTOP,LOWEST,89,19,0,0,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+MSY,FLL,"2017-11-30 10:11:00",NONSTOP,POINTS,89,19,5600,6,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+TPA,JFK,"2017-11-30 10:11:00",NONSTOP,LOWEST,291,34,0,0,1,0,JFK,"New York City","New York","United States",2
+TPA,JFK,"2017-11-30 10:11:00",NONSTOP,POINTS,259,31,19600,6,1,1,JFK,"New York City","New York","United States",2
+BOS,BDA,"2017-11-30 11:11:00",NONSTOP,LOWEST,308,28,0,0,0,0,BDA,"Bermuda (Hamilton)",,Bermuda,5
+BOS,BDA,"2017-11-30 11:11:00",NONSTOP,POINTS,308,28,26700,6,0,0,BDA,"Bermuda (Hamilton)",,Bermuda,5
+JFK,SRQ,"2017-11-30 11:11:00",NONSTOP,LOWEST,242,30,0,0,1,0,SRQ,Sarasota,Florida,"United States",14
+JFK,SRQ,"2017-11-30 11:11:00",NONSTOP,POINTS,242,30,16900,6,1,0,SRQ,Sarasota,Florida,"United States",14
+JFK,PLS,"2017-11-30 11:11:00",NONSTOP,LOWEST,281,28,0,0,0,0,PLS,Providenciales,,"Turks & Caicos Islands",13
+JFK,PLS,"2017-11-30 11:11:00",NONSTOP,POINTS,281,28,18800,6,0,0,PLS,Providenciales,,"Turks & Caicos Islands",13
+JFK,ANU,"2017-11-30 11:11:00",NONSTOP,LOWEST,336,66,0,0,0,0,ANU,Antigua,,"Antigua and Barbuda",37
+JFK,ANU,"2017-11-30 11:11:00",NONSTOP,POINTS,336,66,20000,43,0,0,ANU,Antigua,,"Antigua and Barbuda",37
+HOU,JFK,"2017-11-30 11:11:00",NONSTOP,LOWEST,278,33,0,0,1,0,JFK,"New York City","New York","United States",2
+HOU,JFK,"2017-11-30 11:11:00",NONSTOP,POINTS,278,33,19600,6,1,0,JFK,"New York City","New York","United States",2
+FLL,SNU,"2017-11-30 11:11:00",NONSTOP,LOWEST,164,53,0,0,0,0,SNU,"Santa Clara",,Cuba,11
+FLL,SNU,"2017-11-30 11:11:00",NONSTOP,POINTS,164,53,8300,31,0,0,SNU,"Santa Clara",,Cuba,11
+PBI,HPN,"2017-11-30 11:11:00",NONSTOP,LOWEST,349,38,0,0,1,0,HPN,"Westchester County","New York","United States",21
+PBI,HPN,"2017-11-30 11:11:00",NONSTOP,POINTS,349,38,26800,6,1,0,HPN,"Westchester County","New York","United States",21
+FLL,PUJ,"2017-11-30 11:11:00",NONSTOP,LOWEST,249,59,0,0,0,0,PUJ,"Punta Cana",,"Dominican Republic",17
+FLL,PUJ,"2017-11-30 11:11:00",NONSTOP,POINTS,249,59,14100,37,0,0,PUJ,"Punta Cana",,"Dominican Republic",17
+HAV,MCO,"2017-11-30 11:11:00",NONSTOP,LOWEST,169,59,0,0,0,0,MCO,Orlando,Florida,"United States",37
+HAV,MCO,"2017-11-30 11:11:00",NONSTOP,POINTS,169,59,8200,36,0,0,MCO,Orlando,Florida,"United States",37
+JAX,JFK,"2017-11-30 11:11:00",NONSTOP,LOWEST,291,34,0,0,1,0,JFK,"New York City","New York","United States",2
+JAX,JFK,"2017-11-30 11:11:00",NONSTOP,POINTS,268,32,20400,6,1,1,JFK,"New York City","New York","United States",2
+PBI,JFK,"2017-11-30 11:11:00",NONSTOP,LOWEST,196,27,0,0,1,0,JFK,"New York City","New York","United States",2
+PBI,JFK,"2017-11-30 11:11:00",NONSTOP,POINTS,196,27,13500,6,1,0,JFK,"New York City","New York","United States",2
+FLL,AUA,"2017-11-30 11:11:00",NONSTOP,LOWEST,206,38,0,0,0,0,AUA,Aruba,,Aruba,8
+FLL,AUA,"2017-11-30 11:11:00",NONSTOP,POINTS,206,38,12500,16,0,0,AUA,Aruba,,Aruba,8
+RSW,JFK,"2017-11-30 11:11:00",NONSTOP,LOWEST,369,39,0,0,1,0,JFK,"New York City","New York","United States",2
+RSW,JFK,"2017-11-30 11:11:00",NONSTOP,POINTS,318,35,26500,6,1,1,JFK,"New York City","New York","United States",2
+PBI,DCA,"2017-11-30 11:11:00",NONSTOP,LOWEST,254,31,0,0,1,0,DCA,Washington," DC",Washington,1
+PBI,DCA,"2017-11-30 11:11:00",NONSTOP,POINTS,254,31,20900,6,1,0,DCA,Washington," DC",Washington,1
+AUS,FLL,"2017-11-30 11:11:00",NONSTOP,LOWEST,298,34,0,0,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+AUS,FLL,"2017-11-30 11:11:00",NONSTOP,POINTS,298,34,27100,6,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+FLL,PVD,"2017-11-30 11:11:00",NONSTOP,LOWEST,163,25,0,0,1,0,PVD,Providence,"Rhode Island","United States",13
+FLL,PVD,"2017-11-30 11:11:00",NONSTOP,POINTS,163,25,11100,6,1,0,PVD,Providence,"Rhode Island","United States",13
+SLC,LGB,"2017-11-30 11:11:00",NONSTOP,LOWEST,140,23,0,0,1,0,LGB,"Long Beach",California,"United States",29
+SLC,LGB,"2017-11-30 11:11:00",NONSTOP,POINTS,140,23,9400,6,1,0,LGB,"Long Beach",California,"United States",29
+PBI,BDL,"2017-11-30 11:11:00",NONSTOP,LOWEST,213,28,0,0,1,0,BDL,Hartford,Connecticut,"United States",17
+PBI,BDL,"2017-11-30 11:11:00",NONSTOP,POINTS,213,28,14800,6,1,0,BDL,Hartford,Connecticut,"United States",17
+SJU,FLL,"2017-11-30 11:11:00",NONSTOP,LOWEST,512,28,0,0,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+SJU,FLL,"2017-11-30 11:11:00",NONSTOP,POINTS,512,28,53800,6,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+SJU,SDQ,"2017-11-30 11:11:00",NONSTOP,LOWEST,121,41,0,0,0,0,SDQ,"Santo Domingo",,"Dominican Republic",23
+SJU,SDQ,"2017-11-30 11:11:00",NONSTOP,POINTS,121,41,6000,37,0,0,SDQ,"Santo Domingo",,"Dominican Republic",23
+MCO,ALB,"2017-11-30 11:11:00",NONSTOP,LOWEST,257,31,0,0,1,0,ALB,Albany,"New York","United States",12
+MCO,ALB,"2017-11-30 11:11:00",NONSTOP,POINTS,257,31,19500,6,1,0,ALB,Albany,"New York","United States",12
+MBJ,JFK,"2017-11-30 11:11:00",NONSTOP,LOWEST,427,108,0,0,0,0,JFK,"New York City","New York","United States",2
+MBJ,JFK,"2017-11-30 11:11:00",NONSTOP,POINTS,427,108,25600,80,0,0,JFK,"New York City","New York","United States",2
+IAD,JFK,"2017-11-30 11:11:00",NONSTOP,LOWEST,216,28,0,0,1,0,JFK,"New York City","New York","United States",2
+IAD,JFK,"2017-11-30 11:11:00",NONSTOP,POINTS,216,28,17600,6,1,0,JFK,"New York City","New York","United States",2
+MCO,DCA,"2017-11-30 11:11:00",NONSTOP,LOWEST,171,25,0,0,1,0,DCA,Washington," DC",Washington,1
+MCO,DCA,"2017-11-30 11:11:00",NONSTOP,POINTS,171,25,11700,6,1,0,DCA,Washington," DC",Washington,1
+FLL,SJO,"2017-11-30 11:11:00",NONSTOP,LOWEST,272,45,0,0,0,0,SJO,"San Jose",,"Costa Rica",36
+FLL,SJO,"2017-11-30 11:11:00",NONSTOP,POINTS,272,45,16900,22,0,0,SJO,"San Jose",,"Costa Rica",36
+BOS,SRQ,"2017-11-30 11:11:00",NONSTOP,LOWEST,148,24,0,0,1,0,SRQ,Sarasota,Florida,"United States",14
+BOS,SRQ,"2017-11-30 11:11:00",NONSTOP,POINTS,148,24,10000,6,1,0,SRQ,Sarasota,Florida,"United States",14
+NAS,FLL,"2017-11-30 11:11:00",NONSTOP,LOWEST,154,114,0,0,0,0,FLL,"Fort Lauderdale",Florida,"United States",36
+NAS,FLL,"2017-11-30 11:11:00",NONSTOP,POINTS,154,114,3000,90,0,0,FLL,"Fort Lauderdale",Florida,"United States",36
+MCO,CUN,"2017-11-30 11:11:00",NONSTOP,LOWEST,264,55,0,0,0,0,CUN,Cancun,,Mexico,37
+MCO,CUN,"2017-11-30 11:11:00",NONSTOP,POINTS,264,55,16800,32,0,0,CUN,Cancun,,Mexico,37
+SFO,BOS,"2017-11-30 11:11:00",NONSTOP,LOWEST,483,47,0,0,1,0,BOS,Boston,Massachusetts,"United States",20
+SFO,BOS,"2017-11-30 11:11:00",NONSTOP,POINTS,483,47,49400,6,1,0,BOS,Boston,Massachusetts,"United States",20
+MCO,BUF,"2017-11-30 11:11:00",NONSTOP,LOWEST,314,35,0,0,1,0,BUF,Buffalo,"New York","United States",29
+MCO,BUF,"2017-11-30 11:11:00",NONSTOP,POINTS,290,33,22100,6,1,1,BUF,Buffalo,"New York","United States",29
+SFO,JFK,"2017-11-30 11:11:00",NONSTOP,LOWEST,448,44,0,0,1,0,JFK,"New York City","New York","United States",2
+SFO,JFK,"2017-11-30 11:11:00",NONSTOP,POINTS,448,44,45700,6,1,0,JFK,"New York City","New York","United States",2
+BOS,IAD,"2017-11-30 12:11:00",NONSTOP,LOWEST,268,32,0,0,1,0,IAD,Washington," DC",Washington,19
+BOS,IAD,"2017-11-30 12:11:00",NONSTOP,POINTS,218,28,15200,6,1,1,IAD,Washington," DC",Washington,19
+DAB,JFK,"2017-11-30 12:11:00",NONSTOP,LOWEST,289,33,0,0,1,0,JFK,"New York City","New York","United States",2
+DAB,JFK,"2017-11-30 12:11:00",NONSTOP,POINTS,289,33,26200,6,1,0,JFK,"New York City","New York","United States",2
+SJU,PUJ,"2017-11-30 12:11:00",NONSTOP,LOWEST,205,41,0,0,0,0,PUJ,"Punta Cana",,"Dominican Republic",17
+SJU,PUJ,"2017-11-30 12:11:00",NONSTOP,POINTS,205,41,12200,37,0,0,PUJ,"Punta Cana",,"Dominican Republic",17
+JAX,FLL,"2017-11-30 12:11:00",NONSTOP,LOWEST,212,28,0,0,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+JAX,FLL,"2017-11-30 12:11:00",NONSTOP,POINTS,212,28,17200,6,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+RSW,HPN,"2017-11-30 12:11:00",NONSTOP,LOWEST,387,40,0,0,1,0,HPN,"Westchester County","New York","United States",21
+RSW,HPN,"2017-11-30 12:11:00",NONSTOP,POINTS,387,40,35600,6,1,0,HPN,"Westchester County","New York","United States",21
+BOS,ACK,"2017-11-30 12:11:00",NONSTOP,LOWEST,269,28,0,0,1,0,ACK,Nantucket,Massachusetts,"United States",6
+MCO,LGA,"2017-11-30 12:11:00",NONSTOP,LOWEST,123,22,0,0,1,0,LGA,"New York City","New York","United States",36
+MCO,LGA,"2017-11-30 12:11:00",NONSTOP,POINTS,123,22,8100,6,1,0,LGA,"New York City","New York","United States",36
+MEX,MCO,"2017-11-30 12:11:00",NONSTOP,LOWEST,152,82,0,0,0,0,MCO,Orlando,Florida,"United States",37
+MEX,MCO,"2017-11-30 12:11:00",NONSTOP,POINTS,152,82,5200,56,0,0,MCO,Orlando,Florida,"United States",37
+LGB,AUS,"2017-11-30 12:11:00",NONSTOP,LOWEST,235,30,0,0,1,0,AUS,Austin,Texas,"United States",18
+LGB,AUS,"2017-11-30 12:11:00",NONSTOP,POINTS,235,30,16400,6,1,0,AUS,Austin,Texas,"United States",18
+MCO,BWI,"2017-11-30 12:11:00",NONSTOP,LOWEST,209,28,0,0,1,0,BWI,Baltimore,Maryland,"United States",34
+MCO,BWI,"2017-11-30 12:11:00",NONSTOP,POINTS,209,28,15700,6,1,0,BWI,Baltimore,Maryland,"United States",34
+FLL,HOG,"2017-11-30 12:11:00",NONSTOP,LOWEST,163,53,0,0,0,0,HOG,Holguin,,Cuba,35
+FLL,HOG,"2017-11-30 12:11:00",NONSTOP,POINTS,163,53,8200,31,0,0,HOG,Holguin,,Cuba,35
+CMW,FLL,"2017-11-30 12:11:00",NONSTOP,LOWEST,169,59,0,0,0,0,FLL,"Fort Lauderdale",Florida,"United States",36
+CMW,FLL,"2017-11-30 12:11:00",NONSTOP,POINTS,169,59,8200,36,0,0,FLL,"Fort Lauderdale",Florida,"United States",36
+CUN,JFK,"2017-11-30 12:11:00",NONSTOP,LOWEST,258,64,0,0,0,0,JFK,"New York City","New York","United States",2
+CUN,JFK,"2017-11-30 12:11:00",NONSTOP,POINTS,258,64,14400,33,0,0,JFK,"New York City","New York","United States",2
+ACK,BOS,"2017-11-30 12:11:00",NONSTOP,LOWEST,159,20,0,0,1,0,BOS,Boston,Massachusetts,"United States",20
+LAS,JFK,"2017-11-30 12:11:00",NONSTOP,LOWEST,348,38,0,0,1,0,JFK,"New York City","New York","United States",2
+LAS,JFK,"2017-11-30 12:11:00",NONSTOP,POINTS,348,38,26800,6,1,0,JFK,"New York City","New York","United States",2
+BOG,FLL,"2017-11-30 12:11:00",NONSTOP,LOWEST,602,180,0,0,0,0,FLL,"Fort Lauderdale",Florida,"United States",36
+BOG,FLL,"2017-11-30 12:11:00",NONSTOP,POINTS,602,180,40200,77,0,0,FLL,"Fort Lauderdale",Florida,"United States",36
+DCA,TPA,"2017-11-30 12:11:00",NONSTOP,LOWEST,177,26,0,0,1,0,TPA,"Tampa Bay",Florida,"United States",6
+DCA,TPA,"2017-11-30 12:11:00",NONSTOP,POINTS,177,26,12100,6,1,0,TPA,"Tampa Bay",Florida,"United States",6
+DCA,CHS,"2017-11-30 12:11:00",NONSTOP,LOWEST,179,26,0,0,1,0,CHS,Charleston,"South Carolina","United States",26
+DCA,CHS,"2017-11-30 12:11:00",NONSTOP,POINTS,179,26,12300,6,1,0,CHS,Charleston,"South Carolina","United States",26
+PBI,LGA,"2017-11-30 12:11:00",NONSTOP,LOWEST,196,27,0,0,1,0,LGA,"New York City","New York","United States",36
+PBI,LGA,"2017-11-30 12:11:00",NONSTOP,POINTS,196,27,13500,6,1,0,LGA,"New York City","New York","United States",36
+MSY,BOS,"2017-11-30 01:11:00",NONSTOP,LOWEST,409,42,0,0,1,0,BOS,Boston,Massachusetts,"United States",20
+MSY,BOS,"2017-11-30 01:11:00",NONSTOP,POINTS,409,42,37700,6,1,0,BOS,Boston,Massachusetts,"United States",20
+STI,SJU,"2017-11-30 01:11:00",NONSTOP,LOWEST,300,103,0,0,0,0,SJU,"San Juan","Puerto Rico","United States",20
+STI,SJU,"2017-11-30 01:11:00",NONSTOP,POINTS,300,103,14600,62,0,0,SJU,"San Juan","Puerto Rico","United States",20
+RSW,DCA,"2017-11-30 01:11:00",NONSTOP,LOWEST,271,32,0,0,1,0,DCA,Washington," DC",Washington,1
+RSW,DCA,"2017-11-30 01:11:00",NONSTOP,POINTS,271,32,24500,6,1,0,DCA,Washington," DC",Washington,1
+BOS,JAX,"2017-11-30 01:11:00",NONSTOP,LOWEST,98,20,0,0,1,0,JAX,Jacksonville,Florida,"United States",31
+BOS,JAX,"2017-11-30 01:11:00",NONSTOP,POINTS,98,20,6300,6,1,0,JAX,Jacksonville,Florida,"United States",31
+GCM,JFK,"2017-11-30 01:11:00",NONSTOP,LOWEST,372,102,0,0,0,0,JFK,"New York City","New York","United States",2
+GCM,JFK,"2017-11-30 01:11:00",NONSTOP,POINTS,372,102,20000,79,0,0,JFK,"New York City","New York","United States",2
+SJO,MCO,"2017-11-30 01:11:00",NONSTOP,LOWEST,372,85,0,0,0,0,MCO,Orlando,Florida,"United States",37
+SJO,MCO,"2017-11-30 01:11:00",NONSTOP,POINTS,372,85,21300,47,0,0,MCO,Orlando,Florida,"United States",37
+CHS,FLL,"2017-11-30 01:11:00",NONSTOP,LOWEST,231,29,0,0,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+CHS,FLL,"2017-11-30 01:11:00",NONSTOP,POINTS,231,29,17400,6,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+SEA,BOS,"2017-11-30 01:11:00",NONSTOP,LOWEST,292,34,0,0,1,0,BOS,Boston,Massachusetts,"United States",20
+SEA,BOS,"2017-11-30 01:11:00",NONSTOP,POINTS,292,34,20600,6,1,0,BOS,Boston,Massachusetts,"United States",20
+FLL,ALB,"2017-11-30 01:11:00",NONSTOP,LOWEST,85,19,0,0,1,0,ALB,Albany,"New York","United States",12
+FLL,ALB,"2017-11-30 01:11:00",NONSTOP,POINTS,85,19,5300,6,1,0,ALB,Albany,"New York","United States",12
+SAV,BOS,"2017-11-30 01:11:00",NONSTOP,LOWEST,138,23,0,0,1,0,BOS,Boston,Massachusetts,"United States",20
+SAV,BOS,"2017-11-30 01:11:00",NONSTOP,POINTS,138,23,9200,6,1,0,BOS,Boston,Massachusetts,"United States",20
+RSW,EWR,"2017-11-30 01:11:00",NONSTOP,LOWEST,168,25,0,0,1,0,EWR,Newark,"New Jersey","United States",2
+RSW,EWR,"2017-11-30 01:11:00",NONSTOP,POINTS,168,25,11500,6,1,0,EWR,Newark,"New Jersey","United States",2
+FLL,PLS,"2017-11-30 01:11:00",NONSTOP,LOWEST,206,28,0,0,0,0,PLS,Providenciales,,"Turks & Caicos Islands",13
+FLL,PLS,"2017-11-30 01:11:00",NONSTOP,POINTS,206,28,13200,6,0,0,PLS,Providenciales,,"Turks & Caicos Islands",13
+POP,JFK,"2017-11-30 01:11:00",NONSTOP,LOWEST,410,135,0,0,0,0,JFK,"New York City","New York","United States",2
+POP,JFK,"2017-11-30 01:11:00",NONSTOP,POINTS,410,135,20400,62,0,0,JFK,"New York City","New York","United States",2
+NAS,JFK,"2017-11-30 01:11:00",NONSTOP,LOWEST,364,114,0,0,0,0,JFK,"New York City","New York","United States",2
+NAS,JFK,"2017-11-30 01:11:00",NONSTOP,POINTS,364,114,18600,90,0,0,JFK,"New York City","New York","United States",2
+SNU,FLL,"2017-11-30 01:11:00",NONSTOP,LOWEST,170,59,0,0,0,0,FLL,"Fort Lauderdale",Florida,"United States",36
+SNU,FLL,"2017-11-30 01:11:00",NONSTOP,POINTS,170,59,8300,36,0,0,FLL,"Fort Lauderdale",Florida,"United States",36
+SDQ,MCO,"2017-11-30 01:11:00",NONSTOP,LOWEST,456,142,0,0,0,0,MCO,Orlando,Florida,"United States",37
+SDQ,MCO,"2017-11-30 01:11:00",NONSTOP,POINTS,456,142,23300,62,0,0,MCO,Orlando,Florida,"United States",37
+FLL,PAP,"2017-11-30 01:11:00",NONSTOP,LOWEST,257,41,0,0,0,0,PAP,Port-au-Prince,,Haiti,1
+FLL,PAP,"2017-11-30 01:11:00",NONSTOP,POINTS,257,41,16000,18,0,0,PAP,Port-au-Prince,,Haiti,1
+FLL,CTG,"2017-11-30 01:11:00",NONSTOP,LOWEST,674,43,0,0,0,0,CTG,Cartagena,,Colombia,25
+FLL,CTG,"2017-11-30 01:11:00",NONSTOP,POINTS,674,43,66500,21,0,0,CTG,Cartagena,,Colombia,25
+CUN,FLL,"2017-11-30 01:11:00",NONSTOP,LOWEST,247,64,0,0,0,0,FLL,"Fort Lauderdale",Florida,"United States",36
+CUN,FLL,"2017-11-30 01:11:00",NONSTOP,POINTS,247,64,14700,33,0,0,FLL,"Fort Lauderdale",Florida,"United States",36
+MCO,ORH,"2017-11-30 01:11:00",NONSTOP,LOWEST,113,21,0,0,1,0,ORH,Worcester,Massachusetts,"United States",5
+MCO,ORH,"2017-11-30 01:11:00",NONSTOP,POINTS,113,21,7400,6,1,0,ORH,Worcester,Massachusetts,"United States",5
+PUJ,JFK,"2017-11-30 01:11:00",NONSTOP,LOWEST,455,142,0,0,0,0,JFK,"New York City","New York","United States",2
+PUJ,JFK,"2017-11-30 01:11:00",NONSTOP,POINTS,455,142,23200,62,0,0,JFK,"New York City","New York","United States",2
+BOS,FLL,"2017-11-30 01:11:00",NONSTOP,LOWEST,148,24,0,0,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+BOS,FLL,"2017-11-30 01:11:00",NONSTOP,POINTS,148,24,10000,6,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+MBJ,FLL,"2017-11-30 01:11:00",NONSTOP,LOWEST,233,108,0,0,0,0,FLL,"Fort Lauderdale",Florida,"United States",36
+MBJ,FLL,"2017-11-30 01:11:00",NONSTOP,POINTS,233,108,9300,80,0,0,FLL,"Fort Lauderdale",Florida,"United States",36
+AUA,BOS,"2017-11-30 01:11:00",NONSTOP,LOWEST,547,72,0,0,0,0,BOS,Boston,Massachusetts,"United States",20
+AUA,BOS,"2017-11-30 01:11:00",NONSTOP,POINTS,547,72,41400,48,0,0,BOS,Boston,Massachusetts,"United States",20
+MCO,MBJ,"2017-11-30 01:11:00",NONSTOP,LOWEST,260,72,0,0,0,0,MBJ,"Montego Bay",,Jamaica,11
+MCO,MBJ,"2017-11-30 01:11:00",NONSTOP,POINTS,260,72,14000,50,0,0,MBJ,"Montego Bay",,Jamaica,11
+BOS,CHS,"2017-11-30 01:11:00",NONSTOP,LOWEST,299,34,0,0,1,0,CHS,Charleston,"South Carolina","United States",26
+BOS,CHS,"2017-11-30 01:11:00",NONSTOP,POINTS,278,33,21200,6,1,1,CHS,Charleston,"South Carolina","United States",26
+MCO,SWF,"2017-11-30 01:11:00",NONSTOP,LOWEST,319,35,0,0,1,0,SWF,Newburgh,"New Jersey","United States",18
+MCO,SWF,"2017-11-30 01:11:00",NONSTOP,POINTS,305,35,23300,6,1,1,SWF,Newburgh,"New Jersey","United States",18
+JFK,PWM,"2017-11-30 01:11:00",NONSTOP,LOWEST,98,20,0,0,1,0,PWM,Portland,Maine,"United States",22
+JFK,PWM,"2017-11-30 01:11:00",NONSTOP,POINTS,98,20,6300,6,1,0,PWM,Portland,Maine,"United States",22
+BDL,TPA,"2017-11-30 02:11:00",NONSTOP,LOWEST,289,33,0,0,1,0,TPA,"Tampa Bay",Florida,"United States",6
+BDL,TPA,"2017-11-30 02:11:00",NONSTOP,POINTS,289,33,24000,6,1,0,TPA,"Tampa Bay",Florida,"United States",6
+PUJ,SJU,"2017-11-30 02:11:00",NONSTOP,LOWEST,130,77,0,0,0,0,SJU,"San Juan","Puerto Rico","United States",20
+PUJ,SJU,"2017-11-30 02:11:00",NONSTOP,POINTS,130,77,4000,62,0,0,SJU,"San Juan","Puerto Rico","United States",20
+EWR,STI,"2017-11-30 02:11:00",NONSTOP,LOWEST,405,59,0,0,0,0,STI,Santiago,,"Dominican Republic",15
+EWR,STI,"2017-11-30 02:11:00",NONSTOP,POINTS,405,59,27700,37,0,0,STI,Santiago,,"Dominican Republic",15
+SJU,EWR,"2017-11-30 02:11:00",NONSTOP,LOWEST,512,28,0,0,1,0,EWR,Newark,"New Jersey","United States",2
+SJU,EWR,"2017-11-30 02:11:00",NONSTOP,POINTS,512,28,53800,6,1,0,EWR,Newark,"New Jersey","United States",2
+FLL,BGI,"2017-11-30 02:11:00",NONSTOP,LOWEST,634,30,0,0,0,0,BGI,Bridgetown,,Barbados,1
+FLL,BGI,"2017-11-30 02:11:00",NONSTOP,POINTS,634,30,67200,7,0,0,BGI,Bridgetown,,Barbados,1
+FLL,BNA,"2017-11-30 02:11:00",NONSTOP,LOWEST,234,30,0,0,1,0,BNA,Nashville,Tennessee,"United States",31
+FLL,BNA,"2017-11-30 02:11:00",NONSTOP,POINTS,234,30,19200,6,1,0,BNA,Nashville,Tennessee,"United States",31
+LAX,JFK,"2017-11-30 02:11:00",NONSTOP,LOWEST,471,46,0,0,1,0,JFK,"New York City","New York","United States",2
+LAX,JFK,"2017-11-30 02:11:00",NONSTOP,POINTS,471,46,43600,6,1,0,JFK,"New York City","New York","United States",2
+FLL,KIN,"2017-11-30 02:11:00",NONSTOP,LOWEST,527,72,0,0,0,0,KIN,Kingston,,Jamaica,33
+FLL,KIN,"2017-11-30 02:11:00",NONSTOP,POINTS,527,72,50600,50,0,0,KIN,Kingston,,Jamaica,33
+IAD,BOS,"2017-11-30 02:11:00",NONSTOP,LOWEST,268,32,0,0,1,0,BOS,Boston,Massachusetts,"United States",20
+IAD,BOS,"2017-11-30 02:11:00",NONSTOP,POINTS,218,28,15200,6,1,1,BOS,Boston,Massachusetts,"United States",20
+HAV,JFK,"2017-11-30 02:11:00",NONSTOP,LOWEST,209,59,0,0,0,0,JFK,"New York City","New York","United States",2
+HAV,JFK,"2017-11-30 02:11:00",NONSTOP,POINTS,209,59,11200,36,0,0,JFK,"New York City","New York","United States",2
+GND,JFK,"2017-11-30 02:11:00",NONSTOP,LOWEST,395,74,0,0,0,0,JFK,"New York City","New York","United States",2
+GND,JFK,"2017-11-30 02:11:00",NONSTOP,POINTS,395,74,23800,50,0,0,JFK,"New York City","New York","United States",2
+HPN,TPA,"2017-11-30 02:11:00",NONSTOP,LOWEST,420,43,0,0,1,0,TPA,"Tampa Bay",Florida,"United States",6
+HPN,TPA,"2017-11-30 02:11:00",NONSTOP,POINTS,328,36,27400,6,1,1,TPA,"Tampa Bay",Florida,"United States",6
+JFK,HOU,"2017-11-30 02:11:00",NONSTOP,LOWEST,278,33,0,0,1,0,HOU,Houston,Texas,"United States",36
+JFK,HOU,"2017-11-30 02:11:00",NONSTOP,POINTS,278,33,19600,6,1,0,HOU,Houston,Texas,"United States",36
+DCA,RSW,"2017-11-30 02:11:00",NONSTOP,LOWEST,406,42,0,0,1,0,RSW,"Fort Myers",Florida,"United States",20
+DCA,RSW,"2017-11-30 02:11:00",NONSTOP,POINTS,406,42,41300,6,1,0,RSW,"Fort Myers",Florida,"United States",20
+UVF,JFK,"2017-11-30 02:11:00",NONSTOP,LOWEST,515,131,0,0,0,0,JFK,"New York City","New York","United States",2
+UVF,JFK,"2017-11-30 02:11:00",NONSTOP,POINTS,515,131,30800,79,0,0,JFK,"New York City","New York","United States",2
+LGB,SEA,"2017-11-30 02:11:00",NONSTOP,LOWEST,164,25,0,0,1,0,SEA,Seattle,Washington,"United States",15
+LGB,SEA,"2017-11-30 02:11:00",NONSTOP,POINTS,164,25,11200,6,1,0,SEA,Seattle,Washington,"United States",15
+RSW,BDL,"2017-11-30 02:11:00",NONSTOP,LOWEST,138,23,0,0,1,0,BDL,Hartford,Connecticut,"United States",17
+RSW,BDL,"2017-11-30 02:11:00",NONSTOP,POINTS,138,23,9200,6,1,0,BDL,Hartford,Connecticut,"United States",17
+FLL,BUF,"2017-11-30 02:11:00",NONSTOP,LOWEST,163,25,0,0,1,0,BUF,Buffalo,"New York","United States",29
+FLL,BUF,"2017-11-30 02:11:00",NONSTOP,POINTS,163,25,11100,6,1,0,BUF,Buffalo,"New York","United States",29
+SJO,FLL,"2017-11-30 02:11:00",NONSTOP,LOWEST,309,82,0,0,0,0,FLL,"Fort Lauderdale",Florida,"United States",36
+SJO,FLL,"2017-11-30 02:11:00",NONSTOP,POINTS,309,82,16900,47,0,0,FLL,"Fort Lauderdale",Florida,"United States",36
+SRQ,JFK,"2017-11-30 02:11:00",NONSTOP,LOWEST,242,30,0,0,1,0,JFK,"New York City","New York","United States",2
+SRQ,JFK,"2017-11-30 02:11:00",NONSTOP,POINTS,242,30,16900,6,1,0,JFK,"New York City","New York","United States",2
+AUA,JFK,"2017-11-30 02:11:00",NONSTOP,LOWEST,407,72,0,0,0,0,JFK,"New York City","New York","United States",2
+AUA,JFK,"2017-11-30 02:11:00",NONSTOP,POINTS,407,72,24900,48,0,0,JFK,"New York City","New York","United States",2
+BOS,TPA,"2017-11-30 02:11:00",NONSTOP,LOWEST,128,22,0,0,1,0,TPA,"Tampa Bay",Florida,"United States",6
+BOS,TPA,"2017-11-30 02:11:00",NONSTOP,POINTS,128,22,8500,6,1,0,TPA,"Tampa Bay",Florida,"United States",6
+LAS,LGB,"2017-11-30 02:11:00",NONSTOP,LOWEST,40,16,0,0,1,0,LGB,"Long Beach",California,"United States",29
+LAS,LGB,"2017-11-30 02:11:00",NONSTOP,POINTS,40,16,2000,6,1,0,LGB,"Long Beach",California,"United States",29
+BDA,BOS,"2017-11-30 03:11:00",NONSTOP,LOWEST,415,135,0,0,0,0,BOS,Boston,Massachusetts,"United States",20
+BDA,BOS,"2017-11-30 03:11:00",NONSTOP,POINTS,415,135,26700,111,0,0,BOS,Boston,Massachusetts,"United States",20
+HOG,FLL,"2017-11-30 03:11:00",NONSTOP,LOWEST,169,59,0,0,0,0,FLL,"Fort Lauderdale",Florida,"United States",36
+HOG,FLL,"2017-11-30 03:11:00",NONSTOP,POINTS,169,59,8200,36,0,0,FLL,"Fort Lauderdale",Florida,"United States",36
+ALB,MCO,"2017-11-30 03:11:00",NONSTOP,LOWEST,257,31,0,0,1,0,MCO,Orlando,Florida,"United States",37
+ALB,MCO,"2017-11-30 03:11:00",NONSTOP,POINTS,257,31,19500,6,1,0,MCO,Orlando,Florida,"United States",37
+CUN,MCO,"2017-11-30 03:11:00",NONSTOP,LOWEST,274,65,0,0,0,0,MCO,Orlando,Florida,"United States",37
+CUN,MCO,"2017-11-30 03:11:00",NONSTOP,POINTS,274,65,16800,33,0,0,MCO,Orlando,Florida,"United States",37
+LAS,BOS,"2017-11-30 03:11:00",NONSTOP,LOWEST,415,42,0,0,1,0,BOS,Boston,Massachusetts,"United States",20
+LAS,BOS,"2017-11-30 03:11:00",NONSTOP,POINTS,415,42,34900,6,1,0,BOS,Boston,Massachusetts,"United States",20
+PAP,JFK,"2017-11-30 03:11:00",NONSTOP,LOWEST,514,141,0,0,0,0,JFK,"New York City","New York","United States",2
+PAP,JFK,"2017-11-30 03:11:00",NONSTOP,POINTS,514,141,29900,117,0,0,JFK,"New York City","New York","United States",2
+PVD,FLL,"2017-11-30 03:11:00",NONSTOP,LOWEST,163,25,0,0,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+PVD,FLL,"2017-11-30 03:11:00",NONSTOP,POINTS,163,25,11100,6,1,0,FLL,"Fort Lauderdale",Florida,"United States",36
+SJU,STX,"2017-11-30 03:11:00",NONSTOP,LOWEST,113,10,0,0,1,0,STX,"St. Croix","Virgin Islands","United States",34
