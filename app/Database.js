@@ -63,7 +63,34 @@ function selectData(connection, select_data, callback){
     }, this);
 }
 
+
+
 function selectFlights(connection, flight_params, callback){
+    var sql = "";
+    if(flight_params.isDomestic){
+        if(flight_params.isUber){
+
+            sql = "SELECT * FROM JetBlue JOIN AirportLocations ON JetBlue.Destination = AirportLocations.Airport \
+            JOIN CountryLanguage ON AirportLocations.Country = CountryLanguage.Country \
+            WHERE (Origin like Query \
+            AND (FlightDate = Query OR FlightDate IS NULL) AND DollarFare >= Query \
+            AND DollarFare <= Query \
+            AND IsDomesticRoute = 1 AND AirportLocations.UberOrNot = 1 \
+            AND (CountryLanguage.Language like '%query%' \
+                OR CountryLanguage.Language like 'query%' \
+                OR CountryLanguage.Language like '%query' \
+            ));";
+        }else{
+            
+        }
+    }else{
+        if(flight_params.isUber){
+            
+        }else{
+            
+        }
+    }
+
     var select_data = {
         selects: "*",
         from_table: "JetBlue",
