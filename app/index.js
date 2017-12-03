@@ -15,7 +15,7 @@ if(readAndInsertLowestFares){
     seeder.seedLowestFares("Data/LowestFares.csv");
 }
 
-var readAndInsertAirports = false;
+var readAndInsertAirports = true;
 if(readAndInsertAirports){
     // Seeder (only used if a new csv is loaded)
     const seeder = require('./Seeder');

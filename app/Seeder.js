@@ -36,7 +36,7 @@ function seedAirportLocations(filename){
 // Inserts a temperature filed with a random value between -5 and 30 to every object in the data set
 function addRandomTemperature(data_set){
     data_set.forEach(function(element) {
-        element.Temperature = Math.floor(Math.random() * 30) - 10; 
+        element.Temperature = Math.floor(Math.random() * (30 - (-10) + 1)) + (-10);
     }, this);
     return data_set;
 
@@ -45,7 +45,7 @@ function addRandomTemperature(data_set){
 // Inserts a cost of  filed with a random value between -5 and 30 to every object in the data set
 function addRandomDailyCost(data_set){
     data_set.forEach(function(element) {
-        element.DailyCost = Math.floor(Math.random() * 150) - 20; 
+        element.DailyCost = Math.floor(Math.random() * (150 - 20 + 1)) + 20;
     }, this);
     return data_set;
 
